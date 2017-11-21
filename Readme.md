@@ -17,8 +17,8 @@ Skinz (https://github.com/Skinz3)
 
 #Remerciments
 
-LuaxY - https://github.com/LuaxY
-Taykyue - Profiad
+LuaxY - https://github.com/LuaxY  <br />
+Taykyue - Profiad  <br />
 
 Project under license creative commons.
 
