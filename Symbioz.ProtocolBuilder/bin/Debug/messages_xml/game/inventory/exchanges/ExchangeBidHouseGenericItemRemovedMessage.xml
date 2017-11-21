@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeBidHouseGenericItemRemovedMessage</Name>
+	<Id>5948</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>objGenericId</Name>
+			<Type>varuhshort</Type>
+			<Condition>objGenericId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

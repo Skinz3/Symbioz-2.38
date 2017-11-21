@@ -1,0 +1,27 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlaySpellAnimMessage</Name>
+	<Id>6114</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>casterId</Name>
+			<Type>varuhlong</Type>
+			<Condition>casterId &lt; 0 || casterId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>targetCellId</Name>
+			<Type>varuhshort</Type>
+			<Condition>targetCellId &lt; 0 || targetCellId &gt; 559</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>spellId</Name>
+			<Type>varuhshort</Type>
+			<Condition>spellId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>spellLevel</Name>
+			<Type>sbyte</Type>
+			<Condition>spellLevel &lt; 1 || spellLevel &gt; 6</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>IdolPartyLostMessage</Name>
+	<Id>6580</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>idolId</Name>
+			<Type>varuhshort</Type>
+			<Condition>idolId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

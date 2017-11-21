@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeReplyTaxVendorMessage</Name>
+	<Id>5787</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>objectValue</Name>
+			<Type>varuhint</Type>
+			<Condition>objectValue &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>totalTaxValue</Name>
+			<Type>varuhint</Type>
+			<Condition>totalTaxValue &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

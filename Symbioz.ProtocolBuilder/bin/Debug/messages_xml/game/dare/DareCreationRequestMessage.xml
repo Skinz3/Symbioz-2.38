@@ -1,0 +1,52 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>DareCreationRequestMessage</Name>
+	<Id>6665</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>isPrivate</Name>
+			<Type>flag(0)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>isForGuild</Name>
+			<Type>flag(1)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>isForAlliance</Name>
+			<Type>flag(2)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>needNotifications</Name>
+			<Type>flag(3)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>subscriptionFee</Name>
+			<Type>int</Type>
+			<Condition>subscriptionFee &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>jackpot</Name>
+			<Type>int</Type>
+			<Condition>jackpot &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>maxCountWinners</Name>
+			<Type>ushort</Type>
+			<Condition>maxCountWinners &lt; 0 || maxCountWinners &gt; 65535</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>delayBeforeStart</Name>
+			<Type>uint</Type>
+			<Condition>delayBeforeStart &lt; 0 || delayBeforeStart &gt; 4294967295</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>duration</Name>
+			<Type>uint</Type>
+			<Condition>duration &lt; 0 || duration &gt; 4294967295</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>criterions</Name>
+			<Type>Types.DareCriteria[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

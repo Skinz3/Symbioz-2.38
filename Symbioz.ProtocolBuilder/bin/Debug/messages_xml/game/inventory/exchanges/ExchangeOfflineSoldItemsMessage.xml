@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeOfflineSoldItemsMessage</Name>
+	<Id>6613</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>bidHouseItems</Name>
+			<Type>Types.ObjectItemGenericQuantityPrice[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>merchantItems</Name>
+			<Type>Types.ObjectItemGenericQuantityPrice[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

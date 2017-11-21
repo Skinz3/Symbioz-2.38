@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AllianceKickRequestMessage</Name>
+	<Id>6400</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>kickedId</Name>
+			<Type>varuhint</Type>
+			<Condition>kickedId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

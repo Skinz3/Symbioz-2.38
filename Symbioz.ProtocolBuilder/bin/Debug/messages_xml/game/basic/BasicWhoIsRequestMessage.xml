@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>BasicWhoIsRequestMessage</Name>
+	<Id>181</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>verbose</Name>
+			<Type>boolean</Type>
+		</XmlField>
+		<XmlField>
+			<Name>search</Name>
+			<Type>utf</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

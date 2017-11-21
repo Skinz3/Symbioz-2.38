@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>QuestStepValidatedMessage</Name>
+	<Id>6099</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>questId</Name>
+			<Type>varuhshort</Type>
+			<Condition>questId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>stepId</Name>
+			<Type>varuhshort</Type>
+			<Condition>stepId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

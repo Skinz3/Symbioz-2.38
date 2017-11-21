@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangePlayerRequestMessage</Name>
+	<Id>5773</Id>
+	<Heritage>ExchangeRequestMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>target</Name>
+			<Type>varuhlong</Type>
+			<Condition>target &lt; 0 || target &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

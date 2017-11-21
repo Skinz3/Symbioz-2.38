@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AbstractGameActionWithAckMessage</Name>
+	<Id>1001</Id>
+	<Heritage>AbstractGameActionMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>waitAckId</Name>
+			<Type>short</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>DebugHighlightCellsMessage</Name>
+	<Id>2001</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>color</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>cells</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

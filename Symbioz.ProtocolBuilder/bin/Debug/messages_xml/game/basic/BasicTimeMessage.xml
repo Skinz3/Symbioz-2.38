@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>BasicTimeMessage</Name>
+	<Id>175</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>timestamp</Name>
+			<Type>double</Type>
+			<Condition>timestamp &lt; 0 || timestamp &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>timezoneOffset</Name>
+			<Type>short</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

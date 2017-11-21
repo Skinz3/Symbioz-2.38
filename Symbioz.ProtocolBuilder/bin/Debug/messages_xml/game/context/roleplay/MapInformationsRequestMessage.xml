@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>MapInformationsRequestMessage</Name>
+	<Id>225</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>mapId</Name>
+			<Type>int</Type>
+			<Condition>mapId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildBulletinSetRequestMessage</Name>
+	<Id>6694</Id>
+	<Heritage>SocialNoticeSetRequestMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>content</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>notifyMembers</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeBidPriceMessage</Name>
+	<Id>5755</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>genericId</Name>
+			<Type>varuhshort</Type>
+			<Condition>genericId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>averagePrice</Name>
+			<Type>varint</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

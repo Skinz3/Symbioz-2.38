@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PrismFightSwapRequestMessage</Name>
+	<Id>5901</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>subAreaId</Name>
+			<Type>varuhshort</Type>
+			<Condition>subAreaId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>targetId</Name>
+			<Type>varuhlong</Type>
+			<Condition>targetId &lt; 0 || targetId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

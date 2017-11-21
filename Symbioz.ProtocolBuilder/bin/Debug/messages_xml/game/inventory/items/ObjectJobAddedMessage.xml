@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ObjectJobAddedMessage</Name>
+	<Id>6014</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>jobId</Name>
+			<Type>sbyte</Type>
+			<Condition>jobId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

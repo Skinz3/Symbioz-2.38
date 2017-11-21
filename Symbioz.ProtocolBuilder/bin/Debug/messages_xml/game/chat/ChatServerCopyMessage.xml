@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ChatServerCopyMessage</Name>
+	<Id>882</Id>
+	<Heritage>ChatAbstractServerMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>receiverId</Name>
+			<Type>varuhlong</Type>
+			<Condition>receiverId &lt; 0 || receiverId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>receiverName</Name>
+			<Type>utf</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

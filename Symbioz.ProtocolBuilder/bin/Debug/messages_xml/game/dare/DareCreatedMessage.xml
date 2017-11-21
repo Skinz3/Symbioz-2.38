@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>DareCreatedMessage</Name>
+	<Id>6668</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>dareInfos</Name>
+			<Type>Types.DareInformations</Type>
+		</XmlField>
+		<XmlField>
+			<Name>needNotifications</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

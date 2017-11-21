@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>MailStatusMessage</Name>
+	<Id>6275</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>unread</Name>
+			<Type>varuhshort</Type>
+			<Condition>unread &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>total</Name>
+			<Type>varuhshort</Type>
+			<Condition>total &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

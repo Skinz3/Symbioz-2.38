@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildMemberLeavingMessage</Name>
+	<Id>5923</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>kicked</Name>
+			<Type>boolean</Type>
+		</XmlField>
+		<XmlField>
+			<Name>memberId</Name>
+			<Type>varuhlong</Type>
+			<Condition>memberId &lt; 0 || memberId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

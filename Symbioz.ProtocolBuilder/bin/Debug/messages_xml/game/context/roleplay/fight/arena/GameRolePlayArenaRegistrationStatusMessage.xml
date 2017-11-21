@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayArenaRegistrationStatusMessage</Name>
+	<Id>6284</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>registered</Name>
+			<Type>boolean</Type>
+		</XmlField>
+		<XmlField>
+			<Name>step</Name>
+			<Type>sbyte</Type>
+			<Condition>step &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>battleMode</Name>
+			<Type>int</Type>
+			<Condition>battleMode &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

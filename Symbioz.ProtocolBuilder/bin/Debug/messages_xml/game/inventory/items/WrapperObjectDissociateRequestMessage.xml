@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>WrapperObjectDissociateRequestMessage</Name>
+	<Id>6524</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>hostUID</Name>
+			<Type>varuhint</Type>
+			<Condition>hostUID &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>hostPos</Name>
+			<Type>byte</Type>
+			<Condition>hostPos &lt; 0 || hostPos &gt; 255</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

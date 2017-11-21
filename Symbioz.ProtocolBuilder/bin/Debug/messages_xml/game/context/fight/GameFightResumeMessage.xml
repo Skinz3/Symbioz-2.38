@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightResumeMessage</Name>
+	<Id>6067</Id>
+	<Heritage>GameFightSpectateMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>spellCooldowns</Name>
+			<Type>Types.GameFightSpellCooldown[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>summonCount</Name>
+			<Type>sbyte</Type>
+			<Condition>summonCount &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>bombCount</Name>
+			<Type>sbyte</Type>
+			<Condition>bombCount &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

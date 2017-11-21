@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayPlayerFightFriendlyRequestedMessage</Name>
+	<Id>5937</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>fightId</Name>
+			<Type>int</Type>
+			<Condition>fightId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>sourceId</Name>
+			<Type>varuhlong</Type>
+			<Condition>sourceId &lt; 0 || sourceId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>targetId</Name>
+			<Type>varuhlong</Type>
+			<Condition>targetId &lt; 0 || targetId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

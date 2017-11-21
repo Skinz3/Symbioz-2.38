@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PartyNewGuestMessage</Name>
+	<Id>6260</Id>
+	<Heritage>AbstractPartyEventMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>guest</Name>
+			<Type>Types.PartyGuestInformations</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

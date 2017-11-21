@@ -1,0 +1,121 @@
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\obj\Debug\Symbioz.Auth.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe.config
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\Symbioz.Auth.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\obj\Debug\Symbioz.Auth.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\obj\Debug\Symbioz.Auth.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Auth\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\obj\Debug\Symbioz.Auth.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\obj\Debug\Symbioz.Auth.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\obj\Debug\Symbioz.Auth.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe.config
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Auth.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\MySqlBackup.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Auth\bin\Debug\SSync.pdb
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe.config
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Auth.pdb
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\SSync.dll
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Core.dll
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.ORM.dll
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Protocol.dll
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\MySqlBackup.dll
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\SSync.pdb
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Core.pdb
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.ORM.pdb
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Protocol.pdb
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\YAXLib.pdb
+E:\SymbiozRepo\Symbioz.Auth\bin\Debug\YAXLib.xml
+E:\SymbiozRepo\Symbioz.Auth\obj\Debug\Symbioz.Auth.csprojResolveAssemblyReference.cache
+E:\SymbiozRepo\Symbioz.Auth\obj\Debug\Symbioz.Auth.exe
+E:\SymbiozRepo\Symbioz.Auth\obj\Debug\Symbioz.Auth.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe.config
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Auth.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\bin\Debug\MySqlBackup.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\obj\Debug\Symbioz.Auth.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\obj\Debug\Symbioz.Auth.exe
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Auth\obj\Debug\Symbioz.Auth.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Auth\bin\Debug\SSync.dll
+D:\Projets\Symbioz 2.34\Symbioz.Auth\bin\Debug\Symbioz.Core.dll
+D:\Projets\Symbioz 2.34\Symbioz.Auth\bin\Debug\Symbioz.ORM.dll
+D:\Projets\Symbioz 2.34\Symbioz.Auth\bin\Debug\Symbioz.Protocol.dll
+D:\Projets\Symbioz 2.34\Symbioz.Auth\bin\Debug\MySqlBackup.dll
+D:\Projets\Symbioz 2.34\Symbioz.Auth\bin\Debug\SSync.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Auth\bin\Debug\Symbioz.Core.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Auth\bin\Debug\Symbioz.ORM.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Auth\bin\Debug\Symbioz.Protocol.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Auth\obj\Debug\Symbioz.Auth.csprojResolveAssemblyReference.cache
+D:\Projets\Symbioz 2.34\Symbioz.Auth\obj\Debug\Symbioz.Auth.exe
+D:\Projets\Symbioz 2.34\Symbioz.Auth\obj\Debug\Symbioz.Auth.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe.config
+D:\Projets\Symbioz 2.34\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe
+D:\Projets\Symbioz 2.34\Symbioz.Auth\bin\Debug\Symbioz.Auth.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe.config
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\Symbioz.Auth.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\MySqlBackup.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\obj\Debug\Symbioz.Auth.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\obj\Debug\Symbioz.Auth.exe
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\obj\Debug\Symbioz.Auth.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Auth\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe.config
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\Symbioz.Auth.exe
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\Symbioz.Auth.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\MySqlBackup.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\obj\Debug\Symbioz.Auth.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\obj\Debug\Symbioz.Auth.exe
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\obj\Debug\Symbioz.Auth.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Auth\obj\Debug\Symbioz.Auth.csproj.CoreCompileInputs.cache

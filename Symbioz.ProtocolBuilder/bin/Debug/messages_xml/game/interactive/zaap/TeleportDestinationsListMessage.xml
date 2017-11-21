@@ -1,0 +1,28 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TeleportDestinationsListMessage</Name>
+	<Id>5960</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>teleporterType</Name>
+			<Type>sbyte</Type>
+			<Condition>teleporterType &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>mapIds</Name>
+			<Type>int[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>subAreaIds</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>costs</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>destTeleporterType</Name>
+			<Type>sbyte[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

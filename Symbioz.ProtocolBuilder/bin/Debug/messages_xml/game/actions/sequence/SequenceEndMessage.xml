@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>SequenceEndMessage</Name>
+	<Id>956</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>actionId</Name>
+			<Type>varuhshort</Type>
+			<Condition>actionId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>authorId</Name>
+			<Type>double</Type>
+			<Condition>authorId &lt; -9007199254740990 || authorId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>sequenceType</Name>
+			<Type>sbyte</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

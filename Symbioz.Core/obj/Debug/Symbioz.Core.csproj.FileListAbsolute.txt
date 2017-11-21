@@ -1,0 +1,57 @@
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\obj\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\obj\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\obj\Debug\Symbioz.Core.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Core\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Core\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Core\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Core\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Core\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Core\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Core\obj\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Core\obj\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Core\obj\Debug\Symbioz.Core.csprojResolveAssemblyReference.cache
+E:\SymbiozRepo\Symbioz.Core\bin\Debug\Symbioz.Core.dll
+E:\SymbiozRepo\Symbioz.Core\bin\Debug\Symbioz.Core.pdb
+E:\SymbiozRepo\Symbioz.Core\bin\Debug\MySql.Data.dll
+E:\SymbiozRepo\Symbioz.Core\bin\Debug\YAXLib.pdb
+E:\SymbiozRepo\Symbioz.Core\bin\Debug\YAXLib.xml
+E:\SymbiozRepo\Symbioz.Core\obj\Debug\Symbioz.Core.csprojResolveAssemblyReference.cache
+E:\SymbiozRepo\Symbioz.Core\obj\Debug\Symbioz.Core.dll
+E:\SymbiozRepo\Symbioz.Core\obj\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Core\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Core\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Core\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Core\obj\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Core\obj\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Core\obj\Debug\Symbioz.Core.csprojResolveAssemblyReference.cache
+D:\Projets\Symbioz 2.34\Symbioz.Core\bin\Debug\Symbioz.Core.dll
+D:\Projets\Symbioz 2.34\Symbioz.Core\bin\Debug\Symbioz.Core.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Core\bin\Debug\MySql.Data.dll
+D:\Projets\Symbioz 2.34\Symbioz.Core\obj\Debug\Symbioz.Core.csprojResolveAssemblyReference.cache
+D:\Projets\Symbioz 2.34\Symbioz.Core\obj\Debug\Symbioz.Core.dll
+D:\Projets\Symbioz 2.34\Symbioz.Core\obj\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Core\obj\Debug\Symbioz.Core.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\2.38\Symbioz.Core\obj\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Core\obj\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Core\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Core\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Core\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Core\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Core\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Core\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Core\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Core\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Core\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Core\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Core\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Core\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Core\obj\Debug\Symbioz.Core.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Core\obj\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Core\obj\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Core\obj\Debug\Symbioz.Core.csproj.CoreCompileInputs.cache

@@ -1,0 +1,38 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PartyInvitationDetailsMessage</Name>
+	<Id>6263</Id>
+	<Heritage>AbstractPartyMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>partyType</Name>
+			<Type>sbyte</Type>
+			<Condition>partyType &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>partyName</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>fromId</Name>
+			<Type>varuhlong</Type>
+			<Condition>fromId &lt; 0 || fromId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>fromName</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>leaderId</Name>
+			<Type>varuhlong</Type>
+			<Condition>leaderId &lt; 0 || leaderId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>members</Name>
+			<Type>Types.PartyInvitationMemberInformations[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>guests</Name>
+			<Type>Types.PartyGuestInformations[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

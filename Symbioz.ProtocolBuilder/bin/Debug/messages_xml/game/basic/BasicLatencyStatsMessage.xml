@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>BasicLatencyStatsMessage</Name>
+	<Id>5663</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>latency</Name>
+			<Type>ushort</Type>
+			<Condition>latency &lt; 0 || latency &gt; 65535</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>sampleCount</Name>
+			<Type>varuhshort</Type>
+			<Condition>sampleCount &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>max</Name>
+			<Type>varuhshort</Type>
+			<Condition>max &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

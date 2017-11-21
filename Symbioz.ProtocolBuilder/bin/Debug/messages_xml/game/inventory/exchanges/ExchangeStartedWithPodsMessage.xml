@@ -1,0 +1,37 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeStartedWithPodsMessage</Name>
+	<Id>6129</Id>
+	<Heritage>ExchangeStartedMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>firstCharacterId</Name>
+			<Type>double</Type>
+			<Condition>firstCharacterId &lt; -9007199254740990 || firstCharacterId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>firstCharacterCurrentWeight</Name>
+			<Type>varuhint</Type>
+			<Condition>firstCharacterCurrentWeight &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>firstCharacterMaxWeight</Name>
+			<Type>varuhint</Type>
+			<Condition>firstCharacterMaxWeight &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>secondCharacterId</Name>
+			<Type>double</Type>
+			<Condition>secondCharacterId &lt; -9007199254740990 || secondCharacterId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>secondCharacterCurrentWeight</Name>
+			<Type>varuhint</Type>
+			<Condition>secondCharacterCurrentWeight &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>secondCharacterMaxWeight</Name>
+			<Type>varuhint</Type>
+			<Condition>secondCharacterMaxWeight &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameActionFightSummonMessage</Name>
+	<Id>5825</Id>
+	<Heritage>AbstractGameActionMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>summons</Name>
+			<Type>instance of Types.GameFightFighterInformations[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

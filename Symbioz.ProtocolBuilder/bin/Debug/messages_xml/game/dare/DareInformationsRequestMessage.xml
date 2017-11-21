@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>DareInformationsRequestMessage</Name>
+	<Id>6659</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>dareId</Name>
+			<Type>double</Type>
+			<Condition>dareId &lt; 0 || dareId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

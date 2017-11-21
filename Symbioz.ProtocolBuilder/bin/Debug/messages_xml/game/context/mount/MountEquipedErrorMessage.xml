@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>MountEquipedErrorMessage</Name>
+	<Id>5963</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>errorType</Name>
+			<Type>sbyte</Type>
+			<Condition>errorType &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

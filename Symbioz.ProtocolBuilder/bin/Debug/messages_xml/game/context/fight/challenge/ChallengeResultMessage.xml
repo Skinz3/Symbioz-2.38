@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ChallengeResultMessage</Name>
+	<Id>6019</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>challengeId</Name>
+			<Type>varuhshort</Type>
+			<Condition>challengeId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>success</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

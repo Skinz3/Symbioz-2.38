@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>InviteInHavenBagOfferMessage</Name>
+	<Id>6643</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>hostInformations</Name>
+			<Type>Types.CharacterMinimalInformations</Type>
+		</XmlField>
+		<XmlField>
+			<Name>timeLeftBeforeCancel</Name>
+			<Type>varint</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

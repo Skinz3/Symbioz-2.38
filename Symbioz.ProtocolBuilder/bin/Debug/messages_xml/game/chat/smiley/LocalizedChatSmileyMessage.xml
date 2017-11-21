@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>LocalizedChatSmileyMessage</Name>
+	<Id>6185</Id>
+	<Heritage>ChatSmileyMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>cellId</Name>
+			<Type>varuhshort</Type>
+			<Condition>cellId &lt; 0 || cellId &gt; 559</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

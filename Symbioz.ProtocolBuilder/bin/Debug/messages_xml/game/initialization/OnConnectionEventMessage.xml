@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>OnConnectionEventMessage</Name>
+	<Id>5726</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>eventType</Name>
+			<Type>sbyte</Type>
+			<Condition>eventType &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

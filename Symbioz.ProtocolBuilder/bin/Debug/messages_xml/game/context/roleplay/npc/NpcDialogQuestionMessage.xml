@@ -1,0 +1,20 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>NpcDialogQuestionMessage</Name>
+	<Id>5617</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>messageId</Name>
+			<Type>varuhshort</Type>
+			<Condition>messageId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>dialogParams</Name>
+			<Type>utf[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>visibleReplies</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

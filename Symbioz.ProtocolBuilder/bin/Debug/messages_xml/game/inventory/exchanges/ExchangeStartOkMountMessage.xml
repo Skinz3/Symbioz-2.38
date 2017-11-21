@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeStartOkMountMessage</Name>
+	<Id>5979</Id>
+	<Heritage>ExchangeStartOkMountWithOutPaddockMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>paddockedMountsDescription</Name>
+			<Type>Types.MountClientData[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

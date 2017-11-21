@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ServerOptionalFeaturesMessage</Name>
+	<Id>6305</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>features</Name>
+			<Type>sbyte[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

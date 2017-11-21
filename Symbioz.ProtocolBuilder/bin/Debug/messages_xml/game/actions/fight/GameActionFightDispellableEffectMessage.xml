@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameActionFightDispellableEffectMessage</Name>
+	<Id>6070</Id>
+	<Heritage>AbstractGameActionMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>effect</Name>
+			<Type>instance of Types.AbstractFightDispellableEffect</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

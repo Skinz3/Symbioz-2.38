@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameActionFightCloseCombatMessage</Name>
+	<Id>6116</Id>
+	<Heritage>AbstractGameActionFightTargetedAbilityMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>weaponGenericId</Name>
+			<Type>varuhshort</Type>
+			<Condition>weaponGenericId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeBidHouseListMessage</Name>
+	<Id>5807</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>id</Name>
+			<Type>varuhshort</Type>
+			<Condition>id &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

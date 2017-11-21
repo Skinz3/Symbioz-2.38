@@ -1,0 +1,9 @@
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\bin\Release\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\bin\Release\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\bin\Release\MySql.Data.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\bin\Release\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\bin\Release\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\bin\Release\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\obj\Release\Symbioz.Core.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\obj\Release\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Core\obj\Release\Symbioz.Core.pdb

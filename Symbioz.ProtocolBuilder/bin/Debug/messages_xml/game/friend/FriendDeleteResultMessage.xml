@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>FriendDeleteResultMessage</Name>
+	<Id>5601</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>success</Name>
+			<Type>boolean</Type>
+		</XmlField>
+		<XmlField>
+			<Name>name</Name>
+			<Type>utf</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>DebugInClientMessage</Name>
+	<Id>6028</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>level</Name>
+			<Type>sbyte</Type>
+			<Condition>level &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>message</Name>
+			<Type>utf</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>InventoryPresetUseMessage</Name>
+	<Id>6167</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>presetId</Name>
+			<Type>sbyte</Type>
+			<Condition>presetId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

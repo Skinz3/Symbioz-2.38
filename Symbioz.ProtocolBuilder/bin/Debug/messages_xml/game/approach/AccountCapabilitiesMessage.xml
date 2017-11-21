@@ -1,0 +1,34 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AccountCapabilitiesMessage</Name>
+	<Id>6216</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>tutorialAvailable</Name>
+			<Type>flag(0)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>canCreateNewCharacter</Name>
+			<Type>flag(1)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>accountId</Name>
+			<Type>int</Type>
+			<Condition>accountId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>breedsVisible</Name>
+			<Type>varuhint</Type>
+			<Condition>breedsVisible &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>breedsAvailable</Name>
+			<Type>varuhint</Type>
+			<Condition>breedsAvailable &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>status</Name>
+			<Type>sbyte</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

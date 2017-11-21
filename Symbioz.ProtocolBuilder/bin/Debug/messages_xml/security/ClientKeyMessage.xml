@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ClientKeyMessage</Name>
+	<Id>5607</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>key</Name>
+			<Type>utf</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightSynchronizeMessage</Name>
+	<Id>5921</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>fighters</Name>
+			<Type>instance of Types.GameFightFighterInformations[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildHouseTeleportRequestMessage</Name>
+	<Id>5712</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>houseId</Name>
+			<Type>varuhint</Type>
+			<Condition>houseId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

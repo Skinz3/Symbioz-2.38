@@ -1,0 +1,2 @@
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Release\Symbioz.SqlSync.exe.config
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\obj\Release\Symbioz.SqlSync.csprojResolveAssemblyReference.cache

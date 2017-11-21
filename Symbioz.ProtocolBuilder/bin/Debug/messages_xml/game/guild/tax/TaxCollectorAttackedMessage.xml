@@ -1,0 +1,40 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TaxCollectorAttackedMessage</Name>
+	<Id>5918</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>firstNameId</Name>
+			<Type>varuhshort</Type>
+			<Condition>firstNameId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>lastNameId</Name>
+			<Type>varuhshort</Type>
+			<Condition>lastNameId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>worldX</Name>
+			<Type>short</Type>
+			<Condition>worldX &lt; -255 || worldX &gt; 255</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>worldY</Name>
+			<Type>short</Type>
+			<Condition>worldY &lt; -255 || worldY &gt; 255</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>mapId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>subAreaId</Name>
+			<Type>varuhshort</Type>
+			<Condition>subAreaId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>guild</Name>
+			<Type>Types.BasicGuildInformations</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

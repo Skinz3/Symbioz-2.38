@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>EntityTalkMessage</Name>
+	<Id>6110</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>entityId</Name>
+			<Type>double</Type>
+			<Condition>entityId &lt; -9007199254740990 || entityId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>textId</Name>
+			<Type>varuhshort</Type>
+			<Condition>textId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>parameters</Name>
+			<Type>utf[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

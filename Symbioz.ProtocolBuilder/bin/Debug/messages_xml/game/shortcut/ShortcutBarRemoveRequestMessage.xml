@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ShortcutBarRemoveRequestMessage</Name>
+	<Id>6228</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>barType</Name>
+			<Type>sbyte</Type>
+			<Condition>barType &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>slot</Name>
+			<Type>sbyte</Type>
+			<Condition>slot &lt; 0 || slot &gt; 99</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>MimicryObjectErrorMessage</Name>
+	<Id>6461</Id>
+	<Heritage>SymbioticObjectErrorMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>preview</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

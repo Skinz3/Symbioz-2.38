@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PartyInvitationCancelledForGuestMessage</Name>
+	<Id>6256</Id>
+	<Heritage>AbstractPartyMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>cancelerId</Name>
+			<Type>varuhlong</Type>
+			<Condition>cancelerId &lt; 0 || cancelerId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

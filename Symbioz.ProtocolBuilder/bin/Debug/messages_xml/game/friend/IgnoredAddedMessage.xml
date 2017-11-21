@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>IgnoredAddedMessage</Name>
+	<Id>5678</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>ignoreAdded</Name>
+			<Type>instance of Types.IgnoredInformations</Type>
+		</XmlField>
+		<XmlField>
+			<Name>session</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PartyInvitationDungeonRequestMessage</Name>
+	<Id>6245</Id>
+	<Heritage>PartyInvitationRequestMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>dungeonId</Name>
+			<Type>varuhshort</Type>
+			<Condition>dungeonId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

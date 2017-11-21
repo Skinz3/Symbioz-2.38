@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>CharactersListMessage</Name>
+	<Id>151</Id>
+	<Heritage>BasicCharactersListMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>hasStartupActions</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

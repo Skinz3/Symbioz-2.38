@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>QueueStatusMessage</Name>
+	<Id>6100</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>position</Name>
+			<Type>ushort</Type>
+			<Condition>position &lt; 0 || position &gt; 65535</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>total</Name>
+			<Type>ushort</Type>
+			<Condition>total &lt; 0 || total &gt; 65535</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

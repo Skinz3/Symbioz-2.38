@@ -1,0 +1,57 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>IdentificationSuccessMessage</Name>
+	<Id>22</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>hasRights</Name>
+			<Type>flag(0)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>wasAlreadyConnected</Name>
+			<Type>flag(1)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>login</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>nickname</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>accountId</Name>
+			<Type>int</Type>
+			<Condition>accountId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>communityId</Name>
+			<Type>sbyte</Type>
+			<Condition>communityId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>secretQuestion</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>accountCreation</Name>
+			<Type>double</Type>
+			<Condition>accountCreation &lt; 0 || accountCreation &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>subscriptionElapsedDuration</Name>
+			<Type>double</Type>
+			<Condition>subscriptionElapsedDuration &lt; 0 || subscriptionElapsedDuration &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>subscriptionEndDate</Name>
+			<Type>double</Type>
+			<Condition>subscriptionEndDate &lt; 0 || subscriptionEndDate &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>havenbagAvailableRoom</Name>
+			<Type>byte</Type>
+			<Condition>havenbagAvailableRoom &lt; 0 || havenbagAvailableRoom &gt; 255</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

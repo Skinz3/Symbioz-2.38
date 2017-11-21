@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangePodsModifiedMessage</Name>
+	<Id>6670</Id>
+	<Heritage>ExchangeObjectMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>currentWeight</Name>
+			<Type>varuhint</Type>
+			<Condition>currentWeight &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>maxWeight</Name>
+			<Type>varuhint</Type>
+			<Condition>maxWeight &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

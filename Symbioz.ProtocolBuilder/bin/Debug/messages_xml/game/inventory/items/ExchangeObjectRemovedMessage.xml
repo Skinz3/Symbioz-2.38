@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeObjectRemovedMessage</Name>
+	<Id>5517</Id>
+	<Heritage>ExchangeObjectMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>objectUID</Name>
+			<Type>varuhint</Type>
+			<Condition>objectUID &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

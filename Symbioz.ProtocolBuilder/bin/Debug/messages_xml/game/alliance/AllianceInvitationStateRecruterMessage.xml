@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AllianceInvitationStateRecruterMessage</Name>
+	<Id>6396</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>recrutedName</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>invitationState</Name>
+			<Type>sbyte</Type>
+			<Condition>invitationState &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

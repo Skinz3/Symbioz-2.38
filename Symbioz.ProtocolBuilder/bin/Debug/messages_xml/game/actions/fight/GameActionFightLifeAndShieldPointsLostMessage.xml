@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameActionFightLifeAndShieldPointsLostMessage</Name>
+	<Id>6310</Id>
+	<Heritage>GameActionFightLifePointsLostMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>shieldLoss</Name>
+			<Type>varuhshort</Type>
+			<Condition>shieldLoss &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeObjectTransfertListWithQuantityToInvMessage</Name>
+	<Id>6470</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>ids</Name>
+			<Type>varuhint[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>qtys</Name>
+			<Type>varuhint[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

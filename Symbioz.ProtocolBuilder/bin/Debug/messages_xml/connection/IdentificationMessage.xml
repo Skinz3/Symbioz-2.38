@@ -1,0 +1,44 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>IdentificationMessage</Name>
+	<Id>4</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>autoconnect</Name>
+			<Type>flag(0)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>useCertificate</Name>
+			<Type>flag(1)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>useLoginToken</Name>
+			<Type>flag(2)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>version</Name>
+			<Type>Types.VersionExtended</Type>
+		</XmlField>
+		<XmlField>
+			<Name>lang</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>credentials</Name>
+			<Type>sbyte[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>serverId</Name>
+			<Type>short</Type>
+		</XmlField>
+		<XmlField>
+			<Name>sessionOptionalSalt</Name>
+			<Type>varlong</Type>
+			<Condition>sessionOptionalSalt &lt; -9007199254740990 || sessionOptionalSalt &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>failedAttempts</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

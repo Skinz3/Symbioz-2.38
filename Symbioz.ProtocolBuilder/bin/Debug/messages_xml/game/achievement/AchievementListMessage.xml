@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AchievementListMessage</Name>
+	<Id>6205</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>finishedAchievementsIds</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>rewardableAchievements</Name>
+			<Type>Types.AchievementRewardable[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

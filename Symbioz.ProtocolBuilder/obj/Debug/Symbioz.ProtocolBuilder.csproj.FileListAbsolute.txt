@@ -1,0 +1,56 @@
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.exe.config
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.csprojResolveAssemblyReference.cache
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.exe
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.pdb
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Microsoft.VisualStudio.TextTemplating.10.0.dll
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.Core.dll
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\YAXLib.dll
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.Core.pdb
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Microsoft.VisualStudio.TextTemplating.10.0.xml
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\YAXLib.pdb
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\YAXLib.xml
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.exe
+E:\SymbiozRepo\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.exe.config
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.exe
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.exe
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Microsoft.VisualStudio.TextTemplating.10.0.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\Microsoft.VisualStudio.TextTemplating.10.0.xml
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.csprojResolveAssemblyReference.cache
+D:\Projets\Symbioz 2.34\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.exe.config
+D:\Projets\Symbioz 2.34\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.exe
+D:\Projets\Symbioz 2.34\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.pdb
+D:\Projets\Symbioz 2.34\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.Core.dll
+D:\Projets\Symbioz 2.34\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.Core.pdb
+D:\Projets\Symbioz 2.34\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.csprojResolveAssemblyReference.cache
+D:\Projets\Symbioz 2.34\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.exe
+D:\Projets\Symbioz 2.34\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.exe.config
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.exe
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ProtocolBuilder\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ProtocolBuilder\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ProtocolBuilder\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.exe
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.exe.config
+C:\Users\Skinz\Desktop\2.38\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.exe
+C:\Users\Skinz\Desktop\2.38\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.exe
+C:\Users\Skinz\Desktop\2.38\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.ProtocolBuilder.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.ProtocolBuilder\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.ProtocolBuilder\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.ProtocolBuilder\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.ProtocolBuilder\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\2.38\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameMapChangeOrientationsMessage</Name>
+	<Id>6155</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>orientations</Name>
+			<Type>Types.ActorOrientation[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

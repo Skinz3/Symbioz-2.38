@@ -1,0 +1,38 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PartyMemberInFightMessage</Name>
+	<Id>6342</Id>
+	<Heritage>AbstractPartyMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>reason</Name>
+			<Type>sbyte</Type>
+			<Condition>reason &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>memberId</Name>
+			<Type>varuhlong</Type>
+			<Condition>memberId &lt; 0 || memberId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>memberAccountId</Name>
+			<Type>int</Type>
+			<Condition>memberAccountId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>memberName</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>fightId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>fightMap</Name>
+			<Type>Types.MapCoordinatesExtended</Type>
+		</XmlField>
+		<XmlField>
+			<Name>timeBeforeFightStart</Name>
+			<Type>varshort</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

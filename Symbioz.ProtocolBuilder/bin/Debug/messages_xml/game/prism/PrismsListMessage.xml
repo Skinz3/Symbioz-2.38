@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PrismsListMessage</Name>
+	<Id>6440</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>prisms</Name>
+			<Type>instance of Types.PrismSubareaEmptyInfo[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

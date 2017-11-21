@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>IdentificationFailedBannedMessage</Name>
+	<Id>6174</Id>
+	<Heritage>IdentificationFailedMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>banEndDate</Name>
+			<Type>double</Type>
+			<Condition>banEndDate &lt; 0 || banEndDate &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

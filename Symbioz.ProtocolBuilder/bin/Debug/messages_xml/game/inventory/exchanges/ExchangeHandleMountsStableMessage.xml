@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeHandleMountsStableMessage</Name>
+	<Id>6562</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>actionType</Name>
+			<Type>sbyte</Type>
+		</XmlField>
+		<XmlField>
+			<Name>ridesId</Name>
+			<Type>varuhint[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

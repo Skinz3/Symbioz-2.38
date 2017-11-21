@@ -1,0 +1,19 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TaxCollectorAttackedResultMessage</Name>
+	<Id>5635</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>deadOrAlive</Name>
+			<Type>boolean</Type>
+		</XmlField>
+		<XmlField>
+			<Name>basicInfos</Name>
+			<Type>Types.TaxCollectorBasicInformations</Type>
+		</XmlField>
+		<XmlField>
+			<Name>guild</Name>
+			<Type>Types.BasicGuildInformations</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

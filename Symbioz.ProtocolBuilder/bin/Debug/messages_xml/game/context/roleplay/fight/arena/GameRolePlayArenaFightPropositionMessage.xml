@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayArenaFightPropositionMessage</Name>
+	<Id>6276</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>fightId</Name>
+			<Type>int</Type>
+			<Condition>fightId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>alliesId</Name>
+			<Type>double[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>duration</Name>
+			<Type>varuhshort</Type>
+			<Condition>duration &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,20 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PartyFollowStatusUpdateMessage</Name>
+	<Id>5581</Id>
+	<Heritage>AbstractPartyMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>success</Name>
+			<Type>flag(0)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>isFollowed</Name>
+			<Type>flag(1)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>followedId</Name>
+			<Type>varuhlong</Type>
+			<Condition>followedId &lt; 0 || followedId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

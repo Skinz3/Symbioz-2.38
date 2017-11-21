@@ -1,0 +1,139 @@
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe.config
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\zlib.net.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe.config
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\zlib.net.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.SqlSync\bin\Debug\MySqlBackup.dll
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe.config
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.pdb
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\MySql.Data.dll
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.Core.dll
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.dll
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.dll
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\YAXLib.dll
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\MySqlBackup.dll
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\SSync.dll
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\zlib.net.dll
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.Core.pdb
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.pdb
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.pdb
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\YAXLib.pdb
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\YAXLib.xml
+E:\SymbiozRepo\Symbioz.SqlSync\bin\Debug\SSync.pdb
+E:\SymbiozRepo\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.csprojResolveAssemblyReference.cache
+E:\SymbiozRepo\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.exe
+E:\SymbiozRepo\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe.config
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.exe
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\MySqlBackup.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\zlib.net.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.csprojResolveAssemblyReference.cache
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe.config
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.pdb
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\MySql.Data.dll
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\SSync.dll
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\Symbioz.Core.dll
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.dll
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.dll
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\YAXLib.dll
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\MySqlBackup.dll
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\zlib.net.dll
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\SSync.pdb
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\Symbioz.Core.pdb
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.pdb
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.pdb
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\YAXLib.pdb
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\bin\Debug\YAXLib.xml
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.csprojResolveAssemblyReference.cache
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.exe
+D:\Projets\Symbioz 2.34\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe.config
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.exe
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\MySqlBackup.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\zlib.net.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\2.38\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe.config
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.exe
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.exe
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\Symbioz.SqlSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\MySqlBackup.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\zlib.net.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.SqlSync\obj\Debug\Symbioz.SqlSync.csprojResolveAssemblyReference.cache

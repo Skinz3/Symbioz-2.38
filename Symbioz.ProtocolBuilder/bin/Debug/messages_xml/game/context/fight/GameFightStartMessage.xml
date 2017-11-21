@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightStartMessage</Name>
+	<Id>712</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>idols</Name>
+			<Type>Types.Idol[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

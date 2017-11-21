@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>MoodSmileyUpdateMessage</Name>
+	<Id>6388</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>accountId</Name>
+			<Type>int</Type>
+			<Condition>accountId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>playerId</Name>
+			<Type>varuhlong</Type>
+			<Condition>playerId &lt; 0 || playerId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>smileyId</Name>
+			<Type>varuhshort</Type>
+			<Condition>smileyId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

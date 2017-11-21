@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightStartingMessage</Name>
+	<Id>700</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>fightType</Name>
+			<Type>sbyte</Type>
+			<Condition>fightType &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>attackerId</Name>
+			<Type>double</Type>
+			<Condition>attackerId &lt; -9007199254740990 || attackerId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>defenderId</Name>
+			<Type>double</Type>
+			<Condition>defenderId &lt; -9007199254740990 || defenderId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,28 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AllianceFactsMessage</Name>
+	<Id>6414</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>infos</Name>
+			<Type>instance of Types.AllianceFactSheetInformations</Type>
+		</XmlField>
+		<XmlField>
+			<Name>guilds</Name>
+			<Type>Types.GuildInAllianceInformations[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>controlledSubareaIds</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>leaderCharacterId</Name>
+			<Type>varuhlong</Type>
+			<Condition>leaderCharacterId &lt; 0 || leaderCharacterId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>leaderCharacterName</Name>
+			<Type>utf</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>SelectedServerRefusedMessage</Name>
+	<Id>41</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>serverId</Name>
+			<Type>varuhshort</Type>
+			<Condition>serverId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>error</Name>
+			<Type>sbyte</Type>
+			<Condition>error &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>serverStatus</Name>
+			<Type>sbyte</Type>
+			<Condition>serverStatus &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildMemberOnlineStatusMessage</Name>
+	<Id>6061</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>memberId</Name>
+			<Type>varuhlong</Type>
+			<Condition>memberId &lt; 0 || memberId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>online</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

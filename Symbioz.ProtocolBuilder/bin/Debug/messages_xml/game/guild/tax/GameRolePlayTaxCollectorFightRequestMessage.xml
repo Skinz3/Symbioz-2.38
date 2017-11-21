@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayTaxCollectorFightRequestMessage</Name>
+	<Id>5954</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>taxCollectorId</Name>
+			<Type>int</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

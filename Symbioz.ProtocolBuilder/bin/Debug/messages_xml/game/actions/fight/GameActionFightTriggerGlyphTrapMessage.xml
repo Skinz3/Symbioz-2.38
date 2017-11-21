@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameActionFightTriggerGlyphTrapMessage</Name>
+	<Id>5741</Id>
+	<Heritage>AbstractGameActionMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>markId</Name>
+			<Type>short</Type>
+		</XmlField>
+		<XmlField>
+			<Name>triggeringCharacterId</Name>
+			<Type>double</Type>
+			<Condition>triggeringCharacterId &lt; -9007199254740990 || triggeringCharacterId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>triggeredSpellId</Name>
+			<Type>varuhshort</Type>
+			<Condition>triggeredSpellId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

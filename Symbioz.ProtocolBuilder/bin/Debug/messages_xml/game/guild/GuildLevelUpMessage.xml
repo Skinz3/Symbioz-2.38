@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildLevelUpMessage</Name>
+	<Id>6062</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>newLevel</Name>
+			<Type>byte</Type>
+			<Condition>newLevel &lt; 2 || newLevel &gt; 200</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

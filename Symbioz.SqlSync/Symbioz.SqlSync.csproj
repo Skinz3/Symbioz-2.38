@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C771269-2868-4AA5-A290-F7B8D5C9C5A9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Symbioz.SqlSync</RootNamespace>
+    <AssemblyName>Symbioz.SqlSync</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Symbioz.ORM\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\D2OAttribute.cs" />
+    <Compile Include="Attributes\D2OFieldAttribute.cs" />
+    <Compile Include="Attributes\D2OFieldHandler.cs" />
+    <Compile Include="Attributes\i18nAttribute.cs" />
+    <Compile Include="D2OTypes\AmbientSound.cs" />
+    <Compile Include="D2OTypes\D2oTypeAttribute.cs" />
+    <Compile Include="D2OTypes\EffectInstance.cs" />
+    <Compile Include="D2OTypes\MonsterDrop.cs" />
+    <Compile Include="D2OTypes\MonsterGrade.cs" />
+    <Compile Include="D2OTypes\Rectangle.cs" />
+    <Compile Include="DatabaseSynchroniser.cs" />
+    <Compile Include="D2OTypes\D2oTypeManager.cs" />
+    <Compile Include="MapTables\Cell.cs" />
+    <Compile Include="MapTables\Map.cs" />
+    <Compile Include="MapTables\Helper.cs" />
+    <Compile Include="MapTables\MapInteractiveElement.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlSyncConfiguration.cs" />
+    <Compile Include="Tables\Areas.cs" />
+    <Compile Include="Tables\Breeds.cs" />
+    <Compile Include="Tables\Challenges.cs" />
+    <Compile Include="Tables\Dungeons.cs" />
+    <Compile Include="Tables\Effects.cs" />
+    <Compile Include="Tables\Emotes.cs" />
+    <Compile Include="Tables\ID2OTable.cs" />
+    <Compile Include="Tables\Heads.cs" />
+    <Compile Include="Tables\Idols.cs" />
+    <Compile Include="Tables\InfoMessages.cs" />
+    <Compile Include="Tables\Interactives.cs" />
+    <Compile Include="Tables\Items.cs" />
+    <Compile Include="Tables\ItemSets.cs" />
+    <Compile Include="Tables\ItemTypes.cs" />
+    <Compile Include="Tables\Jobs.cs" />
+    <Compile Include="Tables\LivingObjects.cs" />
+    <Compile Include="Tables\MapPositions.cs" />
+    <Compile Include="Tables\MapScrollAction.cs" />
+    <Compile Include="Tables\MonsterRaces.cs" />
+    <Compile Include="Tables\Monsters.cs" />
+    <Compile Include="Tables\Mounts.cs" />
+    <Compile Include="Tables\NpcActions.cs" />
+    <Compile Include="Tables\NpcMessages.cs" />
+    <Compile Include="Tables\Npcs.cs" />
+    <Compile Include="Tables\Ornaments.cs" />
+    <Compile Include="Tables\Pets.cs" />
+    <Compile Include="Tables\Recipes.cs" />
+    <Compile Include="Tables\ServerCommunities.cs" />
+    <Compile Include="Tables\ServerGameTypes.cs" />
+    <Compile Include="Tables\Servers.cs" />
+    <Compile Include="Tables\Skills.cs" />
+    <Compile Include="Tables\SkillsName.cs" />
+    <Compile Include="Tables\SkinPositions.cs" />
+    <Compile Include="Tables\Spells.cs" />
+    <Compile Include="Tables\SpellsLevels.cs" />
+    <Compile Include="Tables\SpellsPairs.cs" />
+    <Compile Include="Tables\SpellStates.cs" />
+    <Compile Include="Tables\SubAreas.cs" />
+    <Compile Include="Tables\Titles.cs" />
+    <Compile Include="Tables\Waypoints.cs" />
+    <Compile Include="Tables\Weapons.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <Compile Include="Tables\Appearence.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SSync\SSync.csproj">
+      <Project>{0b63944e-85cb-4cee-8276-17c9379adabe}</Project>
+      <Name>SSync</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Symbioz.Core\Symbioz.Core.csproj">
+      <Project>{06cdf5d1-d0ef-40cc-bdef-de9a5febaf6b}</Project>
+      <Name>Symbioz.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Symbioz.ORM\Symbioz.ORM.csproj">
+      <Project>{9f6f94a0-ae78-4b35-92ae-e7b76220712d}</Project>
+      <Name>Symbioz.ORM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Symbioz.Tools\Symbioz.Tools.csproj">
+      <Project>{e27a7e40-1479-4842-944d-ebb56bfaa3e2}</Project>
+      <Name>Symbioz.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YAXLib\YAXLib.csproj">
+      <Project>{f1c4d174-c948-4d18-a125-f6855ef55683}</Project>
+      <Name>YAXLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

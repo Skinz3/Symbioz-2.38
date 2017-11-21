@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRefreshMonsterBoostsMessage</Name>
+	<Id>6618</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>monsterBoosts</Name>
+			<Type>Types.MonsterBoosts[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>familyBoosts</Name>
+			<Type>Types.MonsterBoosts[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

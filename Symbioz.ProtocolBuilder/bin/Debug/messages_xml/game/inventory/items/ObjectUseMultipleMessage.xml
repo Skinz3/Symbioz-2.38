@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ObjectUseMultipleMessage</Name>
+	<Id>6234</Id>
+	<Heritage>ObjectUseMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>quantity</Name>
+			<Type>varuhint</Type>
+			<Condition>quantity &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

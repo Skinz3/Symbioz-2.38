@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PrismFightStateUpdateMessage</Name>
+	<Id>6040</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>state</Name>
+			<Type>sbyte</Type>
+			<Condition>state &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

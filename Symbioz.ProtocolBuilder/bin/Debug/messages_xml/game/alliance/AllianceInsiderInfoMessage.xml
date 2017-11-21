@@ -1,0 +1,19 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AllianceInsiderInfoMessage</Name>
+	<Id>6403</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>allianceInfos</Name>
+			<Type>Types.AllianceFactSheetInformations</Type>
+		</XmlField>
+		<XmlField>
+			<Name>guilds</Name>
+			<Type>Types.GuildInsiderFactSheetInformations[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>prisms</Name>
+			<Type>instance of Types.PrismSubareaEmptyInfo[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

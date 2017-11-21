@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameDataPaddockObjectListAddMessage</Name>
+	<Id>5992</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>paddockItemDescription</Name>
+			<Type>Types.PaddockItem[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

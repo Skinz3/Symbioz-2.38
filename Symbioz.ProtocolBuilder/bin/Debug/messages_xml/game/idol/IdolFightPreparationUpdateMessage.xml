@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>IdolFightPreparationUpdateMessage</Name>
+	<Id>6586</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>idolSource</Name>
+			<Type>sbyte</Type>
+			<Condition>idolSource &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>idols</Name>
+			<Type>instance of Types.Idol[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

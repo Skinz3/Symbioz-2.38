@@ -1,0 +1,25 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>SocialNoticeMessage</Name>
+	<Id>6688</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>content</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>timestamp</Name>
+			<Type>int</Type>
+			<Condition>timestamp &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>memberId</Name>
+			<Type>varuhlong</Type>
+			<Condition>memberId &lt; 0 || memberId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>memberName</Name>
+			<Type>utf</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,25 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ContactLookMessage</Name>
+	<Id>5934</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>requestId</Name>
+			<Type>varuhint</Type>
+			<Condition>requestId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>playerName</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>playerId</Name>
+			<Type>varuhlong</Type>
+			<Condition>playerId &lt; 0 || playerId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>look</Name>
+			<Type>Types.EntityLook</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

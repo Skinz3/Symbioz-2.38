@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TreasureHuntFlagRemoveRequestMessage</Name>
+	<Id>6510</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>questType</Name>
+			<Type>sbyte</Type>
+			<Condition>questType &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>index</Name>
+			<Type>sbyte</Type>
+			<Condition>index &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

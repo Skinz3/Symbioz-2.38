@@ -1,0 +1,19 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>JobCrafterDirectoryEntryMessage</Name>
+	<Id>6044</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>playerInfo</Name>
+			<Type>Types.JobCrafterDirectoryEntryPlayerInfo</Type>
+		</XmlField>
+		<XmlField>
+			<Name>jobInfoList</Name>
+			<Type>Types.JobCrafterDirectoryEntryJobInfo[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>playerLook</Name>
+			<Type>Types.EntityLook</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

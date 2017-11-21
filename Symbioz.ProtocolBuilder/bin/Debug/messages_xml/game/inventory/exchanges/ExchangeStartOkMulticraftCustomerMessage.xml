@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeStartOkMulticraftCustomerMessage</Name>
+	<Id>5817</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>skillId</Name>
+			<Type>varuhint</Type>
+			<Condition>skillId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>crafterJobLevel</Name>
+			<Type>byte</Type>
+			<Condition>crafterJobLevel &lt; 0 || crafterJobLevel &gt; 255</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

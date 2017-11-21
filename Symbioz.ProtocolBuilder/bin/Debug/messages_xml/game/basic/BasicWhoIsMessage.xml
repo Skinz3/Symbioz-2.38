@@ -1,0 +1,58 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>BasicWhoIsMessage</Name>
+	<Id>180</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>self</Name>
+			<Type>flag(0)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>verbose</Name>
+			<Type>flag(1)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>position</Name>
+			<Type>sbyte</Type>
+		</XmlField>
+		<XmlField>
+			<Name>accountNickname</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>accountId</Name>
+			<Type>int</Type>
+			<Condition>accountId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>playerName</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>playerId</Name>
+			<Type>varuhlong</Type>
+			<Condition>playerId &lt; 0 || playerId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>areaId</Name>
+			<Type>short</Type>
+		</XmlField>
+		<XmlField>
+			<Name>serverId</Name>
+			<Type>short</Type>
+		</XmlField>
+		<XmlField>
+			<Name>originServerId</Name>
+			<Type>short</Type>
+		</XmlField>
+		<XmlField>
+			<Name>socialGroups</Name>
+			<Type>instance of Types.AbstractSocialGroupInfos[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>playerState</Name>
+			<Type>sbyte</Type>
+			<Condition>playerState &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

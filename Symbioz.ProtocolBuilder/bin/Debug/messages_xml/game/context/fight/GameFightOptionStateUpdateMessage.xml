@@ -1,0 +1,26 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightOptionStateUpdateMessage</Name>
+	<Id>5927</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>fightId</Name>
+			<Type>short</Type>
+			<Condition>fightId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>teamId</Name>
+			<Type>sbyte</Type>
+			<Condition>teamId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>option</Name>
+			<Type>sbyte</Type>
+			<Condition>option &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>state</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeStartOkNpcShopMessage</Name>
+	<Id>5761</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>npcSellerId</Name>
+			<Type>double</Type>
+			<Condition>npcSellerId &lt; -9007199254740990 || npcSellerId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>tokenId</Name>
+			<Type>varuhshort</Type>
+			<Condition>tokenId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>objectsInfos</Name>
+			<Type>Types.ObjectItemToSellInNpcShop[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

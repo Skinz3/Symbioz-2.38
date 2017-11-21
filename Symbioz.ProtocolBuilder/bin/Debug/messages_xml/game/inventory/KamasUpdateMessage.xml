@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>KamasUpdateMessage</Name>
+	<Id>5537</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>kamasTotal</Name>
+			<Type>varint</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

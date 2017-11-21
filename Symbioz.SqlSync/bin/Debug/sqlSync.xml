@@ -1,0 +1,8 @@
+<!-- SqlSyncConfiguration -->
+<SqlSyncConfiguration>
+  <DatabaseHost>127.0.0.1</DatabaseHost>
+  <DatabaseName>symbioz_d2o</DatabaseName>
+  <DatabaseUser>root</DatabaseUser>
+  <DatabasePassword></DatabasePassword>
+  <MapKey>649ae451ca33ec53bbcbcc33becf15f4</MapKey>
+</SqlSyncConfiguration>

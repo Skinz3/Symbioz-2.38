@@ -1,0 +1,57 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeGuildTaxCollectorGetMessage</Name>
+	<Id>5762</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>collectorName</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>worldX</Name>
+			<Type>short</Type>
+			<Condition>worldX &lt; -255 || worldX &gt; 255</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>worldY</Name>
+			<Type>short</Type>
+			<Condition>worldY &lt; -255 || worldY &gt; 255</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>mapId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>subAreaId</Name>
+			<Type>varuhshort</Type>
+			<Condition>subAreaId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>userName</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>callerId</Name>
+			<Type>varuhlong</Type>
+			<Condition>callerId &lt; 0 || callerId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>callerName</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>experience</Name>
+			<Type>double</Type>
+			<Condition>experience &lt; -9007199254740990 || experience &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>pods</Name>
+			<Type>varuhshort</Type>
+			<Condition>pods &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>objectsInfos</Name>
+			<Type>Types.ObjectItemGenericQuantity[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

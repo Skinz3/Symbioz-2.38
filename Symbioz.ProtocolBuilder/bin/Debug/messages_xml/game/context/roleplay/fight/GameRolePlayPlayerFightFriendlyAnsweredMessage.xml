@@ -1,0 +1,25 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayPlayerFightFriendlyAnsweredMessage</Name>
+	<Id>5733</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>fightId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>sourceId</Name>
+			<Type>varuhlong</Type>
+			<Condition>sourceId &lt; 0 || sourceId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>targetId</Name>
+			<Type>varuhlong</Type>
+			<Condition>targetId &lt; 0 || targetId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>accept</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

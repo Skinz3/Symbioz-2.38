@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>HavenBagFurnituresMessage</Name>
+	<Id>6634</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>furnituresInfos</Name>
+			<Type>Types.HavenBagFurnitureInformation[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

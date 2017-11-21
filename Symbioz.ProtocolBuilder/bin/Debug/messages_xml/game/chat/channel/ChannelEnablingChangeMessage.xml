@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ChannelEnablingChangeMessage</Name>
+	<Id>891</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>channel</Name>
+			<Type>sbyte</Type>
+			<Condition>channel &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>enable</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,20 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>DisplayNumericalValuePaddockMessage</Name>
+	<Id>6563</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>rideId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>value</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>type</Name>
+			<Type>sbyte</Type>
+			<Condition>type &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

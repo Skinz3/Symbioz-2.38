@@ -1,0 +1,25 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>InventoryPresetSaveCustomMessage</Name>
+	<Id>6329</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>presetId</Name>
+			<Type>sbyte</Type>
+			<Condition>presetId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>symbolId</Name>
+			<Type>sbyte</Type>
+			<Condition>symbolId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>itemsPositions</Name>
+			<Type>byte[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>itemsUids</Name>
+			<Type>varuhint[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

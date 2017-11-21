@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ObjectUseOnCellMessage</Name>
+	<Id>3013</Id>
+	<Heritage>ObjectUseMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>cells</Name>
+			<Type>varuhshort</Type>
+			<Condition>cells &lt; 0 || cells &gt; 559</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

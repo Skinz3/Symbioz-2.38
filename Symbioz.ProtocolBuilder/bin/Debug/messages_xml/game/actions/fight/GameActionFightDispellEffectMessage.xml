@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameActionFightDispellEffectMessage</Name>
+	<Id>6113</Id>
+	<Heritage>GameActionFightDispellMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>boostUID</Name>
+			<Type>int</Type>
+			<Condition>boostUID &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

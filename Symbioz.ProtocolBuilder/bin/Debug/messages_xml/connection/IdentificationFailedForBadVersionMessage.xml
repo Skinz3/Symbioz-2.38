@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>IdentificationFailedForBadVersionMessage</Name>
+	<Id>21</Id>
+	<Heritage>IdentificationFailedMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>requiredVersion</Name>
+			<Type>Types.Version</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

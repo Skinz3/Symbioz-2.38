@@ -1,0 +1,30 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AbstractGameActionFightTargetedAbilityMessage</Name>
+	<Id>6118</Id>
+	<Heritage>AbstractGameActionMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>silentCast</Name>
+			<Type>flag(0)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>verboseCast</Name>
+			<Type>flag(1)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>targetId</Name>
+			<Type>double</Type>
+			<Condition>targetId &lt; -9007199254740990 || targetId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>destinationCellId</Name>
+			<Type>short</Type>
+			<Condition>destinationCellId &lt; -1 || destinationCellId &gt; 559</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>critical</Name>
+			<Type>sbyte</Type>
+			<Condition>critical &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

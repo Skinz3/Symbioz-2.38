@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>IdolsPresetUseMessage</Name>
+	<Id>6615</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>presetId</Name>
+			<Type>sbyte</Type>
+			<Condition>presetId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>party</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightPlacementSwapPositionsRequestMessage</Name>
+	<Id>6541</Id>
+	<Heritage>GameFightPlacementPositionRequestMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>requestedId</Name>
+			<Type>double</Type>
+			<Condition>requestedId &lt; -9007199254740990 || requestedId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

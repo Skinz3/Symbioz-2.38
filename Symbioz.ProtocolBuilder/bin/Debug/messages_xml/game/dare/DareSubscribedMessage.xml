@@ -1,0 +1,24 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>DareSubscribedMessage</Name>
+	<Id>6660</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>success</Name>
+			<Type>flag(0)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>subscribe</Name>
+			<Type>flag(1)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>dareId</Name>
+			<Type>double</Type>
+			<Condition>dareId &lt; 0 || dareId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>dareVersatilesInfos</Name>
+			<Type>Types.DareVersatileInformations</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

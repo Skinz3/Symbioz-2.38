@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ShortcutBarAddRequestMessage</Name>
+	<Id>6225</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>barType</Name>
+			<Type>sbyte</Type>
+			<Condition>barType &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>shortcut</Name>
+			<Type>instance of Types.Shortcut</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

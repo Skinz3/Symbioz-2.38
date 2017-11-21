@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PartInfoMessage</Name>
+	<Id>1508</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>part</Name>
+			<Type>Types.ContentPart</Type>
+		</XmlField>
+		<XmlField>
+			<Name>installationPercent</Name>
+			<Type>float</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>InventoryPresetItemUpdateRequestMessage</Name>
+	<Id>6210</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>presetId</Name>
+			<Type>sbyte</Type>
+			<Condition>presetId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>position</Name>
+			<Type>byte</Type>
+			<Condition>position &lt; 0 || position &gt; 255</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>objUid</Name>
+			<Type>varuhint</Type>
+			<Condition>objUid &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

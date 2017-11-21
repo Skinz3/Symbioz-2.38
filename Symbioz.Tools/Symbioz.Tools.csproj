@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E27A7E40-1479-4842-944D-EBB56BFAA3E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Symbioz.Tools</RootNamespace>
+    <AssemblyName>Symbioz.Tools</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zlib.net">
+      <HintPath>..\..\..\Dofus\Stump 2.10\Stump 2.10\Stump.Core\bin\Debug\zlib.net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="D2I\D2IFile.cs" />
+    <Compile Include="D2O\Binary64.cs" />
+    <Compile Include="D2O\Class16.cs" />
+    <Compile Include="D2O\Class17.cs" />
+    <Compile Include="D2O\D2OReader.cs" />
+    <Compile Include="D2O\DataCenterTypeManager.cs" />
+    <Compile Include="D2O\DataClass.cs" />
+    <Compile Include="D2O\GameDataClassDef.cs" />
+    <Compile Include="D2O\GameDataField.cs" />
+    <Compile Include="D2O\GameDataFileAccessor.cs" />
+    <Compile Include="D2O\GameDataProcess.cs" />
+    <Compile Include="D2O\IDataCenter.cs" />
+    <Compile Include="D2O\Int64.cs" />
+    <Compile Include="D2O\ReflectionExtension.cs" />
+    <Compile Include="D2P\D2pDirectory.cs" />
+    <Compile Include="D2P\D2pEntry.cs" />
+    <Compile Include="D2P\D2pEntryState.cs" />
+    <Compile Include="D2P\D2pFile.cs" />
+    <Compile Include="D2P\D2pIndexTable.cs" />
+    <Compile Include="D2P\D2pProperty.cs" />
+    <Compile Include="D2P\D2PVirtualFile.cs" />
+    <Compile Include="DLM\ColorMultiplicator.cs" />
+    <Compile Include="DLM\DlmBasicElement.cs" />
+    <Compile Include="DLM\DlmCell.cs" />
+    <Compile Include="DLM\DlmCellData.cs" />
+    <Compile Include="DLM\DlmFixture.cs" />
+    <Compile Include="DLM\DlmGraphicalElement.cs" />
+    <Compile Include="DLM\DlmLayer.cs" />
+    <Compile Include="DLM\DlmMap.cs" />
+    <Compile Include="DLM\DlmReader.cs" />
+    <Compile Include="DLM\DlmSoundElement.cs" />
+    <Compile Include="ELE\EleGraphicalData.cs" />
+    <Compile Include="ELE\EleGraphicalElementTypes.cs" />
+    <Compile Include="ELE\Elements.cs" />
+    <Compile Include="ELE\EleReader.cs" />
+    <Compile Include="ELE\Repertory\AnimatedGraphicalElementData.cs" />
+    <Compile Include="ELE\Repertory\BlendedGraphicalElementData.cs" />
+    <Compile Include="ELE\Repertory\BoundingBoxGraphicalElementData.cs" />
+    <Compile Include="ELE\Repertory\EntityGraphicalElementData.cs" />
+    <Compile Include="ELE\Repertory\NormalGraphicalElementData.cs" />
+    <Compile Include="ELE\Repertory\ParticlesGraphicalElementData.cs" />
+    <Compile Include="IO\FastBigEndianReader.cs" />
+    <Compile Include="IO\ZipHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SWL\SwlFile.cs" />
+    <Compile Include="UI\D2UIFile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SSync\SSync.csproj">
+      <Project>{0b63944e-85cb-4cee-8276-17c9379adabe}</Project>
+      <Name>SSync</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Symbioz.Core\Symbioz.Core.csproj">
+      <Project>{06cdf5d1-d0ef-40cc-bdef-de9a5febaf6b}</Project>
+      <Name>Symbioz.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

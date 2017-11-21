@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayDelayedObjectUseMessage</Name>
+	<Id>6425</Id>
+	<Heritage>GameRolePlayDelayedActionMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>objectGID</Name>
+			<Type>varuhshort</Type>
+			<Condition>objectGID &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

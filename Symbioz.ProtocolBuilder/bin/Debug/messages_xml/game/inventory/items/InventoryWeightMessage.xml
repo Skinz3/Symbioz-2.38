@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>InventoryWeightMessage</Name>
+	<Id>3009</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>weight</Name>
+			<Type>varuhint</Type>
+			<Condition>weight &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>weightMax</Name>
+			<Type>varuhint</Type>
+			<Condition>weightMax &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

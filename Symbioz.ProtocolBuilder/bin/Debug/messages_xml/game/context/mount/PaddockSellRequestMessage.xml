@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PaddockSellRequestMessage</Name>
+	<Id>5953</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>price</Name>
+			<Type>varuhint</Type>
+			<Condition>price &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>forSale</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

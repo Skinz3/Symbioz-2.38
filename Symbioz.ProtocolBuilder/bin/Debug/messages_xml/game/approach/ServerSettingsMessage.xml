@@ -1,0 +1,25 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ServerSettingsMessage</Name>
+	<Id>6340</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>lang</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>community</Name>
+			<Type>sbyte</Type>
+			<Condition>community &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>gameType</Name>
+			<Type>sbyte</Type>
+		</XmlField>
+		<XmlField>
+			<Name>arenaLeaveBanTime</Name>
+			<Type>varuhshort</Type>
+			<Condition>arenaLeaveBanTime &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

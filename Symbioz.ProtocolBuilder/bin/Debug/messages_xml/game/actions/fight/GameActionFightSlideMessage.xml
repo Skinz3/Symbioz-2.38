@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameActionFightSlideMessage</Name>
+	<Id>5525</Id>
+	<Heritage>AbstractGameActionMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>targetId</Name>
+			<Type>double</Type>
+			<Condition>targetId &lt; -9007199254740990 || targetId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>startCellId</Name>
+			<Type>short</Type>
+			<Condition>startCellId &lt; -1 || startCellId &gt; 559</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>endCellId</Name>
+			<Type>short</Type>
+			<Condition>endCellId &lt; -1 || endCellId &gt; 559</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

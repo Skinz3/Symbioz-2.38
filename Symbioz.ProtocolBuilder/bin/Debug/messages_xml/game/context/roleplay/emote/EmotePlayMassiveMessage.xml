@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>EmotePlayMassiveMessage</Name>
+	<Id>5691</Id>
+	<Heritage>EmotePlayAbstractMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>actorIds</Name>
+			<Type>double[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

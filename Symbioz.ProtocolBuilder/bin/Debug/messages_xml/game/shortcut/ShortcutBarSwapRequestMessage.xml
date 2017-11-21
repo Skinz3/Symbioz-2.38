@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ShortcutBarSwapRequestMessage</Name>
+	<Id>6230</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>barType</Name>
+			<Type>sbyte</Type>
+			<Condition>barType &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>firstSlot</Name>
+			<Type>sbyte</Type>
+			<Condition>firstSlot &lt; 0 || firstSlot &gt; 99</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>secondSlot</Name>
+			<Type>sbyte</Type>
+			<Condition>secondSlot &lt; 0 || secondSlot &gt; 99</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

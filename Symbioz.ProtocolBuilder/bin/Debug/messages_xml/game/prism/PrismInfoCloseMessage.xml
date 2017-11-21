@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PrismInfoCloseMessage</Name>
+	<Id>5853</Id>
+	<Heritage>Message</Heritage>
+	<Fields />
+</XmlMessage>

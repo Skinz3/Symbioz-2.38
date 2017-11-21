@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeOkMultiCraftMessage</Name>
+	<Id>5768</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>initiatorId</Name>
+			<Type>varuhlong</Type>
+			<Condition>initiatorId &lt; 0 || initiatorId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>otherId</Name>
+			<Type>varuhlong</Type>
+			<Condition>otherId &lt; 0 || otherId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>role</Name>
+			<Type>sbyte</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

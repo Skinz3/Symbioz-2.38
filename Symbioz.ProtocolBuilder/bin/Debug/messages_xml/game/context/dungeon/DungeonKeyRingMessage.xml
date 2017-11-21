@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>DungeonKeyRingMessage</Name>
+	<Id>6299</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>availables</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>unavailables</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

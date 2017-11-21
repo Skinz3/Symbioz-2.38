@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>SpellModifySuccessMessage</Name>
+	<Id>6654</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>spellId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>spellLevel</Name>
+			<Type>sbyte</Type>
+			<Condition>spellLevel &lt; 1 || spellLevel &gt; 6</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

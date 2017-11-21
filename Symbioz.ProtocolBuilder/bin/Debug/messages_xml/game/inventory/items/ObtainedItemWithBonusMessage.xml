@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ObtainedItemWithBonusMessage</Name>
+	<Id>6520</Id>
+	<Heritage>ObtainedItemMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>bonusQuantity</Name>
+			<Type>varuhint</Type>
+			<Condition>bonusQuantity &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

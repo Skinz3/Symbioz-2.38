@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildHousesInformationMessage</Name>
+	<Id>5919</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>housesInformations</Name>
+			<Type>Types.HouseInformationsForGuild[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

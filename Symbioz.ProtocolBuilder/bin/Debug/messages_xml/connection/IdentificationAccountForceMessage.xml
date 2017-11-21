@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>IdentificationAccountForceMessage</Name>
+	<Id>6119</Id>
+	<Heritage>IdentificationMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>forcedAccountLogin</Name>
+			<Type>utf</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

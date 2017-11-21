@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeLeaveMessage</Name>
+	<Id>5628</Id>
+	<Heritage>LeaveDialogMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>success</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

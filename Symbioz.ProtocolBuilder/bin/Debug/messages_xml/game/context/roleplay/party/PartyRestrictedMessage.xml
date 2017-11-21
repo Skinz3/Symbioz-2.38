@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PartyRestrictedMessage</Name>
+	<Id>6175</Id>
+	<Heritage>AbstractPartyMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>restricted</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameDataPlayFarmObjectAnimationMessage</Name>
+	<Id>6026</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>cellId</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

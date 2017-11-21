@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TaxCollectorStateUpdateMessage</Name>
+	<Id>6455</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>uniqueId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>state</Name>
+			<Type>sbyte</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,16 @@
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\obj\Debug\Symbioz.Modules.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\Symbioz.Modules.exe.config
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\Symbioz.Modules.exe
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\Symbioz.Modules.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\obj\Debug\Symbioz.Modules.exe
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\obj\Debug\Symbioz.Modules.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\zlib.net.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Modules\bin\Debug\Symbioz.Tools.pdb

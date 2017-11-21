@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightPlacementSwapPositionsCancelledMessage</Name>
+	<Id>6546</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>requestId</Name>
+			<Type>int</Type>
+			<Condition>requestId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>cancellerId</Name>
+			<Type>double</Type>
+			<Condition>cancellerId &lt; -9007199254740990 || cancellerId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

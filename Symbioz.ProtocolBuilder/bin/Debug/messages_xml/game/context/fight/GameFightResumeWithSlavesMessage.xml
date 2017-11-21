@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightResumeWithSlavesMessage</Name>
+	<Id>6215</Id>
+	<Heritage>GameFightResumeMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>slavesInfo</Name>
+			<Type>Types.GameFightResumeSlaveInfo[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

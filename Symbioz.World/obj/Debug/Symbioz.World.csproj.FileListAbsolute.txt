@@ -1,0 +1,166 @@
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\Symbioz.World.exe.config
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\Symbioz.World.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\Symbioz.World.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\obj\Debug\Symbioz.World.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\obj\Debug\Symbioz.World.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\obj\Debug\Symbioz.World.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.World\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.World.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.World.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\MySql.Data.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.World.exe.manifest
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.World.application
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.exe.manifest
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.application
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.World\bin\Debug\MySqlBackup.dll
+E:\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.csprojResolveAssemblyReference.cache
+E:\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.exe
+E:\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.pdb
+E:\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.World.exe.manifest
+E:\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.World.application
+E:\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.World.exe
+E:\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.World.pdb
+E:\SymbiozRepo\Symbioz.World\bin\Debug\SSync.dll
+E:\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Core.dll
+E:\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.ORM.dll
+E:\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Protocol.dll
+E:\SymbiozRepo\Symbioz.World\bin\Debug\YAXLib.dll
+E:\SymbiozRepo\Symbioz.World\bin\Debug\MySqlBackup.dll
+E:\SymbiozRepo\Symbioz.World\bin\Debug\SSync.pdb
+E:\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Core.pdb
+E:\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.ORM.pdb
+E:\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Protocol.pdb
+E:\SymbiozRepo\Symbioz.World\bin\Debug\YAXLib.pdb
+E:\SymbiozRepo\Symbioz.World\bin\Debug\YAXLib.xml
+E:\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.exe.manifest
+E:\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.application
+E:\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Tools.dll
+E:\SymbiozRepo\Symbioz.World\bin\Debug\zlib.net.dll
+E:\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.exe
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.World.exe.manifest
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.World.application
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.World.exe
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.World.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\MySqlBackup.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\zlib.net.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.exe.manifest
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.World\obj\Debug\Symbioz.World.application
+D:\Projets\Symbioz 2.34\Symbioz.World\obj\Debug\Symbioz.World.exe
+D:\Projets\Symbioz 2.34\Symbioz.World\obj\Debug\Symbioz.World.pdb
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\Symbioz.World.exe.manifest
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\Symbioz.World.application
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\Symbioz.World.exe
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\Symbioz.World.pdb
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\SSync.dll
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\Symbioz.Core.dll
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\Symbioz.ORM.dll
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\Symbioz.Protocol.dll
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\Symbioz.Tools.dll
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\YAXLib.dll
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\MySqlBackup.dll
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\zlib.net.dll
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\SSync.pdb
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\Symbioz.Core.pdb
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\Symbioz.ORM.pdb
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\Symbioz.Protocol.pdb
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\Symbioz.Tools.pdb
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\YAXLib.pdb
+D:\Projets\Symbioz 2.34\Symbioz.World\bin\Debug\YAXLib.xml
+D:\Projets\Symbioz 2.34\Symbioz.World\obj\Debug\Symbioz.World.csprojResolveAssemblyReference.cache
+D:\Projets\Symbioz 2.34\Symbioz.World\obj\Debug\Symbioz.World.exe.manifest
+D:\Projets\Symbioz 2.34\Symbioz.World\obj\Debug\Symbioz.World.application
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\obj\Debug\Symbioz.World.exe
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\obj\Debug\Symbioz.World.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\obj\Debug\Symbioz.World.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\Symbioz.World.exe.manifest
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\Symbioz.World.application
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\Symbioz.World.exe
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\Symbioz.World.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\MySqlBackup.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\obj\Debug\Symbioz.World.exe.manifest
+C:\Users\Skinz\Desktop\2.38\Symbioz.World\obj\Debug\Symbioz.World.application
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\obj\Debug\Symbioz.World.exe
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\obj\Debug\Symbioz.World.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Symbioz.World.exe.manifest
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Symbioz.World.application
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Symbioz.World.exe
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Symbioz.World.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Symbioz.ORM.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\MySqlBackup.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\obj\Debug\Symbioz.World.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\obj\Debug\Symbioz.World.exe.manifest
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\obj\Debug\Symbioz.World.application
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\KeraLua.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\NLua.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\MoonSharp.Interpreter.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\MoonSharp.Interpreter.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\zlib.net.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Microsoft.Owin.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\System.Web.Http.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\obj\Debug\Symbioz.World.csproj.CoreCompileInputs.cache

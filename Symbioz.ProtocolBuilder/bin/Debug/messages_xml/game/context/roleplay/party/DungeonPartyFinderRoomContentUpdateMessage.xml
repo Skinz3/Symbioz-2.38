@@ -1,0 +1,20 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>DungeonPartyFinderRoomContentUpdateMessage</Name>
+	<Id>6250</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>dungeonId</Name>
+			<Type>varuhshort</Type>
+			<Condition>dungeonId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>addedPlayers</Name>
+			<Type>Types.DungeonPartyFinderPlayer[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>removedPlayersIds</Name>
+			<Type>varuhlong[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

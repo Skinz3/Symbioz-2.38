@@ -1,0 +1,29 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildFactsMessage</Name>
+	<Id>6415</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>infos</Name>
+			<Type>instance of Types.GuildFactSheetInformations</Type>
+		</XmlField>
+		<XmlField>
+			<Name>creationDate</Name>
+			<Type>int</Type>
+			<Condition>creationDate &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>nbTaxCollectors</Name>
+			<Type>varuhshort</Type>
+			<Condition>nbTaxCollectors &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>enabled</Name>
+			<Type>boolean</Type>
+		</XmlField>
+		<XmlField>
+			<Name>members</Name>
+			<Type>Types.CharacterMinimalInformations[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameContextMoveElementMessage</Name>
+	<Id>253</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>movement</Name>
+			<Type>Types.EntityMovementInformations</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

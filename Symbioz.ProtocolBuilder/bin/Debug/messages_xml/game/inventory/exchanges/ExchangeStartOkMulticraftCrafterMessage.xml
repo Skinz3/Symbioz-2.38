@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeStartOkMulticraftCrafterMessage</Name>
+	<Id>5818</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>skillId</Name>
+			<Type>varuhint</Type>
+			<Condition>skillId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

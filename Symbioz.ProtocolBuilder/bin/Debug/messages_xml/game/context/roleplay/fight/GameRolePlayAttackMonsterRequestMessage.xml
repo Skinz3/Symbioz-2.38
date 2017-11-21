@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayAttackMonsterRequestMessage</Name>
+	<Id>6191</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>monsterGroupId</Name>
+			<Type>double</Type>
+			<Condition>monsterGroupId &lt; -9007199254740990 || monsterGroupId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ObjectGroundRemovedMessage</Name>
+	<Id>3014</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>cell</Name>
+			<Type>varuhshort</Type>
+			<Condition>cell &lt; 0 || cell &gt; 559</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AllianceVersatileInfoListMessage</Name>
+	<Id>6436</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>alliances</Name>
+			<Type>Types.AllianceVersatileInformations[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,43 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TreasureHuntMessage</Name>
+	<Id>6486</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>questType</Name>
+			<Type>sbyte</Type>
+			<Condition>questType &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>startMapId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>knownStepsList</Name>
+			<Type>instance of Types.TreasureHuntStep[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>totalStepCount</Name>
+			<Type>sbyte</Type>
+			<Condition>totalStepCount &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>checkPointCurrent</Name>
+			<Type>varuhint</Type>
+			<Condition>checkPointCurrent &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>checkPointTotal</Name>
+			<Type>varuhint</Type>
+			<Condition>checkPointTotal &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>availableRetryCount</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>flags</Name>
+			<Type>Types.TreasureHuntFlag[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

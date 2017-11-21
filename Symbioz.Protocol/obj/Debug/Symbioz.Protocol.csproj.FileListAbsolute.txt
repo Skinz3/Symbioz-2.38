@@ -1,0 +1,84 @@
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Protocol\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Protocol\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Protocol\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Protocol\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Protocol\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Protocol\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Protocol\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Protocol\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Protocol\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Protocol\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Protocol\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Protocol\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Protocol\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Protocol\bin\Debug\SSync.pdb
+E:\SymbiozRepo\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.dll
+E:\SymbiozRepo\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.pdb
+E:\SymbiozRepo\Symbioz.Protocol\bin\Debug\SSync.dll
+E:\SymbiozRepo\Symbioz.Protocol\bin\Debug\Symbioz.Core.dll
+E:\SymbiozRepo\Symbioz.Protocol\bin\Debug\YAXLib.dll
+E:\SymbiozRepo\Symbioz.Protocol\bin\Debug\SSync.pdb
+E:\SymbiozRepo\Symbioz.Protocol\bin\Debug\Symbioz.Core.pdb
+E:\SymbiozRepo\Symbioz.Protocol\bin\Debug\YAXLib.pdb
+E:\SymbiozRepo\Symbioz.Protocol\bin\Debug\YAXLib.xml
+E:\SymbiozRepo\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.csprojResolveAssemblyReference.cache
+E:\SymbiozRepo\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.dll
+E:\SymbiozRepo\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Protocol\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Protocol\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Protocol\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Protocol\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Protocol\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.dll
+D:\Projets\Symbioz 2.34\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Protocol\bin\Debug\SSync.dll
+D:\Projets\Symbioz 2.34\Symbioz.Protocol\bin\Debug\Symbioz.Core.dll
+D:\Projets\Symbioz 2.34\Symbioz.Protocol\bin\Debug\YAXLib.dll
+D:\Projets\Symbioz 2.34\Symbioz.Protocol\bin\Debug\SSync.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Protocol\bin\Debug\Symbioz.Core.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.csprojResolveAssemblyReference.cache
+D:\Projets\Symbioz 2.34\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.dll
+D:\Projets\Symbioz 2.34\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Protocol\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Protocol\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Protocol\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Protocol\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Protocol\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Protocol\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Protocol\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\Microsoft.Owin.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\Owin.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\Microsoft.Owin.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.csproj.CoreCompileInputs.cache

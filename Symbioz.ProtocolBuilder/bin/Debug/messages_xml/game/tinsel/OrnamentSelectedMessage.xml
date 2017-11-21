@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>OrnamentSelectedMessage</Name>
+	<Id>6369</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>ornamentId</Name>
+			<Type>varuhshort</Type>
+			<Condition>ornamentId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

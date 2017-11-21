@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>IgnoredGetListMessage</Name>
+	<Id>5676</Id>
+	<Heritage>Message</Heritage>
+	<Fields />
+</XmlMessage>

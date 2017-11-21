@@ -1,0 +1,23 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>CharactersListWithModificationsMessage</Name>
+	<Id>6120</Id>
+	<Heritage>CharactersListMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>charactersToRecolor</Name>
+			<Type>Types.CharacterToRecolorInformation[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>charactersToRename</Name>
+			<Type>int[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>unusableCharacters</Name>
+			<Type>int[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>charactersToRelook</Name>
+			<Type>Types.CharacterToRelookInformation[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

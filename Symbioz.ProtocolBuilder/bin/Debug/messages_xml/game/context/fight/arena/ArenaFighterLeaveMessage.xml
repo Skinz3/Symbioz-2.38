@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ArenaFighterLeaveMessage</Name>
+	<Id>6700</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>leaver</Name>
+			<Type>Types.CharacterBasicMinimalInformations</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

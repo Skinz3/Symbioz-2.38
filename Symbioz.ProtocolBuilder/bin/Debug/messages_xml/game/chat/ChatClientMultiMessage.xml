@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ChatClientMultiMessage</Name>
+	<Id>861</Id>
+	<Heritage>ChatAbstractClientMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>channel</Name>
+			<Type>sbyte</Type>
+			<Condition>channel &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

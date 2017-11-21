@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightRemoveTeamMemberMessage</Name>
+	<Id>711</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>fightId</Name>
+			<Type>short</Type>
+			<Condition>fightId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>teamId</Name>
+			<Type>sbyte</Type>
+			<Condition>teamId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>charId</Name>
+			<Type>double</Type>
+			<Condition>charId &lt; -9007199254740990 || charId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

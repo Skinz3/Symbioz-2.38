@@ -1,0 +1,20 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>SetUpdateMessage</Name>
+	<Id>5503</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>setId</Name>
+			<Type>varuhshort</Type>
+			<Condition>setId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>setObjects</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>setEffects</Name>
+			<Type>instance of Types.ObjectEffect[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,19 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayArenaFighterStatusMessage</Name>
+	<Id>6281</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>fightId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>playerId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>accepted</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

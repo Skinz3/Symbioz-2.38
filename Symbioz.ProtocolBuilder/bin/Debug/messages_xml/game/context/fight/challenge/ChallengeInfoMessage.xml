@@ -1,0 +1,27 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ChallengeInfoMessage</Name>
+	<Id>6022</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>challengeId</Name>
+			<Type>varuhshort</Type>
+			<Condition>challengeId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>targetId</Name>
+			<Type>double</Type>
+			<Condition>targetId &lt; -9007199254740990 || targetId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>xpBonus</Name>
+			<Type>varuhint</Type>
+			<Condition>xpBonus &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>dropBonus</Name>
+			<Type>varuhint</Type>
+			<Condition>dropBonus &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

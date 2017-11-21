@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayArenaRegisterMessage</Name>
+	<Id>6280</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>battleMode</Name>
+			<Type>int</Type>
+			<Condition>battleMode &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

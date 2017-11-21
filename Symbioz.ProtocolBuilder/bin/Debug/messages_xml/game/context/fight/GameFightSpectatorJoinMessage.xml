@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightSpectatorJoinMessage</Name>
+	<Id>6504</Id>
+	<Heritage>GameFightJoinMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>namedPartyTeams</Name>
+			<Type>Types.NamedPartyTeam[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

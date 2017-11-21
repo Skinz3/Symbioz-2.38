@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildModificationStartedMessage</Name>
+	<Id>6324</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>canChangeName</Name>
+			<Type>flag(0)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>canChangeEmblem</Name>
+			<Type>flag(1)</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

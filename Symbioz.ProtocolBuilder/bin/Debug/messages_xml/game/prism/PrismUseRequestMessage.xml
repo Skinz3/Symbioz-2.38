@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PrismUseRequestMessage</Name>
+	<Id>6041</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>moduleToUse</Name>
+			<Type>sbyte</Type>
+			<Condition>moduleToUse &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

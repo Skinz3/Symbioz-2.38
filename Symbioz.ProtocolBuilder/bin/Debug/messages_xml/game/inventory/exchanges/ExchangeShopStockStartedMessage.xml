@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeShopStockStartedMessage</Name>
+	<Id>5910</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>objectsInfos</Name>
+			<Type>Types.ObjectItemToSell[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PaddockMoveItemRequestMessage</Name>
+	<Id>6052</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>oldCellId</Name>
+			<Type>varuhshort</Type>
+			<Condition>oldCellId &lt; 0 || oldCellId &gt; 559</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>newCellId</Name>
+			<Type>varuhshort</Type>
+			<Condition>newCellId &lt; 0 || newCellId &gt; 559</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

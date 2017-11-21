@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeBidHouseItemRemoveOkMessage</Name>
+	<Id>5946</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>sellerId</Name>
+			<Type>int</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

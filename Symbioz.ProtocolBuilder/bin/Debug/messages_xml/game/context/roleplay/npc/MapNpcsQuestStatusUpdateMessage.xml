@@ -1,0 +1,23 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>MapNpcsQuestStatusUpdateMessage</Name>
+	<Id>5642</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>mapId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>npcsIdsWithQuest</Name>
+			<Type>int[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>questFlags</Name>
+			<Type>Types.GameRolePlayNpcQuestFlag[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>npcsIdsWithoutQuest</Name>
+			<Type>int[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

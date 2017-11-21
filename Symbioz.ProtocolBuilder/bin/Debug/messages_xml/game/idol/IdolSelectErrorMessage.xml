@@ -1,0 +1,25 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>IdolSelectErrorMessage</Name>
+	<Id>6584</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>activate</Name>
+			<Type>flag(0)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>party</Name>
+			<Type>flag(1)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>reason</Name>
+			<Type>sbyte</Type>
+			<Condition>reason &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>idolId</Name>
+			<Type>varuhshort</Type>
+			<Condition>idolId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

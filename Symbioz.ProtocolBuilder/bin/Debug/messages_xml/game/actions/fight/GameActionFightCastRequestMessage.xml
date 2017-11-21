@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameActionFightCastRequestMessage</Name>
+	<Id>1005</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>spellId</Name>
+			<Type>varuhshort</Type>
+			<Condition>spellId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>cellId</Name>
+			<Type>short</Type>
+			<Condition>cellId &lt; -1 || cellId &gt; 559</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

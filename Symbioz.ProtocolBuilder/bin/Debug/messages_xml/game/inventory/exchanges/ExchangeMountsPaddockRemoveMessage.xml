@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeMountsPaddockRemoveMessage</Name>
+	<Id>6559</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>mountsId</Name>
+			<Type>varint[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

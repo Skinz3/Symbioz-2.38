@@ -1,0 +1,51 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TaxCollectorDialogQuestionExtendedMessage</Name>
+	<Id>5615</Id>
+	<Heritage>TaxCollectorDialogQuestionBasicMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>maxPods</Name>
+			<Type>varuhshort</Type>
+			<Condition>maxPods &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>prospecting</Name>
+			<Type>varuhshort</Type>
+			<Condition>prospecting &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>wisdom</Name>
+			<Type>varuhshort</Type>
+			<Condition>wisdom &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>taxCollectorsCount</Name>
+			<Type>sbyte</Type>
+			<Condition>taxCollectorsCount &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>taxCollectorAttack</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>kamas</Name>
+			<Type>varuhint</Type>
+			<Condition>kamas &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>experience</Name>
+			<Type>varuhlong</Type>
+			<Condition>experience &lt; 0 || experience &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>pods</Name>
+			<Type>varuhint</Type>
+			<Condition>pods &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>itemsValue</Name>
+			<Type>varuhint</Type>
+			<Condition>itemsValue &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

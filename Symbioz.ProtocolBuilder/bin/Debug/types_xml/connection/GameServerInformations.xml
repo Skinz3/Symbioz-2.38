@@ -1,0 +1,45 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameServerInformations</Name>
+	<Id>25</Id>
+	<Heritage />
+	<Fields>
+		<XmlField>
+			<Name>id</Name>
+			<Type>varUhShort</Type>
+			<Condition>id &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>type</Name>
+			<Type>sbyte</Type>
+		</XmlField>
+		<XmlField>
+			<Name>status</Name>
+			<Type>sbyte</Type>
+			<Condition>status &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>completion</Name>
+			<Type>sbyte</Type>
+			<Condition>completion &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>isSelectable</Name>
+			<Type>boolean</Type>
+		</XmlField>
+		<XmlField>
+			<Name>charactersCount</Name>
+			<Type>sbyte</Type>
+			<Condition>charactersCount &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>charactersSlots</Name>
+			<Type>sbyte</Type>
+			<Condition>charactersSlots &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>date</Name>
+			<Type>double</Type>
+			<Condition>date &lt; -9007199254740990 || date &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlType>

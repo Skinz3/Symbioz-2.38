@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>MountInformationInPaddockRequestMessage</Name>
+	<Id>5975</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>mapRideId</Name>
+			<Type>varint</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,20 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildJoinedMessage</Name>
+	<Id>5564</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>guildInfo</Name>
+			<Type>Types.GuildInformations</Type>
+		</XmlField>
+		<XmlField>
+			<Name>memberRights</Name>
+			<Type>varuhint</Type>
+			<Condition>memberRights &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>enabled</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

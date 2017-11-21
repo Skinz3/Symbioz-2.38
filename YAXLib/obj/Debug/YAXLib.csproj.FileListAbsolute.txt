@@ -1,0 +1,13 @@
+C:\Users\Skinz\Desktop\2.38\Bin\YAXLib.XML
+C:\Users\Skinz\Desktop\2.38\Bin\YAXLib.dll
+C:\Users\Skinz\Desktop\2.38\Bin\YAXLib.pdb
+C:\Users\Skinz\Desktop\2.38\YAXLib\obj\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\2.38\YAXLib\obj\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\2.38\YAXLib\obj\Debug\YAXLib.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.38\Bin\YAXLib.XML
+C:\Users\Skinz\Desktop\Symbioz 2.38\Bin\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Bin\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\YAXLib\obj\Debug\YAXLib.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.38\YAXLib\obj\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\YAXLib\obj\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\YAXLib\obj\Debug\YAXLib.csproj.CoreCompileInputs.cache

@@ -1,0 +1,83 @@
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\obj\Debug\Symbioz.Tools.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\obj\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\obj\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz.Tools\bin\Debug\zlib.net.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\bin\Debug\zlib.net.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\obj\Debug\Symbioz.Tools.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\obj\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\Symbioz.Tools\obj\Debug\Symbioz.Tools.pdb
+E:\SymbiozRepo\Symbioz.Tools\obj\Debug\Symbioz.Tools.csprojResolveAssemblyReference.cache
+E:\SymbiozRepo\Symbioz.Tools\obj\Debug\Symbioz.Tools.dll
+E:\SymbiozRepo\Symbioz.Tools\obj\Debug\Symbioz.Tools.pdb
+E:\SymbiozRepo\Symbioz.Tools\bin\Debug\Symbioz.Tools.dll
+E:\SymbiozRepo\Symbioz.Tools\bin\Debug\Symbioz.Tools.pdb
+E:\SymbiozRepo\Symbioz.Tools\bin\Debug\SSync.dll
+E:\SymbiozRepo\Symbioz.Tools\bin\Debug\Symbioz.Core.dll
+E:\SymbiozRepo\Symbioz.Tools\bin\Debug\YAXLib.dll
+E:\SymbiozRepo\Symbioz.Tools\bin\Debug\SSync.pdb
+E:\SymbiozRepo\Symbioz.Tools\bin\Debug\Symbioz.Core.pdb
+E:\SymbiozRepo\Symbioz.Tools\bin\Debug\YAXLib.pdb
+E:\SymbiozRepo\Symbioz.Tools\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Tools\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Tools\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Tools\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Tools\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Tools\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Tools\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Tools\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Tools\obj\Debug\Symbioz.Tools.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Tools\obj\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\Symbioz.Tools\obj\Debug\Symbioz.Tools.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Tools\bin\Debug\Symbioz.Tools.dll
+D:\Projets\Symbioz 2.34\Symbioz.Tools\bin\Debug\Symbioz.Tools.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Tools\bin\Debug\SSync.dll
+D:\Projets\Symbioz 2.34\Symbioz.Tools\bin\Debug\Symbioz.Core.dll
+D:\Projets\Symbioz 2.34\Symbioz.Tools\bin\Debug\YAXLib.dll
+D:\Projets\Symbioz 2.34\Symbioz.Tools\bin\Debug\SSync.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Tools\bin\Debug\Symbioz.Core.pdb
+D:\Projets\Symbioz 2.34\Symbioz.Tools\obj\Debug\Symbioz.Tools.csprojResolveAssemblyReference.cache
+D:\Projets\Symbioz 2.34\Symbioz.Tools\obj\Debug\Symbioz.Tools.dll
+D:\Projets\Symbioz 2.34\Symbioz.Tools\obj\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Tools\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Tools\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Tools\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Tools\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Tools\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Tools\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Tools\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Tools\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\2.38\Symbioz.Tools\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\bin\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.csproj.CoreCompileInputs.cache

@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>InteractiveUseErrorMessage</Name>
+	<Id>6384</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>elemId</Name>
+			<Type>varuhint</Type>
+			<Condition>elemId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>skillInstanceUid</Name>
+			<Type>varuhint</Type>
+			<Condition>skillInstanceUid &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

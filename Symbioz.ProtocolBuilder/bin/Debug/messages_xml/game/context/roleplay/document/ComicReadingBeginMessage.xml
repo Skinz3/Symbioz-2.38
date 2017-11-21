@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ComicReadingBeginMessage</Name>
+	<Id>6536</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>comicId</Name>
+			<Type>varuhshort</Type>
+			<Condition>comicId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

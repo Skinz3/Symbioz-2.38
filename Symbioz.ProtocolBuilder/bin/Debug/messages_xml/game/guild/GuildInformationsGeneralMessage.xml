@@ -1,0 +1,50 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildInformationsGeneralMessage</Name>
+	<Id>5557</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>enabled</Name>
+			<Type>flag(0)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>abandonnedPaddock</Name>
+			<Type>flag(1)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>level</Name>
+			<Type>byte</Type>
+			<Condition>level &lt; 0 || level &gt; 255</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>expLevelFloor</Name>
+			<Type>varuhlong</Type>
+			<Condition>expLevelFloor &lt; 0 || expLevelFloor &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>experience</Name>
+			<Type>varuhlong</Type>
+			<Condition>experience &lt; 0 || experience &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>expNextLevelFloor</Name>
+			<Type>varuhlong</Type>
+			<Condition>expNextLevelFloor &lt; 0 || expNextLevelFloor &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>creationDate</Name>
+			<Type>int</Type>
+			<Condition>creationDate &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>nbTotalMembers</Name>
+			<Type>varuhshort</Type>
+			<Condition>nbTotalMembers &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>nbConnectedMembers</Name>
+			<Type>varuhshort</Type>
+			<Condition>nbConnectedMembers &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

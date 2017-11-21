@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ZaapListMessage</Name>
+	<Id>1604</Id>
+	<Heritage>TeleportDestinationsListMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>spawnMapId</Name>
+			<Type>int</Type>
+			<Condition>spawnMapId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

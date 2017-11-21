@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>BulletinMessage</Name>
+	<Id>6695</Id>
+	<Heritage>SocialNoticeMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>lastNotifiedTimestamp</Name>
+			<Type>int</Type>
+			<Condition>lastNotifiedTimestamp &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

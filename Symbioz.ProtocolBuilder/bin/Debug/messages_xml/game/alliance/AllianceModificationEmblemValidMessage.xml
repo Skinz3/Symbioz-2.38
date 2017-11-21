@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AllianceModificationEmblemValidMessage</Name>
+	<Id>6447</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>Alliancemblem</Name>
+			<Type>Types.GuildEmblem</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

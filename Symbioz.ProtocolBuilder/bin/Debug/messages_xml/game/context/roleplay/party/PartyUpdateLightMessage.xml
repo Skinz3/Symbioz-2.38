@@ -1,0 +1,32 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PartyUpdateLightMessage</Name>
+	<Id>6054</Id>
+	<Heritage>AbstractPartyEventMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>id</Name>
+			<Type>varuhlong</Type>
+			<Condition>id &lt; 0 || id &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>lifePoints</Name>
+			<Type>varuhint</Type>
+			<Condition>lifePoints &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>maxLifePoints</Name>
+			<Type>varuhint</Type>
+			<Condition>maxLifePoints &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>prospecting</Name>
+			<Type>varuhshort</Type>
+			<Condition>prospecting &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>regenRate</Name>
+			<Type>byte</Type>
+			<Condition>regenRate &lt; 0 || regenRate &gt; 255</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

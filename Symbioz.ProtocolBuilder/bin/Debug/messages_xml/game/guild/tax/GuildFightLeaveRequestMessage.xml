@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildFightLeaveRequestMessage</Name>
+	<Id>5715</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>taxCollectorId</Name>
+			<Type>int</Type>
+			<Condition>taxCollectorId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>characterId</Name>
+			<Type>varuhlong</Type>
+			<Condition>characterId &lt; 0 || characterId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

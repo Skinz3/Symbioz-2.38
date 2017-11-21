@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>HaapiApiKeyRequestMessage</Name>
+	<Id>6648</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>keyType</Name>
+			<Type>sbyte</Type>
+			<Condition>keyType &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

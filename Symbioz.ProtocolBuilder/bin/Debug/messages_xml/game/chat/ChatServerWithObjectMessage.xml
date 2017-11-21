@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ChatServerWithObjectMessage</Name>
+	<Id>883</Id>
+	<Heritage>ChatServerMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>objects</Name>
+			<Type>Types.ObjectItem[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

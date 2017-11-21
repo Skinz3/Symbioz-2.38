@@ -1,0 +1,22 @@
+<!-- AuthServer Configuration -->
+<AuthConfiguration>
+  <DofusProtocolVersion>1709</DofusProtocolVersion>
+  <VersionInstall>1</VersionInstall>
+  <VersionMajor>2</VersionMajor>
+  <VersionMinor>38</VersionMinor>
+  <VersionRelease>1</VersionRelease>
+  <VersionPatch>1</VersionPatch>
+  <VersionRevision>103887</VersionRevision>
+  <VersionTechnology>1</VersionTechnology>
+  <VersionBuildType>0</VersionBuildType>
+  <DatabaseHost>127.0.0.1</DatabaseHost>
+  <DatabaseUser>root</DatabaseUser>
+  <DatabasePassword></DatabasePassword>
+  <DatabaseName>symbioz_auth</DatabaseName>
+  <Port>443</Port>
+  <ShowProtocolMessages>True</ShowProtocolMessages>
+  <Host>127.0.0.1</Host>
+  <SafeRun>False</SafeRun>
+  <TransitionHost>127.0.0.1</TransitionHost>
+  <TransitionPort>600</TransitionPort>
+</AuthConfiguration>

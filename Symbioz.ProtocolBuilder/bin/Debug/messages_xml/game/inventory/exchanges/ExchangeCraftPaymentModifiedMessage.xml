@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeCraftPaymentModifiedMessage</Name>
+	<Id>6578</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>goldSum</Name>
+			<Type>varuhint</Type>
+			<Condition>goldSum &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

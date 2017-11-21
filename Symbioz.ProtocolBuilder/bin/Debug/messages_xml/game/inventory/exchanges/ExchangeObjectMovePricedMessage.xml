@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeObjectMovePricedMessage</Name>
+	<Id>5514</Id>
+	<Heritage>ExchangeObjectMoveMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>price</Name>
+			<Type>varuhint</Type>
+			<Condition>price &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.Core", "Symbioz.Core\Symbioz.Core.csproj", "{06CDF5D1-D0EF-40CC-BDEF-DE9A5FEBAF6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.World", "Symbioz.World\Symbioz.World.csproj", "{54F5E960-0BC1-436B-B425-C35982F94F5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.ORM", "Symbioz.ORM\Symbioz.ORM.csproj", "{9F6F94A0-AE78-4B35-92AE-E7B76220712D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{486619D8-E4D6-4FD0-95FC-7B41892DF07A}"
+	ProjectSection(SolutionItems) = preProject
+		Changelog.txt = Changelog.txt
+		Symbioz.Core\RawData\RawDataManager.cs = Symbioz.Core\RawData\RawDataManager.cs
+		Todo.txt = Todo.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSync", "SSync\SSync.csproj", "{0B63944E-85CB-4CEE-8276-17C9379ADABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.Auth", "Symbioz.Auth\Symbioz.Auth.csproj", "{23C77CC1-4F28-428E-B35B-CAC958F227C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.Protocol", "Symbioz.Protocol\Symbioz.Protocol.csproj", "{67E44ECF-9144-4F0A-AC69-7FD7C8650C71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.ProtocolBuilder", "Symbioz.ProtocolBuilder\Symbioz.ProtocolBuilder.csproj", "{2137E1C3-7975-48C9-A9AE-2237D0B65E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.SqlSync", "Symbioz.SqlSync\Symbioz.SqlSync.csproj", "{4C771269-2868-4AA5-A290-F7B8D5C9C5A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.Tools", "Symbioz.Tools\Symbioz.Tools.csproj", "{E27A7E40-1479-4842-944D-EBB56BFAA3E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAXLib", "YAXLib\YAXLib.csproj", "{F1C4D174-C948-4D18-A125-F6855EF55683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D2P", "D2P\D2P.csproj", "{D6C6118A-870D-4178-89C6-D076B1A07454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.DofusConfig", "Symbioz.DofusConfig\Symbioz.DofusConfig.csproj", "{278EF849-97FC-4C93-8BD1-4F342076E29F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.D2I", "Symbioz.D2I\Symbioz.D2I.csproj", "{C93A58D0-CFAD-4613-8550-E46DA954DE22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.DofusMusic", "Symbioz.DofusMusic\Symbioz.DofusMusic.csproj", "{E3880B45-1BA0-4E16-9C13-824CF1651ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.UIModules", "Symbioz.UIModules\Symbioz.UIModules.csproj", "{474812DC-E74B-40AA-8012-99C4F92BFA0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06CDF5D1-D0EF-40CC-BDEF-DE9A5FEBAF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CDF5D1-D0EF-40CC-BDEF-DE9A5FEBAF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CDF5D1-D0EF-40CC-BDEF-DE9A5FEBAF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CDF5D1-D0EF-40CC-BDEF-DE9A5FEBAF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F5E960-0BC1-436B-B425-C35982F94F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F5E960-0BC1-436B-B425-C35982F94F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F5E960-0BC1-436B-B425-C35982F94F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F5E960-0BC1-436B-B425-C35982F94F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6F94A0-AE78-4B35-92AE-E7B76220712D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6F94A0-AE78-4B35-92AE-E7B76220712D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6F94A0-AE78-4B35-92AE-E7B76220712D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6F94A0-AE78-4B35-92AE-E7B76220712D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B63944E-85CB-4CEE-8276-17C9379ADABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B63944E-85CB-4CEE-8276-17C9379ADABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B63944E-85CB-4CEE-8276-17C9379ADABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B63944E-85CB-4CEE-8276-17C9379ADABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C77CC1-4F28-428E-B35B-CAC958F227C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C77CC1-4F28-428E-B35B-CAC958F227C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C77CC1-4F28-428E-B35B-CAC958F227C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C77CC1-4F28-428E-B35B-CAC958F227C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67E44ECF-9144-4F0A-AC69-7FD7C8650C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E44ECF-9144-4F0A-AC69-7FD7C8650C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E44ECF-9144-4F0A-AC69-7FD7C8650C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E44ECF-9144-4F0A-AC69-7FD7C8650C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2137E1C3-7975-48C9-A9AE-2237D0B65E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2137E1C3-7975-48C9-A9AE-2237D0B65E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2137E1C3-7975-48C9-A9AE-2237D0B65E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2137E1C3-7975-48C9-A9AE-2237D0B65E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C771269-2868-4AA5-A290-F7B8D5C9C5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C771269-2868-4AA5-A290-F7B8D5C9C5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C771269-2868-4AA5-A290-F7B8D5C9C5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C771269-2868-4AA5-A290-F7B8D5C9C5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27A7E40-1479-4842-944D-EBB56BFAA3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27A7E40-1479-4842-944D-EBB56BFAA3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27A7E40-1479-4842-944D-EBB56BFAA3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27A7E40-1479-4842-944D-EBB56BFAA3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C4D174-C948-4D18-A125-F6855EF55683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C4D174-C948-4D18-A125-F6855EF55683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C4D174-C948-4D18-A125-F6855EF55683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C4D174-C948-4D18-A125-F6855EF55683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C6118A-870D-4178-89C6-D076B1A07454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C6118A-870D-4178-89C6-D076B1A07454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C6118A-870D-4178-89C6-D076B1A07454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C6118A-870D-4178-89C6-D076B1A07454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278EF849-97FC-4C93-8BD1-4F342076E29F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278EF849-97FC-4C93-8BD1-4F342076E29F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278EF849-97FC-4C93-8BD1-4F342076E29F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278EF849-97FC-4C93-8BD1-4F342076E29F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C93A58D0-CFAD-4613-8550-E46DA954DE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93A58D0-CFAD-4613-8550-E46DA954DE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93A58D0-CFAD-4613-8550-E46DA954DE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93A58D0-CFAD-4613-8550-E46DA954DE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3880B45-1BA0-4E16-9C13-824CF1651ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3880B45-1BA0-4E16-9C13-824CF1651ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3880B45-1BA0-4E16-9C13-824CF1651ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3880B45-1BA0-4E16-9C13-824CF1651ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474812DC-E74B-40AA-8012-99C4F92BFA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474812DC-E74B-40AA-8012-99C4F92BFA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474812DC-E74B-40AA-8012-99C4F92BFA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474812DC-E74B-40AA-8012-99C4F92BFA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

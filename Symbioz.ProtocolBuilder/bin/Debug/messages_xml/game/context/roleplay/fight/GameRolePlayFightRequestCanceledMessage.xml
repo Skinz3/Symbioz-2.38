@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayFightRequestCanceledMessage</Name>
+	<Id>5822</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>fightId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>sourceId</Name>
+			<Type>double</Type>
+			<Condition>sourceId &lt; -9007199254740990 || sourceId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>targetId</Name>
+			<Type>double</Type>
+			<Condition>targetId &lt; -9007199254740990 || targetId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

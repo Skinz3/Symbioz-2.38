@@ -1,0 +1,33 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightJoinMessage</Name>
+	<Id>702</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>isTeamPhase</Name>
+			<Type>flag(0)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>canBeCancelled</Name>
+			<Type>flag(1)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>canSayReady</Name>
+			<Type>flag(2)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>isFightStarted</Name>
+			<Type>flag(3)</Type>
+		</XmlField>
+		<XmlField>
+			<Name>timeMaxBeforeFightStart</Name>
+			<Type>short</Type>
+			<Condition>timeMaxBeforeFightStart &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>fightType</Name>
+			<Type>sbyte</Type>
+			<Condition>fightType &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

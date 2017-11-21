@@ -1,0 +1,72 @@
+c:\users\skinz\documents\visual studio 2013\Projects\SSync\SSync\obj\Debug\SSync.csprojResolveAssemblyReference.cache
+c:\users\skinz\documents\visual studio 2013\Projects\SSync\SSync\bin\Debug\SSync.dll
+c:\users\skinz\documents\visual studio 2013\Projects\SSync\SSync\bin\Debug\SSync.pdb
+c:\users\skinz\documents\visual studio 2013\Projects\SSync\SSync\obj\Debug\SSync.dll
+c:\users\skinz\documents\visual studio 2013\Projects\SSync\SSync\obj\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\obj\Debug\SSync.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\obj\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\obj\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\SSync\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\SSync\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\SSync\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\SSync\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\SSync\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\SSync\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\SSync\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\SSync\obj\Debug\SSync.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\SSync\obj\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\SymbiozRepo\SSync\obj\Debug\SSync.pdb
+E:\SymbiozRepo\SSync\bin\Debug\SSync.dll
+E:\SymbiozRepo\SSync\bin\Debug\SSync.pdb
+E:\SymbiozRepo\SSync\bin\Debug\Symbioz.Core.dll
+E:\SymbiozRepo\SSync\bin\Debug\YAXLib.dll
+E:\SymbiozRepo\SSync\bin\Debug\Symbioz.Core.pdb
+E:\SymbiozRepo\SSync\bin\Debug\YAXLib.pdb
+E:\SymbiozRepo\SSync\bin\Debug\YAXLib.xml
+E:\SymbiozRepo\SSync\obj\Debug\SSync.csprojResolveAssemblyReference.cache
+E:\SymbiozRepo\SSync\obj\Debug\SSync.dll
+E:\SymbiozRepo\SSync\obj\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\SSync\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\SSync\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\SSync\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\SSync\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\SSync\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\SymbiozRepo\SSync\obj\Debug\SSync.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\SymbiozRepo\SSync\obj\Debug\SSync.dll
+C:\Users\Skinz\Desktop\SymbiozRepo\SSync\obj\Debug\SSync.pdb
+D:\Projets\Symbioz 2.34\SSync\bin\Debug\SSync.dll
+D:\Projets\Symbioz 2.34\SSync\bin\Debug\SSync.pdb
+D:\Projets\Symbioz 2.34\SSync\bin\Debug\Symbioz.Core.dll
+D:\Projets\Symbioz 2.34\SSync\bin\Debug\YAXLib.dll
+D:\Projets\Symbioz 2.34\SSync\bin\Debug\Symbioz.Core.pdb
+D:\Projets\Symbioz 2.34\SSync\obj\Debug\SSync.csprojResolveAssemblyReference.cache
+D:\Projets\Symbioz 2.34\SSync\obj\Debug\SSync.dll
+D:\Projets\Symbioz 2.34\SSync\obj\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\2.38\SSync\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\2.38\SSync\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\2.38\SSync\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\2.38\SSync\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\2.38\SSync\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\2.38\SSync\obj\Debug\SSync.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\2.38\SSync\obj\Debug\SSync.dll
+C:\Users\Skinz\Desktop\2.38\SSync\obj\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\2.38\SSync\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\2.38\SSync\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\bin\Debug\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\bin\Debug\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\bin\Debug\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\obj\Debug\SSync.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\obj\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\obj\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\obj\Debug\SSync.csproj.CoreCompileInputs.cache

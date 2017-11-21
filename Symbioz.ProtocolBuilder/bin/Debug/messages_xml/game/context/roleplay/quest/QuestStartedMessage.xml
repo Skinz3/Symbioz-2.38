@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>QuestStartedMessage</Name>
+	<Id>6091</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>questId</Name>
+			<Type>varuhshort</Type>
+			<Condition>questId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

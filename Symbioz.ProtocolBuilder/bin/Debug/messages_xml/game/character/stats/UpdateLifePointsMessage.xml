@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>UpdateLifePointsMessage</Name>
+	<Id>5658</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>lifePoints</Name>
+			<Type>varuhint</Type>
+			<Condition>lifePoints &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>maxLifePoints</Name>
+			<Type>varuhint</Type>
+			<Condition>maxLifePoints &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

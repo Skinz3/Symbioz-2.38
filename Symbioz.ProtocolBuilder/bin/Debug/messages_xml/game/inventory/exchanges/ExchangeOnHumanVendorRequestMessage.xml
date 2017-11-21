@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeOnHumanVendorRequestMessage</Name>
+	<Id>5772</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>humanVendorId</Name>
+			<Type>varuhlong</Type>
+			<Condition>humanVendorId &lt; 0 || humanVendorId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>humanVendorCell</Name>
+			<Type>varuhshort</Type>
+			<Condition>humanVendorCell &lt; 0 || humanVendorCell &gt; 559</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>HousePropertiesMessage</Name>
+	<Id>5734</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>properties</Name>
+			<Type>instance of Types.HouseInformations</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

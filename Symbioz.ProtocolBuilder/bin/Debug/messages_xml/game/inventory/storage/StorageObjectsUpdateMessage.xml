@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>StorageObjectsUpdateMessage</Name>
+	<Id>6036</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>objectList</Name>
+			<Type>Types.ObjectItem[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

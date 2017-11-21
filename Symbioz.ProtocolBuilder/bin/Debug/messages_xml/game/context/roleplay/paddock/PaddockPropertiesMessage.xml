@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PaddockPropertiesMessage</Name>
+	<Id>5824</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>properties</Name>
+			<Type>instance of Types.PaddockInformations</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

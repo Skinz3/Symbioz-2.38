@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>SymbioticObjectAssociatedMessage</Name>
+	<Id>6527</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>hostUID</Name>
+			<Type>varuhint</Type>
+			<Condition>hostUID &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

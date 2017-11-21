@@ -1,0 +1,25 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>MapComplementaryInformationsDataInHavenBagMessage</Name>
+	<Id>6622</Id>
+	<Heritage>MapComplementaryInformationsDataMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>ownerInformations</Name>
+			<Type>Types.CharacterMinimalInformations</Type>
+		</XmlField>
+		<XmlField>
+			<Name>theme</Name>
+			<Type>sbyte</Type>
+		</XmlField>
+		<XmlField>
+			<Name>roomId</Name>
+			<Type>sbyte</Type>
+			<Condition>roomId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>maxRoomId</Name>
+			<Type>sbyte</Type>
+			<Condition>maxRoomId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

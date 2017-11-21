@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightRefreshFighterMessage</Name>
+	<Id>6309</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>informations</Name>
+			<Type>instance of Types.GameContextActorInformations</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

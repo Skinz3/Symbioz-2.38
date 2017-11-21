@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>HouseGuildRightsMessage</Name>
+	<Id>5703</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>houseId</Name>
+			<Type>varuhint</Type>
+			<Condition>houseId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>guildInfo</Name>
+			<Type>Types.GuildInformations</Type>
+		</XmlField>
+		<XmlField>
+			<Name>rights</Name>
+			<Type>varuhint</Type>
+			<Condition>rights &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

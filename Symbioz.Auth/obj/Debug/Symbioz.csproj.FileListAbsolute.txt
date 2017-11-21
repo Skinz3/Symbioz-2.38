@@ -1,0 +1,13 @@
+c:\users\skinz\documents\visual studio 2013\Projects\Symbioz\Symbioz\bin\Debug\Symbioz.exe.config
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz\bin\Debug\Symbioz.exe.config
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz\bin\Debug\Symbioz.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz\bin\Debug\Symbioz.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz\bin\Debug\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz\bin\Debug\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz\bin\Debug\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz\bin\Debug\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz\obj\Debug\Symbioz.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz\obj\Debug\Symbioz.exe
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz\obj\Debug\Symbioz.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz\bin\Debug\Symbioz.Protocol.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\Symbioz\bin\Debug\Symbioz.Protocol.pdb

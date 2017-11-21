@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeStartOkHumanVendorMessage</Name>
+	<Id>5767</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>sellerId</Name>
+			<Type>double</Type>
+			<Condition>sellerId &lt; -9007199254740990 || sellerId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>objectsInfos</Name>
+			<Type>Types.ObjectItemToSellInHumanVendorShop[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

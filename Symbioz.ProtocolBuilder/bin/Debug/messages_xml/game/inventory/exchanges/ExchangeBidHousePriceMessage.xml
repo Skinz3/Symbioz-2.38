@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeBidHousePriceMessage</Name>
+	<Id>5805</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>genId</Name>
+			<Type>varuhshort</Type>
+			<Condition>genId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>DareRewardWonMessage</Name>
+	<Id>6678</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>reward</Name>
+			<Type>Types.DareReward</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

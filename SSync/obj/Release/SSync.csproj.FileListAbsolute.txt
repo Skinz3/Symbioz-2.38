@@ -1,0 +1,10 @@
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Release\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Release\SSync.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Release\Symbioz.Core.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Release\YAXLib.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Release\Symbioz.Core.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Release\YAXLib.pdb
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\bin\Release\YAXLib.xml
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\obj\Release\SSync.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\obj\Release\SSync.dll
+C:\Users\Skinz\Desktop\Symbioz 2.34\Symbioz\SSync\obj\Release\SSync.pdb

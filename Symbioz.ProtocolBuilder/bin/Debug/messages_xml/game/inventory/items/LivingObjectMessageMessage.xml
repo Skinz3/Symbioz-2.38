@@ -1,0 +1,26 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>LivingObjectMessageMessage</Name>
+	<Id>6065</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>msgId</Name>
+			<Type>varuhshort</Type>
+			<Condition>msgId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>timeStamp</Name>
+			<Type>int</Type>
+			<Condition>timeStamp &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>owner</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>objectGenericId</Name>
+			<Type>varuhshort</Type>
+			<Condition>objectGenericId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

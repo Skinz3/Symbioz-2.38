@@ -1,0 +1,27 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>CharacterExperienceGainMessage</Name>
+	<Id>6321</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>experienceCharacter</Name>
+			<Type>varuhlong</Type>
+			<Condition>experienceCharacter &lt; 0 || experienceCharacter &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>experienceMount</Name>
+			<Type>varuhlong</Type>
+			<Condition>experienceMount &lt; 0 || experienceMount &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>experienceGuild</Name>
+			<Type>varuhlong</Type>
+			<Condition>experienceGuild &lt; 0 || experienceGuild &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>experienceIncarnation</Name>
+			<Type>varuhlong</Type>
+			<Condition>experienceIncarnation &lt; 0 || experienceIncarnation &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

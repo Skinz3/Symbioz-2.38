@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>IgnoredDeleteRequestMessage</Name>
+	<Id>5680</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>accountId</Name>
+			<Type>int</Type>
+			<Condition>accountId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>session</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

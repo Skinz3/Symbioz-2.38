@@ -1,0 +1,27 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildChangeMemberParametersMessage</Name>
+	<Id>5549</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>memberId</Name>
+			<Type>varuhlong</Type>
+			<Condition>memberId &lt; 0 || memberId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>rank</Name>
+			<Type>varuhshort</Type>
+			<Condition>rank &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>experienceGivenPercent</Name>
+			<Type>sbyte</Type>
+			<Condition>experienceGivenPercent &lt; 0 || experienceGivenPercent &gt; 100</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>rights</Name>
+			<Type>varuhint</Type>
+			<Condition>rights &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

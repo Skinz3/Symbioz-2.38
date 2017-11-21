@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>RoomAvailableUpdateMessage</Name>
+	<Id>6630</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>nbRoom</Name>
+			<Type>byte</Type>
+			<Condition>nbRoom &lt; 0 || nbRoom &gt; 255</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

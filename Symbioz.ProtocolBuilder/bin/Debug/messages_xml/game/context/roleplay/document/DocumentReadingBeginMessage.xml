@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>DocumentReadingBeginMessage</Name>
+	<Id>5675</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>documentId</Name>
+			<Type>varuhshort</Type>
+			<Condition>documentId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

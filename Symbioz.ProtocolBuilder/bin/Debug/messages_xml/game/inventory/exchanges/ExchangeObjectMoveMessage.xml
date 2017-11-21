@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeObjectMoveMessage</Name>
+	<Id>5518</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>objectUID</Name>
+			<Type>varuhint</Type>
+			<Condition>objectUID &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>quantity</Name>
+			<Type>varint</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

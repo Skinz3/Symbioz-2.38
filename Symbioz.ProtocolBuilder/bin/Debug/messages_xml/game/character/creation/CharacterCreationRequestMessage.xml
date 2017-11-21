@@ -1,0 +1,29 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>CharacterCreationRequestMessage</Name>
+	<Id>160</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>name</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>breed</Name>
+			<Type>sbyte</Type>
+			<Condition>breed &lt; (byte)Enums.PlayableBreedEnum.Feca || breed &gt; (byte)Enums.PlayableBreedEnum.Huppermage</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>sex</Name>
+			<Type>boolean</Type>
+		</XmlField>
+		<XmlField>
+			<Name>colors</Name>
+			<Type>int[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>cosmeticId</Name>
+			<Type>varuhshort</Type>
+			<Condition>cosmeticId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

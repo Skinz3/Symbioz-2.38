@@ -1,0 +1,8 @@
+c:\Users\Freak\documents\visual studio 2013\Projects\Shader\Shader.ORM\bin\Debug\Shader.ORM.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\Shader\Shader.ORM\bin\Debug\Shader.ORM.pdb
+c:\Users\Freak\documents\visual studio 2013\Projects\Shader\Shader.ORM\bin\Debug\MySql.Data.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\Shader\Shader.ORM\obj\Debug\Shader.ORM.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\Shader\Shader.ORM\obj\Debug\Shader.ORM.pdb
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\Shader\Shader.ORM\obj\Debug\Shader.ORM.csprojResolveAssemblyReference.cache
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\Shader\Shader.ORM\bin\Debug\Shader.Helper.dll
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\Shader\Shader.ORM\bin\Debug\Shader.Helper.pdb

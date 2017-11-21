@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildVersatileInfoListMessage</Name>
+	<Id>6435</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>guilds</Name>
+			<Type>instance of Types.GuildVersatileInformations[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

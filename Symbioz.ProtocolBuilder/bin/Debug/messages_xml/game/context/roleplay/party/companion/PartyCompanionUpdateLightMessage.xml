@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PartyCompanionUpdateLightMessage</Name>
+	<Id>6472</Id>
+	<Heritage>PartyUpdateLightMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>indexId</Name>
+			<Type>sbyte</Type>
+			<Condition>indexId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

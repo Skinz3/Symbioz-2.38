@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TeleportBuddiesRequestedMessage</Name>
+	<Id>6302</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>dungeonId</Name>
+			<Type>varuhshort</Type>
+			<Condition>dungeonId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>inviterId</Name>
+			<Type>varuhlong</Type>
+			<Condition>inviterId &lt; 0 || inviterId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>invalidBuddiesIds</Name>
+			<Type>varuhlong[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

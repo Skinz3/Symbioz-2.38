@@ -1,0 +1,55 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildInfosUpgradeMessage</Name>
+	<Id>5636</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>maxTaxCollectorsCount</Name>
+			<Type>sbyte</Type>
+			<Condition>maxTaxCollectorsCount &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>taxCollectorsCount</Name>
+			<Type>sbyte</Type>
+			<Condition>taxCollectorsCount &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>taxCollectorLifePoints</Name>
+			<Type>varuhshort</Type>
+			<Condition>taxCollectorLifePoints &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>taxCollectorDamagesBonuses</Name>
+			<Type>varuhshort</Type>
+			<Condition>taxCollectorDamagesBonuses &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>taxCollectorPods</Name>
+			<Type>varuhshort</Type>
+			<Condition>taxCollectorPods &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>taxCollectorProspecting</Name>
+			<Type>varuhshort</Type>
+			<Condition>taxCollectorProspecting &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>taxCollectorWisdom</Name>
+			<Type>varuhshort</Type>
+			<Condition>taxCollectorWisdom &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>boostPoints</Name>
+			<Type>varuhshort</Type>
+			<Condition>boostPoints &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>spellId</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>spellLevel</Name>
+			<Type>sbyte[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

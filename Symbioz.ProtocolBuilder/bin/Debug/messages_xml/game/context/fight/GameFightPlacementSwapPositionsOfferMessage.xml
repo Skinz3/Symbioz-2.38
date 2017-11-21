@@ -1,0 +1,32 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightPlacementSwapPositionsOfferMessage</Name>
+	<Id>6542</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>requestId</Name>
+			<Type>int</Type>
+			<Condition>requestId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>requesterId</Name>
+			<Type>double</Type>
+			<Condition>requesterId &lt; -9007199254740990 || requesterId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>requesterCellId</Name>
+			<Type>varuhshort</Type>
+			<Condition>requesterCellId &lt; 0 || requesterCellId &gt; 559</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>requestedId</Name>
+			<Type>double</Type>
+			<Condition>requestedId &lt; -9007199254740990 || requestedId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>requestedCellId</Name>
+			<Type>varuhshort</Type>
+			<Condition>requestedCellId &lt; 0 || requestedCellId &gt; 559</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

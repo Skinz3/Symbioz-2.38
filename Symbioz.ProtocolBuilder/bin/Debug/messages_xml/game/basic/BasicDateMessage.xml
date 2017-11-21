@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>BasicDateMessage</Name>
+	<Id>177</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>day</Name>
+			<Type>sbyte</Type>
+			<Condition>day &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>month</Name>
+			<Type>sbyte</Type>
+			<Condition>month &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>year</Name>
+			<Type>short</Type>
+			<Condition>year &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>InviteInHavenBagClosedMessage</Name>
+	<Id>6645</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>hostInformations</Name>
+			<Type>Types.CharacterMinimalInformations</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,28 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightEndMessage</Name>
+	<Id>720</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>duration</Name>
+			<Type>int</Type>
+			<Condition>duration &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>ageBonus</Name>
+			<Type>short</Type>
+		</XmlField>
+		<XmlField>
+			<Name>lootShareLimitMalus</Name>
+			<Type>short</Type>
+		</XmlField>
+		<XmlField>
+			<Name>results</Name>
+			<Type>instance of Types.FightResultListEntry[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>namedPartyTeamsOutcomes</Name>
+			<Type>Types.NamedPartyTeamWithOutcome[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

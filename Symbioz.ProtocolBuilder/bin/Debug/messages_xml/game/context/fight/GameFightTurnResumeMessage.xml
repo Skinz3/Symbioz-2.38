@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightTurnResumeMessage</Name>
+	<Id>6307</Id>
+	<Heritage>GameFightTurnStartMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>remainingTime</Name>
+			<Type>varuhint</Type>
+			<Condition>remainingTime &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

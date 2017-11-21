@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameContextRemoveMultipleElementsWithEventsMessage</Name>
+	<Id>6416</Id>
+	<Heritage>GameContextRemoveMultipleElementsMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>elementEventIds</Name>
+			<Type>sbyte[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

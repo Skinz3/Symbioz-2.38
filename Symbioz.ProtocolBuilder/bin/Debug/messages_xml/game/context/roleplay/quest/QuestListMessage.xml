@@ -1,0 +1,23 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>QuestListMessage</Name>
+	<Id>5626</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>finishedQuestsIds</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>finishedQuestsCounts</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>activeQuests</Name>
+			<Type>instance of Types.QuestActiveInformations[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>reinitDoneQuestsIds</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

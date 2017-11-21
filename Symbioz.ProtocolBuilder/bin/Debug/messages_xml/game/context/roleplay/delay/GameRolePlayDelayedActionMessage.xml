@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayDelayedActionMessage</Name>
+	<Id>6153</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>delayedCharacterId</Name>
+			<Type>double</Type>
+			<Condition>delayedCharacterId &lt; -9007199254740990 || delayedCharacterId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>delayTypeId</Name>
+			<Type>sbyte</Type>
+			<Condition>delayTypeId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>delayEndTime</Name>
+			<Type>double</Type>
+			<Condition>delayEndTime &lt; 0 || delayEndTime &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayPlayerFightRequestMessage</Name>
+	<Id>5731</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>targetId</Name>
+			<Type>varuhlong</Type>
+			<Condition>targetId &lt; 0 || targetId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>targetCellId</Name>
+			<Type>short</Type>
+			<Condition>targetCellId &lt; -1 || targetCellId &gt; 559</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>friendly</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

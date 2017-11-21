@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameActionFightExchangePositionsMessage</Name>
+	<Id>5527</Id>
+	<Heritage>AbstractGameActionMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>targetId</Name>
+			<Type>double</Type>
+			<Condition>targetId &lt; -9007199254740990 || targetId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>casterCellId</Name>
+			<Type>short</Type>
+			<Condition>casterCellId &lt; -1 || casterCellId &gt; 559</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>targetCellId</Name>
+			<Type>short</Type>
+			<Condition>targetCellId &lt; -1 || targetCellId &gt; 559</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

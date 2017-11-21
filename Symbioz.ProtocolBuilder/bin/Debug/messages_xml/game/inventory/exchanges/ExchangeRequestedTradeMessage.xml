@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeRequestedTradeMessage</Name>
+	<Id>5523</Id>
+	<Heritage>ExchangeRequestedMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>source</Name>
+			<Type>varuhlong</Type>
+			<Condition>source &lt; 0 || source &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>target</Name>
+			<Type>varuhlong</Type>
+			<Condition>target &lt; 0 || target &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

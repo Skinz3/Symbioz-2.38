@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TaxCollectorListMessage</Name>
+	<Id>5930</Id>
+	<Heritage>AbstractTaxCollectorListMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>nbcollectorMax</Name>
+			<Type>sbyte</Type>
+			<Condition>nbcollectorMax &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>fightersInformations</Name>
+			<Type>Types.TaxCollectorFightersInformation[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

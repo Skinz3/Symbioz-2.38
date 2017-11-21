@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AccountLoggingKickedMessage</Name>
+	<Id>6029</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>days</Name>
+			<Type>varuhshort</Type>
+			<Condition>days &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>hours</Name>
+			<Type>sbyte</Type>
+			<Condition>hours &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>minutes</Name>
+			<Type>sbyte</Type>
+			<Condition>minutes &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>CharacterSelectedSuccessMessage</Name>
+	<Id>153</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>infos</Name>
+			<Type>Types.CharacterBaseInformations</Type>
+		</XmlField>
+		<XmlField>
+			<Name>isCollectingStats</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

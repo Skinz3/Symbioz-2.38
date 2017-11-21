@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TextInformationMessage</Name>
+	<Id>780</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>msgType</Name>
+			<Type>sbyte</Type>
+			<Condition>msgType &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>msgId</Name>
+			<Type>varuhshort</Type>
+			<Condition>msgId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>parameters</Name>
+			<Type>utf[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

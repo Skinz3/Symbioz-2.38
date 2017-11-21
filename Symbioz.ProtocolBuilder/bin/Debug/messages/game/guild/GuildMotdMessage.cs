@@ -1,0 +1,71 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Symbioz.Protocol.Types;
+using SSync.IO;
+using SSync.Messages;
+
+namespace Symbioz.Protocol.Messages
+{
+
+public class GuildMotdMessage : SocialNoticeMessage
+{
+
+public const ushort Id = 6590;
+public override ushort MessageId
+{
+    get { return Id; }
+}
+
+
+
+public GuildMotdMessage()
+{
+}
+
+public GuildMotdMessage(string content, int timestamp, ulong memberId, string memberName)
+         : base(content, timestamp, memberId, memberName)
+        {
+        }
+        
+
+public override void Serialize(ICustomDataOutput writer)
+{
+
+base.Serialize(writer);
+            
+
+}
+
+public override void Deserialize(ICustomDataInput reader)
+{
+
+base.Deserialize(reader);
+            
+
+}
+
+
+}
+
+
+}

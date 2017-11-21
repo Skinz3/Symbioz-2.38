@@ -1,0 +1,31 @@
+<WorldConfiguration>
+  <UseCustomHost>False</UseCustomHost>
+  <CustomHost></CustomHost>
+  <ServerId>30</ServerId>
+  <ServerName>Many</ServerName>
+  <ServerType>0</ServerType>
+  <SaveInterval>200</SaveInterval> 
+  <PerformBackup>False</PerformBackup>
+  <StartMapId>154010883</StartMapId>
+  <StartCellId>383</StartCellId>
+  <StartKamas>0</StartKamas>
+  <KamasRate>10</KamasRate>
+  <DropsRate>1</DropsRate>
+  <CraftRate>10</CraftRate>
+  <StartLevel>1</StartLevel>
+  <PlayDefaultCinematic>True</PlayDefaultCinematic>
+  <WelcomeMessage>Bienvenu sur Axiom! nous sommes content de vous revoir</WelcomeMessage>
+  <MapKey>649ae451ca33ec53bbcbcc33becf15f4</MapKey>
+  <ApLimit>12</ApLimit>
+  <MpLimit>6</MpLimit>
+  <Port>5555</Port>
+  <ShowProtocolMessages>True</ShowProtocolMessages>
+  <Host>127.0.0.1</Host>
+  <SafeRun>False</SafeRun>
+  <TransitionHost>127.0.0.1</TransitionHost>
+  <TransitionPort>600</TransitionPort>
+  <DatabaseHost>127.0.0.1</DatabaseHost>
+  <DatabaseUser>root</DatabaseUser>
+  <DatabasePassword></DatabasePassword>
+  <DatabaseName>symbioz_world</DatabaseName>
+</WorldConfiguration>

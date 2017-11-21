@@ -1,0 +1,24 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PaddockToSellFilterMessage</Name>
+	<Id>6161</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>areaId</Name>
+			<Type>int</Type>
+		</XmlField>
+		<XmlField>
+			<Name>atLeastNbMount</Name>
+			<Type>sbyte</Type>
+		</XmlField>
+		<XmlField>
+			<Name>atLeastNbMachine</Name>
+			<Type>sbyte</Type>
+		</XmlField>
+		<XmlField>
+			<Name>maxPrice</Name>
+			<Type>varuhint</Type>
+			<Condition>maxPrice &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

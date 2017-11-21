@@ -1,0 +1,29 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>SlaveSwitchContextMessage</Name>
+	<Id>6214</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>masterId</Name>
+			<Type>double</Type>
+			<Condition>masterId &lt; -9007199254740990 || masterId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>slaveId</Name>
+			<Type>double</Type>
+			<Condition>slaveId &lt; -9007199254740990 || slaveId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>slaveSpells</Name>
+			<Type>Types.SpellItem[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>slaveStats</Name>
+			<Type>Types.CharacterCharacteristicsInformations</Type>
+		</XmlField>
+		<XmlField>
+			<Name>shortcuts</Name>
+			<Type>instance of Types.Shortcut[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

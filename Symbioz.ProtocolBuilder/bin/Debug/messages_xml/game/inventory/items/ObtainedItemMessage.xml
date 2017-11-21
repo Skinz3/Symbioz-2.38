@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ObtainedItemMessage</Name>
+	<Id>6519</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>genericId</Name>
+			<Type>varuhshort</Type>
+			<Condition>genericId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>baseQuantity</Name>
+			<Type>varuhint</Type>
+			<Condition>baseQuantity &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

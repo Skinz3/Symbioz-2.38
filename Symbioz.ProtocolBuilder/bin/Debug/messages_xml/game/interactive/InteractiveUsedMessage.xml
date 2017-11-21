@@ -1,0 +1,31 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>InteractiveUsedMessage</Name>
+	<Id>5745</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>entityId</Name>
+			<Type>varuhlong</Type>
+			<Condition>entityId &lt; 0 || entityId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>elemId</Name>
+			<Type>varuhint</Type>
+			<Condition>elemId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>skillId</Name>
+			<Type>varuhshort</Type>
+			<Condition>skillId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>duration</Name>
+			<Type>varuhshort</Type>
+			<Condition>duration &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>canMove</Name>
+			<Type>boolean</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

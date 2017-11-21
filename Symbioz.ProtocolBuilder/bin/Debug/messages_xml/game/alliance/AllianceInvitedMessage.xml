@@ -1,0 +1,20 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AllianceInvitedMessage</Name>
+	<Id>6397</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>recruterId</Name>
+			<Type>varuhlong</Type>
+			<Condition>recruterId &lt; 0 || recruterId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>recruterName</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>allianceInfo</Name>
+			<Type>Types.BasicNamedAllianceInformations</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildPaddockBoughtMessage</Name>
+	<Id>5952</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>paddockInfo</Name>
+			<Type>Types.PaddockContentInformations</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

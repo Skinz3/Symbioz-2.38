@@ -1,0 +1,25 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TitlesAndOrnamentsListMessage</Name>
+	<Id>6367</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>titles</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>ornaments</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>activeTitle</Name>
+			<Type>varuhshort</Type>
+			<Condition>activeTitle &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>activeOrnament</Name>
+			<Type>varuhshort</Type>
+			<Condition>activeOrnament &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

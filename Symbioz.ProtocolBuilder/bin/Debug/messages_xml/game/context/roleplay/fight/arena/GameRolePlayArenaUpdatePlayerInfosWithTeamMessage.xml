@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameRolePlayArenaUpdatePlayerInfosWithTeamMessage</Name>
+	<Id>6640</Id>
+	<Heritage>GameRolePlayArenaUpdatePlayerInfosMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>team</Name>
+			<Type>Types.ArenaRankInfos</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

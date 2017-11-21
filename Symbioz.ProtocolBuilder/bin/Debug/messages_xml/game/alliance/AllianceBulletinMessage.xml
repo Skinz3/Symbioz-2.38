@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AllianceBulletinMessage</Name>
+	<Id>6690</Id>
+	<Heritage>BulletinMessage</Heritage>
+	<Fields />
+</XmlMessage>

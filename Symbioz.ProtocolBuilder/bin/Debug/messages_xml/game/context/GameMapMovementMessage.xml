@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameMapMovementMessage</Name>
+	<Id>951</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>keyMovements</Name>
+			<Type>short[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>actorId</Name>
+			<Type>double</Type>
+			<Condition>actorId &lt; -9007199254740990 || actorId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

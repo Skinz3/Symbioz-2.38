@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeCraftPaymentModificationRequestMessage</Name>
+	<Id>6579</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>quantity</Name>
+			<Type>varuhint</Type>
+			<Condition>quantity &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

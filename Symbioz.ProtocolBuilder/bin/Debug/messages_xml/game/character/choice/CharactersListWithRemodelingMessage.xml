@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>CharactersListWithRemodelingMessage</Name>
+	<Id>6550</Id>
+	<Heritage>CharactersListMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>charactersToRemodel</Name>
+			<Type>Types.CharacterToRemodelInformations[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

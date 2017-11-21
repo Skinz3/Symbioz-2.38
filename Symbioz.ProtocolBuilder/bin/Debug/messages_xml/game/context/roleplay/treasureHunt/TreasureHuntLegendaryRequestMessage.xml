@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TreasureHuntLegendaryRequestMessage</Name>
+	<Id>6499</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>legendaryId</Name>
+			<Type>varuhshort</Type>
+			<Condition>legendaryId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

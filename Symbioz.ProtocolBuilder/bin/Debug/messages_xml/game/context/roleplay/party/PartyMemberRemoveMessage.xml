@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PartyMemberRemoveMessage</Name>
+	<Id>5579</Id>
+	<Heritage>AbstractPartyEventMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>leavingPlayerId</Name>
+			<Type>varuhlong</Type>
+			<Condition>leavingPlayerId &lt; 0 || leavingPlayerId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

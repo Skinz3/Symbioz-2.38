@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ObjectFoundWhileRecoltingMessage</Name>
+	<Id>6017</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>genericId</Name>
+			<Type>varuhshort</Type>
+			<Condition>genericId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>quantity</Name>
+			<Type>varuhint</Type>
+			<Condition>quantity &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>resourceGenericId</Name>
+			<Type>varuhint</Type>
+			<Condition>resourceGenericId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

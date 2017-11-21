@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AchievementRewardRequestMessage</Name>
+	<Id>6377</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>achievementId</Name>
+			<Type>short</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

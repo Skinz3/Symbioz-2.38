@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>LivingObjectDissociateMessage</Name>
+	<Id>5723</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>livingUID</Name>
+			<Type>varuhint</Type>
+			<Condition>livingUID &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>livingPosition</Name>
+			<Type>byte</Type>
+			<Condition>livingPosition &lt; 0 || livingPosition &gt; 255</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

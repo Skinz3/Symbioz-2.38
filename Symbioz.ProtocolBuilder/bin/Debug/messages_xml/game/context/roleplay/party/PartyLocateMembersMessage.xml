@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PartyLocateMembersMessage</Name>
+	<Id>5595</Id>
+	<Heritage>AbstractPartyMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>geopositions</Name>
+			<Type>Types.PartyMemberGeoPosition[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

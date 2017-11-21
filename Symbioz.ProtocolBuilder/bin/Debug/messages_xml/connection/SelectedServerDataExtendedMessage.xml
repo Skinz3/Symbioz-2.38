@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>SelectedServerDataExtendedMessage</Name>
+	<Id>6469</Id>
+	<Heritage>SelectedServerDataMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>serverIds</Name>
+			<Type>varuhshort[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

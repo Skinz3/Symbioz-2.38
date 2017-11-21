@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeReadyMessage</Name>
+	<Id>5511</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>ready</Name>
+			<Type>boolean</Type>
+		</XmlField>
+		<XmlField>
+			<Name>step</Name>
+			<Type>varuhshort</Type>
+			<Condition>step &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

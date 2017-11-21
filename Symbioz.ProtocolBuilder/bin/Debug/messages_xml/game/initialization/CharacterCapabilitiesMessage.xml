@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>CharacterCapabilitiesMessage</Name>
+	<Id>6339</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>guildEmblemSymbolCategories</Name>
+			<Type>varuhint</Type>
+			<Condition>guildEmblemSymbolCategories &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,25 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeMountFreeFromPaddockMessage</Name>
+	<Id>6055</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>name</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>worldX</Name>
+			<Type>short</Type>
+			<Condition>worldX &lt; -255 || worldX &gt; 255</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>worldY</Name>
+			<Type>short</Type>
+			<Condition>worldY &lt; -255 || worldY &gt; 255</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>liberator</Name>
+			<Type>utf</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

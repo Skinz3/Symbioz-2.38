@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>MapComplementaryInformationsDataInHouseMessage</Name>
+	<Id>6130</Id>
+	<Heritage>MapComplementaryInformationsDataMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>currentHouse</Name>
+			<Type>Types.HouseInformationsInside</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

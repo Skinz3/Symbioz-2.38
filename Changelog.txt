@@ -1,0 +1,34 @@
+
+
+Symbioz 10.04.2017 Changelog
+
+
+
+
+Roleplay:
+
+-Cartes
+-Banque
+-Enclos, Monture
+-Montiliers / Familiers
+-Interactives
+-Donjons
+-Metiers (Récolte, Craft)
+-Inventaire
+-Portails et Dimensions
+-Hotels de Vente
+-Cinematiques
+-Mimibiotes
+-Objets Vivants
+-Titres et Ornements
+-Documents
+-Alignements
+-PNJ's
+
+
+
+
+Fight:
+
+-PvM,PvP,DayFight,Kolizeum,Agressions
+-Iop, Cra, Eliotrope, Sram, Feca, Osamodas, Enutrof, Ecaflip, Eniripsa, Sacrieur, Pandawa, Zobal, Eliotrope, Huppermage

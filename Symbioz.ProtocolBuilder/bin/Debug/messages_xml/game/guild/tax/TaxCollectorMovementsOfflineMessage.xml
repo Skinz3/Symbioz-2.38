@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TaxCollectorMovementsOfflineMessage</Name>
+	<Id>6611</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>movements</Name>
+			<Type>Types.TaxCollectorMovement[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

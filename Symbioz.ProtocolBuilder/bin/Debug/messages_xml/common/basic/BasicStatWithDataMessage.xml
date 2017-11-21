@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>BasicStatWithDataMessage</Name>
+	<Id>6573</Id>
+	<Heritage>BasicStatMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>datas</Name>
+			<Type>instance of Types.StatisticData[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

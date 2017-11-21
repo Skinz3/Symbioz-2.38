@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>MountEmoteIconUsedOkMessage</Name>
+	<Id>5978</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>mountId</Name>
+			<Type>varint</Type>
+		</XmlField>
+		<XmlField>
+			<Name>reactionType</Name>
+			<Type>sbyte</Type>
+			<Condition>reactionType &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

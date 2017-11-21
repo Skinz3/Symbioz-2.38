@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ObjectAddedMessage</Name>
+	<Id>3025</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>@object</Name>
+			<Type>Types.ObjectItem</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

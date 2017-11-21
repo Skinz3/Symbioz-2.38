@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>EmotePlayAbstractMessage</Name>
+	<Id>5690</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>emoteId</Name>
+			<Type>byte</Type>
+			<Condition>emoteId &lt; 0 || emoteId &gt; 255</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>emoteStartTime</Name>
+			<Type>double</Type>
+			<Condition>emoteStartTime &lt; -9007199254740990 || emoteStartTime &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

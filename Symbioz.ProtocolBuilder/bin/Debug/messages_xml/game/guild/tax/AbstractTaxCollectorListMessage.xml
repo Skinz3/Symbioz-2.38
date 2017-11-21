@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>AbstractTaxCollectorListMessage</Name>
+	<Id>6568</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>informations</Name>
+			<Type>instance of Types.TaxCollectorInformations[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

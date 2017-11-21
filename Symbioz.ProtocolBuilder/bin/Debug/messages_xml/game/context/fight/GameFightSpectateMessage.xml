@@ -1,0 +1,29 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameFightSpectateMessage</Name>
+	<Id>6069</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>effects</Name>
+			<Type>Types.FightDispellableEffectExtendedInformations[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>marks</Name>
+			<Type>Types.GameActionMark[]</Type>
+		</XmlField>
+		<XmlField>
+			<Name>gameTurn</Name>
+			<Type>varuhshort</Type>
+			<Condition>gameTurn &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>fightStart</Name>
+			<Type>int</Type>
+			<Condition>fightStart &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>idols</Name>
+			<Type>Types.Idol[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

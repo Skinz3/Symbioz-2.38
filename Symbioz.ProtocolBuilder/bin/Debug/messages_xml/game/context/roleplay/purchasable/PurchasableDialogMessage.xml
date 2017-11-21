@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PurchasableDialogMessage</Name>
+	<Id>5739</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>buyOrSell</Name>
+			<Type>boolean</Type>
+		</XmlField>
+		<XmlField>
+			<Name>purchasableId</Name>
+			<Type>varuhint</Type>
+			<Condition>purchasableId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>price</Name>
+			<Type>varuhint</Type>
+			<Condition>price &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

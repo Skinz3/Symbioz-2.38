@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>StorageInventoryContentMessage</Name>
+	<Id>5646</Id>
+	<Heritage>InventoryContentMessage</Heritage>
+	<Fields />
+</XmlMessage>

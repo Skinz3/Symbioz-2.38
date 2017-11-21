@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildPaddockTeleportRequestMessage</Name>
+	<Id>5957</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>paddockId</Name>
+			<Type>int</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

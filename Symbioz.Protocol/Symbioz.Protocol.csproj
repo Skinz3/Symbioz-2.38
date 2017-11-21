@@ -1,0 +1,1677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67E44ECF-9144-4F0A-AC69-7FD7C8650C71}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Symbioz.Protocol</RootNamespace>
+    <AssemblyName>Symbioz.Protocol</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BooleanByteWrapper.cs" />
+    <Compile Include="enums\AccessoryPreviewErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\AggressableStatusEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\AlignmentSideEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\AllianceRightsBitEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\BoostableCharacteristicEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\BreedEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\BuildTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\CharacterCreationResultEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\CharacterDeletionErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\CharacterInventoryPositionEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\CharacterRemodelingEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\CharacterSpellModificationTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ChatActivableChannelsEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ChatChannelsMultiEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ChatErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ClientInstallTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ClientTechnologyEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\CompassTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ConsoleMessageTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\CraftResultEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\DareCriteriaTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\DareErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\DebugLevelEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\DelayedActionTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\DialogTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\DirectionsEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ExchangeErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ExchangeReplayStopReasonEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ExchangeTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\FightDispellableEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\FighterRefusedReasonEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\FightOptionsEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\FightOutcomeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\FightSpellCastCriticalEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\FightTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\GameActionFightInvisibilityStateEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\GameActionMarkCellsTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\GameActionMarkTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\GameContextEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\GameHierarchyEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\GuestLimitationEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\GuildInformationsTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\GuildRightsBitEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\HaapiTokenTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\HardcoreOrEpicDeathStateEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\HavenBagDailyLoteryErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\IdentificationFailureReasonEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ListAddFailureEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\MapObstacleStateEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\MountEquipedErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\NicknameErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\NicknameGeneratingFailureEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ObjectErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PartStateEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PartyJoinErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PartyNameErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PartyTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PlayableBreedEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PlayerLifeStatusEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PlayerStateEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PlayerStatusEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PresetDeleteResultEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PresetSaveResultEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PresetSaveUpdateErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PresetUseResultEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PrismListenEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PrismSetSabotagedRefusedReasonEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PrismStateEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PvpArenaStepEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\PvpArenaTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\SequenceTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ServerCompletionEnum.cs" />
+    <Compile Include="enums\ServerConnectionErrorEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ServerStatusEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\ShortcutBarEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\SocialContactCategoryEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\SocialGroupCreationResultEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\SocialGroupInvitationStateEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\SocialNoticeErrorEnum.cs" />
+    <Compile Include="enums\StatisticTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\StatsUpgradeResultEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\SubEntityBindingPointCategoryEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\SubscriptionRequiredEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\TaxCollectorErrorReasonEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\TaxCollectorMovementTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\TaxCollectorStateEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\TeamEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\TeamTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\TeleporterTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\TextInformationTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\TreasureHuntDigRequestEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\TreasureHuntFlagRequestEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\TreasureHuntFlagStateEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\TreasureHuntRequestEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\TreasureHuntTypeEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enums\UpdatableMountBoostEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Messages\authorized\AdminCommandMessage.cs" />
+    <Compile Include="Messages\authorized\AdminQuietCommandMessage.cs" />
+    <Compile Include="Messages\authorized\ConsoleCommandsListMessage.cs" />
+    <Compile Include="Messages\authorized\ConsoleMessage.cs" />
+    <Compile Include="Messages\common\basic\AggregateStatMessage.cs" />
+    <Compile Include="Messages\common\basic\AggregateStatWithDataMessage.cs" />
+    <Compile Include="Messages\common\basic\BasicPingMessage.cs" />
+    <Compile Include="Messages\common\basic\BasicPongMessage.cs" />
+    <Compile Include="Messages\common\basic\BasicStatMessage.cs" />
+    <Compile Include="Messages\common\basic\BasicStatWithDataMessage.cs" />
+    <Compile Include="Messages\common\NetworkDataContainerMessage.cs" />
+    <Compile Include="Messages\connection\CredentialsAcknowledgementMessage.cs" />
+    <Compile Include="Messages\connection\HelloConnectMessage.cs" />
+    <Compile Include="Messages\connection\IdentificationAccountForceMessage.cs" />
+    <Compile Include="Messages\connection\IdentificationFailedBannedMessage.cs" />
+    <Compile Include="Messages\connection\IdentificationFailedForBadVersionMessage.cs" />
+    <Compile Include="Messages\connection\IdentificationFailedMessage.cs" />
+    <Compile Include="Messages\connection\IdentificationMessage.cs" />
+    <Compile Include="Messages\connection\IdentificationSuccessMessage.cs" />
+    <Compile Include="Messages\connection\IdentificationSuccessWithLoginTokenMessage.cs" />
+    <Compile Include="Messages\connection\register\AccountLinkRequiredMessage.cs" />
+    <Compile Include="Messages\connection\register\NicknameAcceptedMessage.cs" />
+    <Compile Include="Messages\connection\register\NicknameChoiceRequestMessage.cs" />
+    <Compile Include="Messages\connection\register\NicknameRefusedMessage.cs" />
+    <Compile Include="Messages\connection\register\NicknameRegistrationMessage.cs" />
+    <Compile Include="Messages\connection\search\AcquaintanceSearchErrorMessage.cs" />
+    <Compile Include="Messages\connection\search\AcquaintanceSearchMessage.cs" />
+    <Compile Include="Messages\connection\search\AcquaintanceServerListMessage.cs" />
+    <Compile Include="Messages\connection\SelectedServerDataExtendedMessage.cs" />
+    <Compile Include="Messages\connection\SelectedServerDataMessage.cs" />
+    <Compile Include="Messages\connection\SelectedServerRefusedMessage.cs" />
+    <Compile Include="Messages\connection\ServerSelectionMessage.cs" />
+    <Compile Include="Messages\connection\ServersListMessage.cs" />
+    <Compile Include="Messages\connection\ServerStatusUpdateMessage.cs" />
+    <Compile Include="Messages\debug\DebugClearHighlightCellsMessage.cs" />
+    <Compile Include="Messages\debug\DebugHighlightCellsMessage.cs" />
+    <Compile Include="Messages\debug\DebugInClientMessage.cs" />
+    <Compile Include="Messages\game\achievement\AchievementDetailedListMessage.cs" />
+    <Compile Include="Messages\game\achievement\AchievementDetailedListRequestMessage.cs" />
+    <Compile Include="Messages\game\achievement\AchievementDetailsMessage.cs" />
+    <Compile Include="Messages\game\achievement\AchievementDetailsRequestMessage.cs" />
+    <Compile Include="Messages\game\achievement\AchievementFinishedInformationMessage.cs" />
+    <Compile Include="Messages\game\achievement\AchievementFinishedMessage.cs" />
+    <Compile Include="Messages\game\achievement\AchievementListMessage.cs" />
+    <Compile Include="Messages\game\achievement\AchievementRewardErrorMessage.cs" />
+    <Compile Include="Messages\game\achievement\AchievementRewardRequestMessage.cs" />
+    <Compile Include="Messages\game\achievement\AchievementRewardSuccessMessage.cs" />
+    <Compile Include="Messages\game\achievement\FriendGuildSetWarnOnAchievementCompleteMessage.cs" />
+    <Compile Include="Messages\game\achievement\FriendGuildWarnOnAchievementCompleteStateMessage.cs" />
+    <Compile Include="Messages\game\actions\AbstractGameActionMessage.cs" />
+    <Compile Include="Messages\game\actions\AbstractGameActionWithAckMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\AbstractGameActionFightTargetedAbilityMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightActivateGlyphTrapMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightCarryCharacterMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightCastOnTargetRequestMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightCastRequestMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightChangeLookMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightCloseCombatMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightDeathMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightDispellableEffectMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightDispellEffectMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightDispellMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightDispellSpellMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightDodgePointLossMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightDropCharacterMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightExchangePositionsMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightInvisibilityMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightInvisibleDetectedMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightKillMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightLifeAndShieldPointsLostMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightLifePointsGainMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightLifePointsLostMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightMarkCellsMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightModifyEffectsDurationMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightNoSpellCastMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightPointsVariationMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightReduceDamagesMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightReflectDamagesMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightReflectSpellMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightSlideMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightSpellCastMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightSpellCooldownVariationMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightSpellImmunityMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightStealKamaMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightSummonMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightTackledMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightTeleportOnSameMapMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightThrowCharacterMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightTriggerEffectMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightTriggerGlyphTrapMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightUnmarkCellsMessage.cs" />
+    <Compile Include="Messages\game\actions\fight\GameActionFightVanishMessage.cs" />
+    <Compile Include="Messages\game\actions\GameActionAcknowledgementMessage.cs" />
+    <Compile Include="Messages\game\actions\GameActionNoopMessage.cs" />
+    <Compile Include="Messages\game\actions\sequence\SequenceEndMessage.cs" />
+    <Compile Include="Messages\game\actions\sequence\SequenceStartMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceChangeGuildRightsMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceCreationResultMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceCreationStartedMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceCreationValidMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceFactsErrorMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceFactsMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceFactsRequestMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceGuildLeavingMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceInsiderInfoMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceInsiderInfoRequestMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceInvitationAnswerMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceInvitationMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceInvitationStateRecrutedMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceInvitationStateRecruterMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceInvitedMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceJoinedMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceKickRequestMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceLeftMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceListMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceMembershipMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceModificationEmblemValidMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceModificationNameAndTagValidMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceModificationStartedMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceModificationValidMessage.cs" />
+    <Compile Include="Messages\game\alliance\AlliancePartialListMessage.cs" />
+    <Compile Include="Messages\game\alliance\AllianceVersatileInfoListMessage.cs" />
+    <Compile Include="Messages\game\alliance\KohUpdateMessage.cs" />
+    <Compile Include="Messages\game\almanach\AlmanachCalendarDateMessage.cs" />
+    <Compile Include="Messages\game\approach\AccountCapabilitiesMessage.cs" />
+    <Compile Include="Messages\game\approach\AccountLoggingKickedMessage.cs" />
+    <Compile Include="Messages\game\approach\AlreadyConnectedMessage.cs" />
+    <Compile Include="Messages\game\approach\AuthenticationTicketAcceptedMessage.cs" />
+    <Compile Include="Messages\game\approach\AuthenticationTicketMessage.cs" />
+    <Compile Include="Messages\game\approach\AuthenticationTicketRefusedMessage.cs" />
+    <Compile Include="Messages\game\approach\HelloGameMessage.cs" />
+    <Compile Include="Messages\game\approach\ReloginTokenRequestMessage.cs" />
+    <Compile Include="Messages\game\approach\ReloginTokenStatusMessage.cs" />
+    <Compile Include="Messages\game\approach\ServerOptionalFeaturesMessage.cs" />
+    <Compile Include="Messages\game\approach\ServerSessionConstantsMessage.cs" />
+    <Compile Include="Messages\game\approach\ServerSettingsMessage.cs" />
+    <Compile Include="Messages\game\atlas\AtlasPointInformationsMessage.cs" />
+    <Compile Include="Messages\game\atlas\compass\CompassResetMessage.cs" />
+    <Compile Include="Messages\game\atlas\compass\CompassUpdateMessage.cs" />
+    <Compile Include="Messages\game\atlas\compass\CompassUpdatePartyMemberMessage.cs" />
+    <Compile Include="Messages\game\atlas\compass\CompassUpdatePvpSeekMessage.cs" />
+    <Compile Include="Messages\game\basic\BasicAckMessage.cs" />
+    <Compile Include="Messages\game\basic\BasicDateMessage.cs" />
+    <Compile Include="Messages\game\basic\BasicLatencyStatsMessage.cs" />
+    <Compile Include="Messages\game\basic\BasicLatencyStatsRequestMessage.cs" />
+    <Compile Include="Messages\game\basic\BasicNoOperationMessage.cs" />
+    <Compile Include="Messages\game\basic\BasicTimeMessage.cs" />
+    <Compile Include="Messages\game\basic\BasicWhoAmIRequestMessage.cs" />
+    <Compile Include="Messages\game\basic\BasicWhoIsMessage.cs" />
+    <Compile Include="Messages\game\basic\BasicWhoIsNoMatchMessage.cs" />
+    <Compile Include="Messages\game\basic\BasicWhoIsRequestMessage.cs" />
+    <Compile Include="Messages\game\basic\CurrentServerStatusUpdateMessage.cs" />
+    <Compile Include="Messages\game\basic\NumericWhoIsMessage.cs" />
+    <Compile Include="Messages\game\basic\NumericWhoIsRequestMessage.cs" />
+    <Compile Include="Messages\game\basic\SequenceNumberMessage.cs" />
+    <Compile Include="Messages\game\basic\SequenceNumberRequestMessage.cs" />
+    <Compile Include="Messages\game\basic\TextInformationMessage.cs" />
+    <Compile Include="Messages\game\character\choice\BasicCharactersListMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharacterFirstSelectionMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharacterReplayWithRemodelRequestMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharacterSelectedErrorMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharacterSelectedForceMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharacterSelectedForceReadyMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharacterSelectedSuccessMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharacterSelectionMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharacterSelectionWithRemodelMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharactersListErrorMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharactersListMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharactersListRequestMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharactersListWithModificationsMessage.cs" />
+    <Compile Include="Messages\game\character\choice\CharactersListWithRemodelingMessage.cs" />
+    <Compile Include="Messages\game\character\creation\CharacterCreationRequestMessage.cs" />
+    <Compile Include="Messages\game\character\creation\CharacterCreationResultMessage.cs" />
+    <Compile Include="Messages\game\character\creation\CharacterNameSuggestionFailureMessage.cs" />
+    <Compile Include="Messages\game\character\creation\CharacterNameSuggestionRequestMessage.cs" />
+    <Compile Include="Messages\game\character\creation\CharacterNameSuggestionSuccessMessage.cs" />
+    <Compile Include="Messages\game\character\deletion\CharacterDeletionErrorMessage.cs" />
+    <Compile Include="Messages\game\character\deletion\CharacterDeletionRequestMessage.cs" />
+    <Compile Include="Messages\game\character\replay\CharacterReplayRequestMessage.cs" />
+    <Compile Include="Messages\game\character\stats\CharacterExperienceGainMessage.cs" />
+    <Compile Include="Messages\game\character\stats\CharacterLevelUpInformationMessage.cs" />
+    <Compile Include="Messages\game\character\stats\CharacterLevelUpMessage.cs" />
+    <Compile Include="Messages\game\character\stats\CharacterStatsListMessage.cs" />
+    <Compile Include="Messages\game\character\stats\FighterStatsListMessage.cs" />
+    <Compile Include="Messages\game\character\stats\LifePointsRegenBeginMessage.cs" />
+    <Compile Include="Messages\game\character\stats\LifePointsRegenEndMessage.cs" />
+    <Compile Include="Messages\game\character\stats\UpdateLifePointsMessage.cs" />
+    <Compile Include="Messages\game\character\status\PlayerStatusUpdateErrorMessage.cs" />
+    <Compile Include="Messages\game\character\status\PlayerStatusUpdateMessage.cs" />
+    <Compile Include="Messages\game\character\status\PlayerStatusUpdateRequestMessage.cs" />
+    <Compile Include="Messages\game\chat\channel\ChannelEnablingChangeMessage.cs" />
+    <Compile Include="Messages\game\chat\channel\ChannelEnablingMessage.cs" />
+    <Compile Include="Messages\game\chat\channel\EnabledChannelsMessage.cs" />
+    <Compile Include="Messages\game\chat\ChatAbstractClientMessage.cs" />
+    <Compile Include="Messages\game\chat\ChatAbstractServerMessage.cs" />
+    <Compile Include="Messages\game\chat\ChatAdminServerMessage.cs" />
+    <Compile Include="Messages\game\chat\ChatClientMultiMessage.cs" />
+    <Compile Include="Messages\game\chat\ChatClientMultiWithObjectMessage.cs" />
+    <Compile Include="Messages\game\chat\ChatClientPrivateMessage.cs" />
+    <Compile Include="Messages\game\chat\ChatClientPrivateWithObjectMessage.cs" />
+    <Compile Include="Messages\game\chat\ChatErrorMessage.cs" />
+    <Compile Include="Messages\game\chat\ChatServerCopyMessage.cs" />
+    <Compile Include="Messages\game\chat\ChatServerCopyWithObjectMessage.cs" />
+    <Compile Include="Messages\game\chat\ChatServerMessage.cs" />
+    <Compile Include="Messages\game\chat\ChatServerWithObjectMessage.cs" />
+    <Compile Include="Messages\game\chat\report\ChatMessageReportMessage.cs" />
+    <Compile Include="Messages\game\chat\smiley\ChatSmileyExtraPackListMessage.cs" />
+    <Compile Include="Messages\game\chat\smiley\ChatSmileyMessage.cs" />
+    <Compile Include="Messages\game\chat\smiley\ChatSmileyRequestMessage.cs" />
+    <Compile Include="Messages\game\chat\smiley\LocalizedChatSmileyMessage.cs" />
+    <Compile Include="Messages\game\chat\smiley\MoodSmileyRequestMessage.cs" />
+    <Compile Include="Messages\game\chat\smiley\MoodSmileyResultMessage.cs" />
+    <Compile Include="Messages\game\chat\smiley\MoodSmileyUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\display\DisplayNumericalValuePaddockMessage.cs" />
+    <Compile Include="Messages\game\context\dungeon\DungeonKeyRingMessage.cs" />
+    <Compile Include="Messages\game\context\dungeon\DungeonKeyRingUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\fight\challenge\ChallengeInfoMessage.cs" />
+    <Compile Include="Messages\game\context\fight\challenge\ChallengeResultMessage.cs" />
+    <Compile Include="Messages\game\context\fight\challenge\ChallengeTargetsListMessage.cs" />
+    <Compile Include="Messages\game\context\fight\challenge\ChallengeTargetsListRequestMessage.cs" />
+    <Compile Include="Messages\game\context\fight\challenge\ChallengeTargetUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\fight\character\GameFightRefreshFighterMessage.cs" />
+    <Compile Include="Messages\game\context\fight\character\GameFightShowFighterMessage.cs" />
+    <Compile Include="Messages\game\context\fight\character\GameFightShowFighterRandomStaticPoseMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightEndMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightHumanReadyStateMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightJoinMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightJoinRequestMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightLeaveMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightNewRoundMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightNewWaveMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightOptionStateUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightOptionToggleMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightPlacementPositionRequestMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightPlacementPossiblePositionsMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightPlacementSwapPositionsAcceptMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightPlacementSwapPositionsCancelledMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightPlacementSwapPositionsCancelMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightPlacementSwapPositionsErrorMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightPlacementSwapPositionsMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightPlacementSwapPositionsOfferMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightPlacementSwapPositionsRequestMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightReadyMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightRemoveTeamMemberMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightResumeMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightResumeWithSlavesMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightSpectateMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightSpectatePlayerRequestMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightSpectatorJoinMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightStartingMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightStartMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightSynchronizeMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightTurnEndMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightTurnFinishMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightTurnListMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightTurnReadyMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightTurnReadyRequestMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightTurnResumeMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightTurnStartMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightTurnStartPlayingMessage.cs" />
+    <Compile Include="Messages\game\context\fight\GameFightUpdateTeamMessage.cs" />
+    <Compile Include="Messages\game\context\fight\SlaveSwitchContextMessage.cs" />
+    <Compile Include="Messages\game\context\GameCautiousMapMovementMessage.cs" />
+    <Compile Include="Messages\game\context\GameCautiousMapMovementRequestMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextCreateErrorMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextCreateMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextCreateRequestMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextDestroyMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextKickMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextMoveElementMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextMoveMultipleElementsMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextQuitMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextReadyMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextRefreshEntityLookMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextRemoveElementMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextRemoveElementWithEventMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextRemoveMultipleElementsMessage.cs" />
+    <Compile Include="Messages\game\context\GameContextRemoveMultipleElementsWithEventsMessage.cs" />
+    <Compile Include="Messages\game\context\GameEntitiesDispositionMessage.cs" />
+    <Compile Include="Messages\game\context\GameEntityDispositionErrorMessage.cs" />
+    <Compile Include="Messages\game\context\GameEntityDispositionMessage.cs" />
+    <Compile Include="Messages\game\context\GameMapChangeOrientationMessage.cs" />
+    <Compile Include="Messages\game\context\GameMapChangeOrientationRequestMessage.cs" />
+    <Compile Include="Messages\game\context\GameMapChangeOrientationsMessage.cs" />
+    <Compile Include="Messages\game\context\GameMapMovementCancelMessage.cs" />
+    <Compile Include="Messages\game\context\GameMapMovementConfirmMessage.cs" />
+    <Compile Include="Messages\game\context\GameMapMovementMessage.cs" />
+    <Compile Include="Messages\game\context\GameMapMovementRequestMessage.cs" />
+    <Compile Include="Messages\game\context\GameMapNoMovementMessage.cs" />
+    <Compile Include="Messages\game\context\GameRefreshMonsterBoostsMessage.cs" />
+    <Compile Include="Messages\game\context\mount\GameDataPaddockObjectAddMessage.cs" />
+    <Compile Include="Messages\game\context\mount\GameDataPaddockObjectListAddMessage.cs" />
+    <Compile Include="Messages\game\context\mount\GameDataPaddockObjectRemoveMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountDataErrorMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountDataMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountEmoteIconUsedOkMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountEquipedErrorMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountFeedRequestMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountInformationInPaddockRequestMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountInformationRequestMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountReleasedMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountReleaseRequestMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountRenamedMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountRenameRequestMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountRidingMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountSetMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountSetXpRatioRequestMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountSterilizedMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountSterilizeRequestMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountToggleRidingRequestMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountUnSetMessage.cs" />
+    <Compile Include="Messages\game\context\mount\MountXpRatioMessage.cs" />
+    <Compile Include="Messages\game\context\mount\PaddockBuyRequestMessage.cs" />
+    <Compile Include="Messages\game\context\mount\PaddockBuyResultMessage.cs" />
+    <Compile Include="Messages\game\context\mount\PaddockMoveItemRequestMessage.cs" />
+    <Compile Include="Messages\game\context\mount\PaddockRemoveItemRequestMessage.cs" />
+    <Compile Include="Messages\game\context\mount\PaddockSellRequestMessage.cs" />
+    <Compile Include="Messages\game\context\notification\NotificationByServerMessage.cs" />
+    <Compile Include="Messages\game\context\notification\NotificationListMessage.cs" />
+    <Compile Include="Messages\game\context\notification\NotificationResetMessage.cs" />
+    <Compile Include="Messages\game\context\notification\NotificationUpdateFlagMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\ChangeMapMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\CurrentMapMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\death\GameRolePlayFreeSoulRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\death\GameRolePlayGameOverMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\death\GameRolePlayPlayerLifeStatusMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\death\WarnOnPermaDeathMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\delay\GameRolePlayDelayedActionFinishedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\delay\GameRolePlayDelayedActionMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\delay\GameRolePlayDelayedObjectUseMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\document\ComicReadingBeginMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\document\DocumentReadingBeginMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\emote\EmoteAddMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\emote\EmoteListMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\emote\EmotePlayAbstractMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\emote\EmotePlayErrorMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\emote\EmotePlayMassiveMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\emote\EmotePlayMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\emote\EmotePlayRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\emote\EmoteRemoveMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\ErrorMapNotFoundMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\arena\GameRolePlayArenaFightAnswerMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\arena\GameRolePlayArenaFighterStatusMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\arena\GameRolePlayArenaFightPropositionMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\arena\GameRolePlayArenaRegisterMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\arena\GameRolePlayArenaRegistrationStatusMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\arena\GameRolePlayArenaSwitchToFightServerMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\arena\GameRolePlayArenaSwitchToGameServerMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\arena\GameRolePlayArenaUnregisterMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\arena\GameRolePlayArenaUpdatePlayerInfosMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\arena\GameRolePlayArenaUpdatePlayerInfosWithTeamMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\GameRolePlayAggressionMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\GameRolePlayAttackMonsterRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\GameRolePlayFightRequestCanceledMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\GameRolePlayPlayerFightFriendlyAnsweredMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\GameRolePlayPlayerFightFriendlyAnswerMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\GameRolePlayPlayerFightFriendlyRequestedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\GameRolePlayPlayerFightRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\GameRolePlayRemoveChallengeMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\fight\GameRolePlayShowChallengeMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\GameRolePlayShowActorMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\GameRolePlayShowActorWithEventMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\ChangeHavenBagRoomRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\ChangeThemeRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\CloseHavenBagFurnitureSequenceRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\EditHavenBagCancelRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\EditHavenBagFinishedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\EditHavenBagRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\EditHavenBagStartMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\EnterHavenBagRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\ExitHavenBagRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\HavenBagDailyLoteryMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\HavenBagFurnituresMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\HavenBagFurnituresRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\HavenBagPackListMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\KickHavenBagRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\meeting\InviteInHavenBagClosedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\meeting\InviteInHavenBagMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\meeting\InviteInHavenBagOfferMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\meeting\TeleportHavenBagAnswerMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\meeting\TeleportHavenBagRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\OpenHavenBagFurnitureSequenceRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\havenbag\RoomAvailableUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\AccountHouseMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\guild\HouseGuildNoneMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\guild\HouseGuildRightsMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\guild\HouseGuildRightsViewMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\guild\HouseGuildShareRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\HouseBuyRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\HouseBuyResultMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\HouseKickIndoorMerchantRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\HouseKickRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\HouseLockFromInsideRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\HousePropertiesMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\HouseSellFromInsideRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\HouseSellRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\HouseSoldMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\HouseToSellFilterMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\HouseToSellListMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\houses\HouseToSellListRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobAllowMultiCraftRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobBookSubscriptionMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobCrafterDirectoryAddMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobCrafterDirectoryDefineSettingsMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobCrafterDirectoryEntryMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobCrafterDirectoryEntryRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobCrafterDirectoryListMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobCrafterDirectoryListRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobCrafterDirectoryRemoveMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobCrafterDirectorySettingsMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobDescriptionMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobExperienceMultiUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobExperienceOtherPlayerUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobExperienceUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobLevelUpMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\job\JobMultiCraftAvailableSkillsMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\lockable\LockableChangeCodeMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\lockable\LockableCodeResultMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\lockable\LockableShowCodeDialogMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\lockable\LockableStateUpdateAbstractMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\lockable\LockableStateUpdateHouseDoorMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\lockable\LockableStateUpdateStorageMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\lockable\LockableUseCodeMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\MapComplementaryInformationsDataInHavenBagMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\MapComplementaryInformationsDataInHouseMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\MapComplementaryInformationsDataMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\MapComplementaryInformationsWithCoordsMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\MapFightCountMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\MapInformationsRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\MapObstacleUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\MapRunningFightDetailsExtendedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\MapRunningFightDetailsMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\MapRunningFightDetailsRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\MapRunningFightListMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\MapRunningFightListRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\npc\AlliancePrismDialogQuestionMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\npc\AllianceTaxCollectorDialogQuestionExtendedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\npc\EntityTalkMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\npc\MapNpcsQuestStatusUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\npc\NpcDialogCreationMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\npc\NpcDialogQuestionMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\npc\NpcDialogReplyMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\npc\NpcGenericActionFailureMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\npc\NpcGenericActionRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\npc\TaxCollectorDialogQuestionBasicMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\npc\TaxCollectorDialogQuestionExtendedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\objects\ObjectGroundAddedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\objects\ObjectGroundListAddedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\objects\ObjectGroundRemovedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\objects\ObjectGroundRemovedMultipleMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\paddock\GameDataPlayFarmObjectAnimationMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\paddock\PaddockPropertiesMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\paddock\PaddockSellBuyDialogMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\paddock\PaddockToSellFilterMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\paddock\PaddockToSellListMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\paddock\PaddockToSellListRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\AbstractPartyEventMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\AbstractPartyMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\companion\PartyCompanionUpdateLightMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\DungeonPartyFinderAvailableDungeonsMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\DungeonPartyFinderAvailableDungeonsRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\DungeonPartyFinderListenErrorMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\DungeonPartyFinderListenRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\DungeonPartyFinderRegisterErrorMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\DungeonPartyFinderRegisterRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\DungeonPartyFinderRegisterSuccessMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\DungeonPartyFinderRoomContentMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\DungeonPartyFinderRoomContentUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyAbdicateThroneMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyAcceptInvitationMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyCancelInvitationMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyCancelInvitationNotificationMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyCannotJoinErrorMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyDeletedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyFollowMemberRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyFollowStatusUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyFollowThisMemberRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyInvitationArenaRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyInvitationCancelledForGuestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyInvitationDetailsMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyInvitationDetailsRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyInvitationDungeonDetailsMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyInvitationDungeonMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyInvitationDungeonRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyInvitationMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyInvitationRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyJoinMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyKickedByMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyKickRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyLeaderUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyLeaveMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyLeaveRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyLocateMembersMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyLocateMembersRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyLoyaltyStatusMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyMemberEjectedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyMemberInFightMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyMemberRemoveMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyModifiableStatusMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyNameSetErrorMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyNameSetRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyNameUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyNewGuestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyNewMemberMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyPledgeLoyaltyRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyRefuseInvitationMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyRefuseInvitationNotificationMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyRestrictedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyStopFollowRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyUpdateLightMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\party\PartyUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\purchasable\PurchasableDialogMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\GuidedModeQuitRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\GuidedModeReturnRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\QuestListMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\QuestListRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\QuestObjectiveValidatedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\QuestObjectiveValidationMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\QuestStartedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\QuestStartRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\QuestStepInfoMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\QuestStepInfoRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\QuestStepStartedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\QuestStepValidatedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\quest\QuestValidatedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\spell\SpellItemBoostMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\spell\SpellModifyFailureMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\spell\SpellModifyRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\spell\SpellModifySuccessMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\stats\StatsUpgradeRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\stats\StatsUpgradeResultMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\StopToListenRunningFightRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\TeleportOnSameMapMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\PortalUseRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntAvailableRetryCountUpdateMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntDigRequestAnswerFailedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntDigRequestAnswerMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntDigRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntFinishedMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntFlagRemoveRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntFlagRequestAnswerMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntFlagRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntGiveUpRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntLegendaryRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntRequestAnswerMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntRequestMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\treasureHunt\TreasureHuntShowLegendaryUIMessage.cs" />
+    <Compile Include="Messages\game\context\roleplay\visual\GameRolePlaySpellAnimMessage.cs" />
+    <Compile Include="Messages\game\context\ShowCellMessage.cs" />
+    <Compile Include="Messages\game\context\ShowCellRequestMessage.cs" />
+    <Compile Include="Messages\game\context\ShowCellSpectatorMessage.cs" />
+    <Compile Include="Messages\game\dare\DareCanceledMessage.cs" />
+    <Compile Include="Messages\game\dare\DareCancelRequestMessage.cs" />
+    <Compile Include="Messages\game\dare\DareCreatedListMessage.cs" />
+    <Compile Include="Messages\game\dare\DareCreatedMessage.cs" />
+    <Compile Include="Messages\game\dare\DareCreationRequestMessage.cs" />
+    <Compile Include="Messages\game\dare\DareErrorMessage.cs" />
+    <Compile Include="Messages\game\dare\DareInformationsMessage.cs" />
+    <Compile Include="Messages\game\dare\DareInformationsRequestMessage.cs" />
+    <Compile Include="Messages\game\dare\DareListMessage.cs" />
+    <Compile Include="Messages\game\dare\DareRewardConsumeRequestMessage.cs" />
+    <Compile Include="Messages\game\dare\DareRewardConsumeValidationMessage.cs" />
+    <Compile Include="Messages\game\dare\DareRewardsListMessage.cs" />
+    <Compile Include="Messages\game\dare\DareRewardWonMessage.cs" />
+    <Compile Include="Messages\game\dare\DareSubscribedListMessage.cs" />
+    <Compile Include="Messages\game\dare\DareSubscribedMessage.cs" />
+    <Compile Include="Messages\game\dare\DareSubscribeRequestMessage.cs" />
+    <Compile Include="Messages\game\dare\DareVersatileListMessage.cs" />
+    <Compile Include="Messages\game\dare\DareWonListMessage.cs" />
+    <Compile Include="Messages\game\dare\DareWonMessage.cs" />
+    <Compile Include="Messages\game\dialog\LeaveDialogMessage.cs" />
+    <Compile Include="Messages\game\dialog\LeaveDialogRequestMessage.cs" />
+    <Compile Include="Messages\game\dialog\PauseDialogMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendAddedMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendAddFailureMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendAddRequestMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendDeleteRequestMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendDeleteResultMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendJoinRequestMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendSetWarnOnConnectionMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendSetWarnOnLevelGainMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendsGetListMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendsListMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendSpouseFollowWithCompassRequestMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendSpouseJoinRequestMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendUpdateMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendWarnOnConnectionStateMessage.cs" />
+    <Compile Include="Messages\game\friend\FriendWarnOnLevelGainStateMessage.cs" />
+    <Compile Include="Messages\game\friend\GuildMemberSetWarnOnConnectionMessage.cs" />
+    <Compile Include="Messages\game\friend\GuildMemberWarnOnConnectionStateMessage.cs" />
+    <Compile Include="Messages\game\friend\IgnoredAddedMessage.cs" />
+    <Compile Include="Messages\game\friend\IgnoredAddFailureMessage.cs" />
+    <Compile Include="Messages\game\friend\IgnoredAddRequestMessage.cs" />
+    <Compile Include="Messages\game\friend\IgnoredDeleteRequestMessage.cs" />
+    <Compile Include="Messages\game\friend\IgnoredDeleteResultMessage.cs" />
+    <Compile Include="Messages\game\friend\IgnoredGetListMessage.cs" />
+    <Compile Include="Messages\game\friend\IgnoredListMessage.cs" />
+    <Compile Include="Messages\game\friend\SpouseGetInformationsMessage.cs" />
+    <Compile Include="Messages\game\friend\SpouseInformationsMessage.cs" />
+    <Compile Include="Messages\game\friend\SpouseStatusMessage.cs" />
+    <Compile Include="Messages\game\friend\WarnOnPermaDeathStateMessage.cs" />
+    <Compile Include="Messages\game\guest\GuestLimitationMessage.cs" />
+    <Compile Include="Messages\game\guest\GuestModeMessage.cs" />
+    <Compile Include="Messages\game\guild\ChallengeFightJoinRefusedMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildChangeMemberParametersMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildCharacsUpgradeRequestMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildCreationResultMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildCreationStartedMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildCreationValidMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildFactsErrorMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildFactsMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildFactsRequestMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildGetInformationsMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildHouseRemoveMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildHousesInformationMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildHouseTeleportRequestMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildHouseUpdateInformationMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildInAllianceFactsMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildInformationsGeneralMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildInformationsMembersMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildInformationsMemberUpdateMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildInformationsPaddocksMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildInfosUpgradeMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildInvitationAnswerMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildInvitationByNameMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildInvitationMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildInvitationStateRecrutedMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildInvitationStateRecruterMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildInvitedMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildJoinedMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildKickRequestMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildLeftMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildLevelUpMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildListMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildMemberLeavingMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildMemberOnlineStatusMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildMembershipMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildModificationEmblemValidMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildModificationNameValidMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildModificationStartedMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildModificationValidMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildMotdMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildMotdSetErrorMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildMotdSetRequestMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildPaddockBoughtMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildPaddockRemovedMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildPaddockTeleportRequestMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildSpellUpgradeRequestMessage.cs" />
+    <Compile Include="Messages\game\guild\GuildVersatileInfoListMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\AbstractTaxCollectorListMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\GameRolePlayTaxCollectorFightRequestMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\GuildFightJoinRequestMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\GuildFightLeaveRequestMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\GuildFightPlayersEnemiesListMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\GuildFightPlayersEnemyRemoveMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\GuildFightPlayersHelpersJoinMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\GuildFightPlayersHelpersLeaveMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\GuildFightTakePlaceRequestMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\TaxCollectorAttackedMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\TaxCollectorAttackedResultMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\TaxCollectorErrorMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\TaxCollectorListMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\TaxCollectorMovementAddMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\TaxCollectorMovementMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\TaxCollectorMovementRemoveMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\TaxCollectorMovementsOfflineMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\TaxCollectorStateUpdateMessage.cs" />
+    <Compile Include="Messages\game\guild\tax\TopTaxCollectorListMessage.cs" />
+    <Compile Include="Messages\game\idol\IdolFightPreparationUpdateMessage.cs" />
+    <Compile Include="Messages\game\idol\IdolListMessage.cs" />
+    <Compile Include="Messages\game\idol\IdolPartyLostMessage.cs" />
+    <Compile Include="Messages\game\idol\IdolPartyRefreshMessage.cs" />
+    <Compile Include="Messages\game\idol\IdolPartyRegisterRequestMessage.cs" />
+    <Compile Include="Messages\game\idol\IdolSelectedMessage.cs" />
+    <Compile Include="Messages\game\idol\IdolSelectErrorMessage.cs" />
+    <Compile Include="Messages\game\idol\IdolSelectRequestMessage.cs" />
+    <Compile Include="Messages\game\initialization\CharacterCapabilitiesMessage.cs" />
+    <Compile Include="Messages\game\initialization\CharacterLoadingCompleteMessage.cs" />
+    <Compile Include="Messages\game\initialization\OnConnectionEventMessage.cs" />
+    <Compile Include="Messages\game\initialization\ServerExperienceModificatorMessage.cs" />
+    <Compile Include="Messages\game\initialization\SetCharacterRestrictionsMessage.cs" />
+    <Compile Include="Messages\game\interactive\InteractiveElementUpdatedMessage.cs" />
+    <Compile Include="Messages\game\interactive\InteractiveMapUpdateMessage.cs" />
+    <Compile Include="Messages\game\interactive\InteractiveUsedMessage.cs" />
+    <Compile Include="Messages\game\interactive\InteractiveUseEndedMessage.cs" />
+    <Compile Include="Messages\game\interactive\InteractiveUseErrorMessage.cs" />
+    <Compile Include="Messages\game\interactive\InteractiveUseRequestMessage.cs" />
+    <Compile Include="Messages\game\interactive\meeting\TeleportBuddiesAnswerMessage.cs" />
+    <Compile Include="Messages\game\interactive\meeting\TeleportBuddiesMessage.cs" />
+    <Compile Include="Messages\game\interactive\meeting\TeleportBuddiesRequestedMessage.cs" />
+    <Compile Include="Messages\game\interactive\meeting\TeleportToBuddyAnswerMessage.cs" />
+    <Compile Include="Messages\game\interactive\meeting\TeleportToBuddyCloseMessage.cs" />
+    <Compile Include="Messages\game\interactive\meeting\TeleportToBuddyOfferMessage.cs" />
+    <Compile Include="Messages\game\interactive\StatedElementUpdatedMessage.cs" />
+    <Compile Include="Messages\game\interactive\StatedMapUpdateMessage.cs" />
+    <Compile Include="Messages\game\interactive\zaap\TeleportDestinationsListMessage.cs" />
+    <Compile Include="Messages\game\interactive\zaap\TeleportRequestMessage.cs" />
+    <Compile Include="Messages\game\interactive\zaap\ZaapListMessage.cs" />
+    <Compile Include="Messages\game\interactive\zaap\ZaapRespawnSaveRequestMessage.cs" />
+    <Compile Include="Messages\game\interactive\zaap\ZaapRespawnUpdatedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\DecraftResultMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeAcceptMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseBuyMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseBuyResultMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseGenericItemAddedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseGenericItemRemovedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseInListAddedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseInListRemovedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseInListUpdatedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseItemAddOkMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseItemRemoveOkMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseListMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHousePriceMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseSearchMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseTypeMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidHouseUnsoldItemsMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidPriceForSellerMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidPriceMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBidSearchOkMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBuyMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeBuyOkMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeCraftCountModifiedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeCraftCountRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeCrafterJobLevelupMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeCraftInformationObjectMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeCraftPaymentModificationRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeCraftPaymentModifiedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeCraftResultMagicWithObjectDescMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeCraftResultMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeCraftResultWithObjectDescMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeCraftResultWithObjectIdMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeErrorMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeGuildTaxCollectorGetMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeHandleMountsStableMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeIsReadyMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeItemAutoCraftStopedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeLeaveMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeMountFreeFromPaddockMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeMountsPaddockAddMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeMountsPaddockRemoveMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeMountsStableAddMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeMountsStableBornAddMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeMountsStableRemoveMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeMountStableErrorMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeMountsTakenFromPaddockMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeMountSterilizeFromPaddockMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectAddedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectModifyPricedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectMoveKamaMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectMoveMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectMovePricedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectsAddedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectTransfertAllFromInvMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectTransfertAllToInvMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectTransfertExistingFromInvMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectTransfertExistingToInvMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectTransfertListFromInvMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectTransfertListToInvMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectTransfertListWithQuantityToInvMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeObjectUseInWorkshopMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeOfflineSoldItemsMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeOkMultiCraftMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeOnHumanVendorRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangePlayerMultiCraftRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangePlayerRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeReadyMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeReplayStopMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeReplyTaxVendorMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeRequestedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeRequestedTradeMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeRequestOnMountStockMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeRequestOnShopStockMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeRequestOnTaxCollectorMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeSellMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeSellOkMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeSetCraftRecipeMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeShopStockMovementRemovedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeShopStockMovementUpdatedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeShopStockMultiMovementRemovedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeShopStockMultiMovementUpdatedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeShopStockStartedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeShowVendorTaxMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartAsVendorMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartedBidBuyerMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartedBidSellerMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartedMountStockMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartedTaxCollectorShopMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartedWithPodsMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartedWithStorageMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartOkCraftMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartOkCraftWithInformationMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartOkHumanVendorMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartOkJobIndexMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartOkMountMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartOkMountWithOutPaddockMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartOkMulticraftCrafterMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartOkMulticraftCustomerMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartOkNpcShopMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartOkNpcTradeMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartOkRecycleTradeMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStartOkRunesTradeMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeStoppedMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeTypesExchangerDescriptionForUserMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeTypesItemsExchangerDescriptionForUserMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeWaitingResultMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ExchangeWeightMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\ItemNoMoreAvailableMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\JobBookSubscribeRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\RecycleResultMessage.cs" />
+    <Compile Include="Messages\game\inventory\exchanges\UpdateMountBoostMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ExchangeKamaModifiedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ExchangeMultiCraftCrafterCanUseHisRessourcesMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ExchangeMultiCraftSetCrafterCanUseHisRessourcesMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ExchangeObjectModifiedInBagMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ExchangeObjectModifiedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ExchangeObjectPutInBagMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ExchangeObjectRemovedFromBagMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ExchangeObjectRemovedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ExchangeObjectsModifiedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ExchangeObjectsRemovedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ExchangePodsModifiedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\GoldAddedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\InventoryContentAndPresetMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\InventoryContentMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\InventoryWeightMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\LivingObjectChangeSkinRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\LivingObjectDissociateMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\LivingObjectMessageMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\LivingObjectMessageRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\MimicryObjectAssociatedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\MimicryObjectEraseRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\MimicryObjectErrorMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\MimicryObjectFeedAndAssociateRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\MimicryObjectPreviewMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectAddedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectDeletedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectDeleteMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectDropMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectErrorMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectFeedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectFoundWhileRecoltingMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectJobAddedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectModifiedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectMovementMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectQuantityMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectsAddedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectsDeletedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectSetPositionMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectsQuantityMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectUseMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectUseMultipleMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectUseOnCellMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObjectUseOnCharacterMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObtainedItemMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\ObtainedItemWithBonusMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\SetUpdateMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\SymbioticObjectAssociatedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\SymbioticObjectAssociateRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\SymbioticObjectErrorMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\WrapperObjectAssociatedMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\WrapperObjectDissociateRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\items\WrapperObjectErrorMessage.cs" />
+    <Compile Include="Messages\game\inventory\KamasUpdateMessage.cs" />
+    <Compile Include="Messages\game\inventory\ObjectAveragePricesErrorMessage.cs" />
+    <Compile Include="Messages\game\inventory\ObjectAveragePricesGetMessage.cs" />
+    <Compile Include="Messages\game\inventory\ObjectAveragePricesMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\IdolsPresetDeleteMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\IdolsPresetDeleteResultMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\IdolsPresetSaveMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\IdolsPresetSaveResultMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\IdolsPresetUpdateMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\IdolsPresetUseMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\IdolsPresetUseResultMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\InventoryPresetDeleteMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\InventoryPresetDeleteResultMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\InventoryPresetItemUpdateErrorMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\InventoryPresetItemUpdateMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\InventoryPresetItemUpdateRequestMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\InventoryPresetSaveCustomMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\InventoryPresetSaveMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\InventoryPresetSaveResultMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\InventoryPresetUpdateMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\InventoryPresetUseMessage.cs" />
+    <Compile Include="Messages\game\inventory\preset\InventoryPresetUseResultMessage.cs" />
+    <Compile Include="Messages\game\inventory\spells\SpellListMessage.cs" />
+    <Compile Include="Messages\game\inventory\storage\StorageInventoryContentMessage.cs" />
+    <Compile Include="Messages\game\inventory\storage\StorageKamasUpdateMessage.cs" />
+    <Compile Include="Messages\game\inventory\storage\StorageObjectRemoveMessage.cs" />
+    <Compile Include="Messages\game\inventory\storage\StorageObjectsRemoveMessage.cs" />
+    <Compile Include="Messages\game\inventory\storage\StorageObjectsUpdateMessage.cs" />
+    <Compile Include="Messages\game\inventory\storage\StorageObjectUpdateMessage.cs" />
+    <Compile Include="Messages\game\look\AccessoryPreviewErrorMessage.cs" />
+    <Compile Include="Messages\game\look\AccessoryPreviewMessage.cs" />
+    <Compile Include="Messages\game\look\AccessoryPreviewRequestMessage.cs" />
+    <Compile Include="Messages\game\moderation\PopupWarningMessage.cs" />
+    <Compile Include="Messages\game\modificator\AreaFightModificatorUpdateMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismAttackRequestMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismFightAddedMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismFightAttackerAddMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismFightAttackerRemoveMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismFightDefenderAddMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismFightDefenderLeaveMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismFightJoinLeaveRequestMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismFightRemovedMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismFightStateUpdateMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismFightSwapRequestMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismInfoCloseMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismInfoInValidMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismInfoJoinLeaveRequestMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismModuleExchangeRequestMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismSetSabotagedRefusedMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismSetSabotagedRequestMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismSettingsErrorMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismSettingsRequestMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismsInfoValidMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismsListMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismsListRegisterMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismsListUpdateMessage.cs" />
+    <Compile Include="Messages\game\prism\PrismUseRequestMessage.cs" />
+    <Compile Include="Messages\game\pvp\AlignmentRankUpdateMessage.cs" />
+    <Compile Include="Messages\game\pvp\SetEnableAVARequestMessage.cs" />
+    <Compile Include="Messages\game\pvp\SetEnablePVPRequestMessage.cs" />
+    <Compile Include="Messages\game\pvp\UpdateMapPlayersAgressableStatusMessage.cs" />
+    <Compile Include="Messages\game\pvp\UpdateSelfAgressableStatusMessage.cs" />
+    <Compile Include="Messages\game\report\CharacterReportMessage.cs" />
+    <Compile Include="Messages\game\script\CinematicMessage.cs" />
+    <Compile Include="Messages\game\script\URLOpenMessage.cs" />
+    <Compile Include="Messages\game\shortcut\ShortcutBarAddErrorMessage.cs" />
+    <Compile Include="Messages\game\shortcut\ShortcutBarAddRequestMessage.cs" />
+    <Compile Include="Messages\game\shortcut\ShortcutBarContentMessage.cs" />
+    <Compile Include="Messages\game\shortcut\ShortcutBarRefreshMessage.cs" />
+    <Compile Include="Messages\game\shortcut\ShortcutBarRemovedMessage.cs" />
+    <Compile Include="Messages\game\shortcut\ShortcutBarRemoveErrorMessage.cs" />
+    <Compile Include="Messages\game\shortcut\ShortcutBarRemoveRequestMessage.cs" />
+    <Compile Include="Messages\game\shortcut\ShortcutBarSwapErrorMessage.cs" />
+    <Compile Include="Messages\game\shortcut\ShortcutBarSwapRequestMessage.cs" />
+    <Compile Include="Messages\game\social\ContactLookErrorMessage.cs" />
+    <Compile Include="Messages\game\social\ContactLookMessage.cs" />
+    <Compile Include="Messages\game\social\ContactLookRequestByIdMessage.cs" />
+    <Compile Include="Messages\game\social\ContactLookRequestByNameMessage.cs" />
+    <Compile Include="Messages\game\social\ContactLookRequestMessage.cs" />
+    <Compile Include="Messages\game\startup\StartupActionAddMessage.cs" />
+    <Compile Include="Messages\game\startup\StartupActionFinishedMessage.cs" />
+    <Compile Include="Messages\game\startup\StartupActionsAllAttributionMessage.cs" />
+    <Compile Include="Messages\game\startup\StartupActionsExecuteMessage.cs" />
+    <Compile Include="Messages\game\startup\StartupActionsListMessage.cs" />
+    <Compile Include="Messages\game\startup\StartupActionsObjetAttributionMessage.cs" />
+    <Compile Include="Messages\game\subscriber\SubscriptionLimitationMessage.cs" />
+    <Compile Include="Messages\game\subscriber\SubscriptionZoneMessage.cs" />
+    <Compile Include="Messages\game\tinsel\OrnamentGainedMessage.cs" />
+    <Compile Include="Messages\game\tinsel\OrnamentSelectedMessage.cs" />
+    <Compile Include="Messages\game\tinsel\OrnamentSelectErrorMessage.cs" />
+    <Compile Include="Messages\game\tinsel\OrnamentSelectRequestMessage.cs" />
+    <Compile Include="Messages\game\tinsel\TitleGainedMessage.cs" />
+    <Compile Include="Messages\game\tinsel\TitleLostMessage.cs" />
+    <Compile Include="Messages\game\tinsel\TitlesAndOrnamentsListMessage.cs" />
+    <Compile Include="Messages\game\tinsel\TitlesAndOrnamentsListRequestMessage.cs" />
+    <Compile Include="Messages\game\tinsel\TitleSelectedMessage.cs" />
+    <Compile Include="Messages\game\tinsel\TitleSelectErrorMessage.cs" />
+    <Compile Include="Messages\game\tinsel\TitleSelectRequestMessage.cs" />
+    <Compile Include="Messages\game\ui\ClientUIOpenedByObjectMessage.cs" />
+    <Compile Include="Messages\game\ui\ClientUIOpenedMessage.cs" />
+    <Compile Include="Messages\handshake\ProtocolRequired.cs" />
+    <Compile Include="Messages\queues\LoginQueueStatusMessage.cs" />
+    <Compile Include="Messages\queues\QueueStatusMessage.cs" />
+    <Compile Include="Messages\secure\TrustStatusMessage.cs" />
+    <Compile Include="Messages\security\CheckFileMessage.cs" />
+    <Compile Include="Messages\security\CheckFileRequestMessage.cs" />
+    <Compile Include="Messages\security\CheckIntegrityMessage.cs" />
+    <Compile Include="Messages\security\ClientKeyMessage.cs" />
+    <Compile Include="Messages\security\RawDataMessage.cs" />
+    <Compile Include="Messages\server\basic\SystemMessageDisplayMessage.cs" />
+    <Compile Include="Messages\subscription\SubscriptionUpdateMessage.cs" />
+    <Compile Include="Messages\updater\parts\DownloadCurrentSpeedMessage.cs" />
+    <Compile Include="Messages\updater\parts\DownloadErrorMessage.cs" />
+    <Compile Include="Messages\updater\parts\DownloadGetCurrentSpeedRequestMessage.cs" />
+    <Compile Include="Messages\updater\parts\DownloadPartMessage.cs" />
+    <Compile Include="Messages\updater\parts\DownloadSetSpeedRequestMessage.cs" />
+    <Compile Include="Messages\updater\parts\GetPartInfoMessage.cs" />
+    <Compile Include="Messages\updater\parts\GetPartsListMessage.cs" />
+    <Compile Include="Messages\updater\parts\PartInfoMessage.cs" />
+    <Compile Include="Messages\updater\parts\PartsListMessage.cs" />
+    <Compile Include="Messages\web\ankabox\MailStatusMessage.cs" />
+    <Compile Include="Messages\web\ankabox\NewMailMessage.cs" />
+    <Compile Include="Messages\web\haapi\HaapiApiKeyMessage.cs" />
+    <Compile Include="Messages\web\haapi\HaapiApiKeyRequestMessage.cs" />
+    <Compile Include="Messages\web\krosmaster\KrosmasterAuthTokenErrorMessage.cs" />
+    <Compile Include="Messages\web\krosmaster\KrosmasterAuthTokenMessage.cs" />
+    <Compile Include="Messages\web\krosmaster\KrosmasterAuthTokenRequestMessage.cs" />
+    <Compile Include="Messages\web\krosmaster\KrosmasterInventoryErrorMessage.cs" />
+    <Compile Include="Messages\web\krosmaster\KrosmasterInventoryMessage.cs" />
+    <Compile Include="Messages\web\krosmaster\KrosmasterInventoryRequestMessage.cs" />
+    <Compile Include="Messages\web\krosmaster\KrosmasterPlayingStatusMessage.cs" />
+    <Compile Include="Messages\web\krosmaster\KrosmasterTransferMessage.cs" />
+    <Compile Include="Messages\web\krosmaster\KrosmasterTransferRequestMessage.cs" />
+    <Compile Include="Messages\wtf\ClientYouAreDrunkMessage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Selfmade\Enums\AcquaintanceErrorEnum.cs" />
+    <Compile Include="Selfmade\Enums\ActionsEnum.cs" />
+    <Compile Include="Selfmade\Enums\ChallengeTypeEnum.cs" />
+    <Compile Include="Selfmade\Enums\EffectElementType.cs" />
+    <Compile Include="Selfmade\Enums\EmotesEnum.cs" />
+    <Compile Include="Selfmade\Enums\EffectsEnum.cs" />
+    <Compile Include="Selfmade\Enums\BuffTriggerType.cs" />
+    <Compile Include="Selfmade\Enums\GuildCreationResultEnum.cs" />
+    <Compile Include="Selfmade\Enums\GuildInvitationStateEnum.cs" />
+    <Compile Include="Selfmade\Enums\ItemTypeEnum.cs" />
+    <Compile Include="Selfmade\Enums\JobsTypeEnum.cs" />
+    <Compile Include="Selfmade\Enums\MapScrollEnum.cs" />
+    <Compile Include="Selfmade\Enums\MonsterRaceEnum.cs" />
+    <Compile Include="Selfmade\Enums\NpcActionTypeEnum.cs" />
+    <Compile Include="Selfmade\Enums\OrnamentsEnum.cs" />
+    <Compile Include="Selfmade\Enums\ServerRoleEnum.cs" />
+    <Compile Include="Selfmade\Enums\SpellCastResultEnum.cs" />
+    <Compile Include="Selfmade\Enums\SpellCategoryEnum.cs" />
+    <Compile Include="Selfmade\Enums\StatedElementStatesType.cs" />
+    <Compile Include="Selfmade\Enums\StatsBoostEnum.cs" />
+    <Compile Include="Selfmade\Enums\TeamColorEnum.cs" />
+    <Compile Include="Selfmade\Enums\MarkTriggerTypeEnum.cs" />
+    <Compile Include="Selfmade\Messages\AccountMessage.cs" />
+    <Compile Include="Selfmade\Messages\AccountRequestMessage.cs" />
+    <Compile Include="Selfmade\Messages\BanConfirmMessage.cs" />
+    <Compile Include="Selfmade\Messages\BanRequestMessage.cs" />
+    <Compile Include="Selfmade\Messages\OnCharacterCreationResultMessage.cs" />
+    <Compile Include="Selfmade\Messages\OnCharacterCreationMessage.cs" />
+    <Compile Include="Selfmade\Messages\DisconnectClientRequestMessage.cs" />
+    <Compile Include="Selfmade\Messages\DisconnectClientResultMessage.cs" />
+    <Compile Include="Selfmade\Messages\OnCharacterDeletionMessage.cs" />
+    <Compile Include="Selfmade\Messages\OnCharacterDeletionResultMessage.cs" />
+    <Compile Include="Selfmade\Messages\ResetDatabaseMessage.cs" />
+    <Compile Include="Selfmade\Messages\SetServerStatusMessage.cs" />
+    <Compile Include="Selfmade\Messages\WorldRegistrationRequestMessage.cs" />
+    <Compile Include="Selfmade\RawMessages\GuildArenaSubscribeAnswerMessage.cs" />
+    <Compile Include="Selfmade\RawMessages\RawMessage.cs" />
+    <Compile Include="Selfmade\Types\AccountData.cs" />
+    <Compile Include="Types\common\basic\StatisticData.cs" />
+    <Compile Include="Types\common\basic\StatisticDataBoolean.cs" />
+    <Compile Include="Types\common\basic\StatisticDataByte.cs" />
+    <Compile Include="Types\common\basic\StatisticDataInt.cs" />
+    <Compile Include="Types\common\basic\StatisticDataShort.cs" />
+    <Compile Include="Types\common\basic\StatisticDataString.cs" />
+    <Compile Include="Types\connection\GameServerInformations.cs" />
+    <Compile Include="Types\game\achievement\Achievement.cs" />
+    <Compile Include="Types\game\achievement\AchievementObjective.cs" />
+    <Compile Include="Types\game\achievement\AchievementRewardable.cs" />
+    <Compile Include="Types\game\achievement\AchievementStartedObjective.cs" />
+    <Compile Include="Types\game\actions\fight\AbstractFightDispellableEffect.cs" />
+    <Compile Include="Types\game\actions\fight\FightTemporaryBoostEffect.cs" />
+    <Compile Include="Types\game\actions\fight\FightTemporaryBoostStateEffect.cs" />
+    <Compile Include="Types\game\actions\fight\FightTemporaryBoostWeaponDamagesEffect.cs" />
+    <Compile Include="Types\game\actions\fight\FightTemporarySpellBoostEffect.cs" />
+    <Compile Include="Types\game\actions\fight\FightTemporarySpellImmunityEffect.cs" />
+    <Compile Include="Types\game\actions\fight\FightTriggeredEffect.cs" />
+    <Compile Include="Types\game\actions\fight\GameActionMark.cs" />
+    <Compile Include="Types\game\actions\fight\GameActionMarkedCell.cs" />
+    <Compile Include="Types\game\action\fight\FightDispellableEffectExtendedInformations.cs" />
+    <Compile Include="Types\game\approach\ServerSessionConstant.cs" />
+    <Compile Include="Types\game\approach\ServerSessionConstantInteger.cs" />
+    <Compile Include="Types\game\approach\ServerSessionConstantLong.cs" />
+    <Compile Include="Types\game\approach\ServerSessionConstantString.cs" />
+    <Compile Include="Types\game\character\AbstractCharacterInformation.cs" />
+    <Compile Include="Types\game\character\alignment\ActorAlignmentInformations.cs" />
+    <Compile Include="Types\game\character\alignment\ActorExtendedAlignmentInformations.cs" />
+    <Compile Include="Types\game\character\CharacterBasicMinimalInformations.cs" />
+    <Compile Include="Types\game\character\characteristic\CharacterBaseCharacteristic.cs" />
+    <Compile Include="Types\game\character\characteristic\CharacterCharacteristicsInformations.cs" />
+    <Compile Include="Types\game\character\characteristic\CharacterSpellModification.cs" />
+    <Compile Include="Types\game\character\CharacterMinimalAllianceInformations.cs" />
+    <Compile Include="Types\game\character\CharacterMinimalGuildInformations.cs" />
+    <Compile Include="Types\game\character\CharacterMinimalInformations.cs" />
+    <Compile Include="Types\game\character\CharacterMinimalPlusLookAndGradeInformations.cs" />
+    <Compile Include="Types\game\character\CharacterMinimalPlusLookInformations.cs" />
+    <Compile Include="Types\game\character\choice\AbstractCharacterToRefurbishInformation.cs" />
+    <Compile Include="Types\game\character\choice\CharacterBaseInformations.cs" />
+    <Compile Include="Types\game\character\choice\CharacterHardcoreOrEpicInformations.cs" />
+    <Compile Include="Types\game\character\choice\CharacterRemodelingInformation.cs" />
+    <Compile Include="Types\game\character\choice\CharacterToRecolorInformation.cs" />
+    <Compile Include="Types\game\character\choice\CharacterToRelookInformation.cs" />
+    <Compile Include="Types\game\character\choice\CharacterToRemodelInformations.cs" />
+    <Compile Include="Types\game\character\choice\RemodelingInformation.cs" />
+    <Compile Include="Types\game\character\restriction\ActorRestrictionsInformations.cs" />
+    <Compile Include="Types\game\character\status\PlayerStatus.cs" />
+    <Compile Include="Types\game\character\status\PlayerStatusExtended.cs" />
+    <Compile Include="Types\game\context\ActorOrientation.cs" />
+    <Compile Include="Types\game\context\EntityDispositionInformations.cs" />
+    <Compile Include="Types\game\context\EntityMovementInformations.cs" />
+    <Compile Include="Types\game\context\FightEntityDispositionInformations.cs" />
+    <Compile Include="Types\game\context\fight\AbstractFightTeamInformations.cs" />
+    <Compile Include="Types\game\context\fight\FightAllianceTeamInformations.cs" />
+    <Compile Include="Types\game\context\fight\FightCommonInformations.cs" />
+    <Compile Include="Types\game\context\fight\FightExternalInformations.cs" />
+    <Compile Include="Types\game\context\fight\FightLoot.cs" />
+    <Compile Include="Types\game\context\fight\FightOptionsInformations.cs" />
+    <Compile Include="Types\game\context\fight\FightResultAdditionalData.cs" />
+    <Compile Include="Types\game\context\fight\FightResultExperienceData.cs" />
+    <Compile Include="Types\game\context\fight\FightResultFighterListEntry.cs" />
+    <Compile Include="Types\game\context\fight\FightResultListEntry.cs" />
+    <Compile Include="Types\game\context\fight\FightResultMutantListEntry.cs" />
+    <Compile Include="Types\game\context\fight\FightResultPlayerListEntry.cs" />
+    <Compile Include="Types\game\context\fight\FightResultPvpData.cs" />
+    <Compile Include="Types\game\context\fight\FightResultTaxCollectorListEntry.cs" />
+    <Compile Include="Types\game\context\fight\FightTeamInformations.cs" />
+    <Compile Include="Types\game\context\fight\FightTeamLightInformations.cs" />
+    <Compile Include="Types\game\context\fight\FightTeamMemberCharacterInformations.cs" />
+    <Compile Include="Types\game\context\fight\FightTeamMemberCompanionInformations.cs" />
+    <Compile Include="Types\game\context\fight\FightTeamMemberInformations.cs" />
+    <Compile Include="Types\game\context\fight\FightTeamMemberMonsterInformations.cs" />
+    <Compile Include="Types\game\context\fight\FightTeamMemberTaxCollectorInformations.cs" />
+    <Compile Include="Types\game\context\fight\FightTeamMemberWithAllianceCharacterInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightAIInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightCharacterInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightCompanionInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightFighterCompanionLightInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightFighterInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightFighterLightInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightFighterMonsterLightInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightFighterNamedInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightFighterNamedLightInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightFighterTaxCollectorLightInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightMinimalStats.cs" />
+    <Compile Include="Types\game\context\fight\GameFightMinimalStatsPreparation.cs" />
+    <Compile Include="Types\game\context\fight\GameFightMonsterInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightMonsterWithAlignmentInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightMutantInformations.cs" />
+    <Compile Include="Types\game\context\fight\GameFightResumeSlaveInfo.cs" />
+    <Compile Include="Types\game\context\fight\GameFightSpellCooldown.cs" />
+    <Compile Include="Types\game\context\fight\GameFightTaxCollectorInformations.cs" />
+    <Compile Include="Types\game\context\GameContextActorInformations.cs" />
+    <Compile Include="Types\game\context\GameRolePlayTaxCollectorInformations.cs" />
+    <Compile Include="Types\game\context\IdentifiedEntityDispositionInformations.cs" />
+    <Compile Include="Types\game\context\MapCoordinates.cs" />
+    <Compile Include="Types\game\context\MapCoordinatesAndId.cs" />
+    <Compile Include="Types\game\context\MapCoordinatesExtended.cs" />
+    <Compile Include="Types\game\context\roleplay\AllianceInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\AlternativeMonstersInGroupLightInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\AtlasPointsInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\BasicAllianceInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\BasicGuildInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\BasicNamedAllianceInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\fight\arena\ArenaRankInfos.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayActorInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayCharacterInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayGroupMonsterInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayGroupMonsterWaveInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayHumanoidInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayMerchantInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayMountInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayMutantInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayNamedActorInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayNpcInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayNpcWithQuestInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayPortalInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayPrismInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GameRolePlayTreasureHintInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GroupMonsterStaticInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GroupMonsterStaticInformationsWithAlternatives.cs" />
+    <Compile Include="Types\game\context\roleplay\GuildInAllianceInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\GuildInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\HumanInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\HumanOption.cs" />
+    <Compile Include="Types\game\context\roleplay\HumanOptionAlliance.cs" />
+    <Compile Include="Types\game\context\roleplay\HumanOptionEmote.cs" />
+    <Compile Include="Types\game\context\roleplay\HumanOptionFollowers.cs" />
+    <Compile Include="Types\game\context\roleplay\HumanOptionGuild.cs" />
+    <Compile Include="Types\game\context\roleplay\HumanOptionObjectUse.cs" />
+    <Compile Include="Types\game\context\roleplay\HumanOptionOrnament.cs" />
+    <Compile Include="Types\game\context\roleplay\HumanOptionSkillUse.cs" />
+    <Compile Include="Types\game\context\roleplay\HumanOptionTitle.cs" />
+    <Compile Include="Types\game\context\roleplay\job\DecraftedItemStackInfo.cs" />
+    <Compile Include="Types\game\context\roleplay\job\JobBookSubscription.cs" />
+    <Compile Include="Types\game\context\roleplay\job\JobCrafterDirectoryEntryJobInfo.cs" />
+    <Compile Include="Types\game\context\roleplay\job\JobCrafterDirectoryEntryPlayerInfo.cs" />
+    <Compile Include="Types\game\context\roleplay\job\JobCrafterDirectoryListEntry.cs" />
+    <Compile Include="Types\game\context\roleplay\job\JobCrafterDirectorySettings.cs" />
+    <Compile Include="Types\game\context\roleplay\job\JobDescription.cs" />
+    <Compile Include="Types\game\context\roleplay\job\JobExperience.cs" />
+    <Compile Include="Types\game\context\roleplay\MonsterBoosts.cs" />
+    <Compile Include="Types\game\context\roleplay\MonsterInGroupInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\MonsterInGroupLightInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\ObjectItemInRolePlay.cs" />
+    <Compile Include="Types\game\context\roleplay\party\companion\PartyCompanionBaseInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\party\companion\PartyCompanionMemberInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\party\DungeonPartyFinderPlayer.cs" />
+    <Compile Include="Types\game\context\roleplay\party\NamedPartyTeam.cs" />
+    <Compile Include="Types\game\context\roleplay\party\NamedPartyTeamWithOutcome.cs" />
+    <Compile Include="Types\game\context\roleplay\party\PartyGuestInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\party\PartyInvitationMemberInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\party\PartyMemberArenaInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\party\PartyMemberGeoPosition.cs" />
+    <Compile Include="Types\game\context\roleplay\party\PartyMemberInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\quest\GameRolePlayNpcQuestFlag.cs" />
+    <Compile Include="Types\game\context\roleplay\quest\QuestActiveDetailedInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\quest\QuestActiveInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\quest\QuestObjectiveInformations.cs" />
+    <Compile Include="Types\game\context\roleplay\quest\QuestObjectiveInformationsWithCompletion.cs" />
+    <Compile Include="Types\game\context\roleplay\treasureHunt\PortalInformation.cs" />
+    <Compile Include="Types\game\context\roleplay\treasureHunt\TreasureHuntFlag.cs" />
+    <Compile Include="Types\game\context\roleplay\treasureHunt\TreasureHuntStep.cs" />
+    <Compile Include="Types\game\context\roleplay\treasureHunt\TreasureHuntStepDig.cs" />
+    <Compile Include="Types\game\context\roleplay\treasureHunt\TreasureHuntStepFight.cs" />
+    <Compile Include="Types\game\context\roleplay\treasureHunt\TreasureHuntStepFollowDirection.cs" />
+    <Compile Include="Types\game\context\roleplay\treasureHunt\TreasureHuntStepFollowDirectionToHint.cs" />
+    <Compile Include="Types\game\context\roleplay\treasureHunt\TreasureHuntStepFollowDirectionToPOI.cs" />
+    <Compile Include="Types\game\context\TaxCollectorStaticExtendedInformations.cs" />
+    <Compile Include="Types\game\context\TaxCollectorStaticInformations.cs" />
+    <Compile Include="Types\game\dare\DareCriteria.cs" />
+    <Compile Include="Types\game\dare\DareInformations.cs" />
+    <Compile Include="Types\game\dare\DareReward.cs" />
+    <Compile Include="Types\game\dare\DareVersatileInformations.cs" />
+    <Compile Include="Types\game\data\items\BidExchangerObjectInfo.cs" />
+    <Compile Include="Types\game\data\items\effects\ObjectEffect.cs" />
+    <Compile Include="Types\game\data\items\effects\ObjectEffectCreature.cs" />
+    <Compile Include="Types\game\data\items\effects\ObjectEffectDate.cs" />
+    <Compile Include="Types\game\data\items\effects\ObjectEffectDice.cs" />
+    <Compile Include="Types\game\data\items\effects\ObjectEffectDuration.cs" />
+    <Compile Include="Types\game\data\items\effects\ObjectEffectInteger.cs" />
+    <Compile Include="Types\game\data\items\effects\ObjectEffectLadder.cs" />
+    <Compile Include="Types\game\data\items\effects\ObjectEffectMinMax.cs" />
+    <Compile Include="Types\game\data\items\effects\ObjectEffectMount.cs" />
+    <Compile Include="Types\game\data\items\effects\ObjectEffectString.cs" />
+    <Compile Include="Types\game\data\items\GoldItem.cs" />
+    <Compile Include="Types\game\data\items\Item.cs" />
+    <Compile Include="Types\game\data\items\ObjectItem.cs" />
+    <Compile Include="Types\game\data\items\ObjectItemGenericQuantity.cs" />
+    <Compile Include="Types\game\data\items\ObjectItemGenericQuantityPrice.cs" />
+    <Compile Include="Types\game\data\items\ObjectItemInformationWithQuantity.cs" />
+    <Compile Include="Types\game\data\items\ObjectItemMinimalInformation.cs" />
+    <Compile Include="Types\game\data\items\ObjectItemNotInContainer.cs" />
+    <Compile Include="Types\game\data\items\ObjectItemQuantity.cs" />
+    <Compile Include="Types\game\data\items\ObjectItemToSell.cs" />
+    <Compile Include="Types\game\data\items\ObjectItemToSellInBid.cs" />
+    <Compile Include="Types\game\data\items\ObjectItemToSellInHumanVendorShop.cs" />
+    <Compile Include="Types\game\data\items\ObjectItemToSellInNpcShop.cs" />
+    <Compile Include="Types\game\data\items\SellerBuyerDescriptor.cs" />
+    <Compile Include="Types\game\data\items\SpellItem.cs" />
+    <Compile Include="Types\game\fight\ProtectedEntityWaitingForHelpInfo.cs" />
+    <Compile Include="Types\game\friend\AbstractContactInformations.cs" />
+    <Compile Include="Types\game\friend\FriendInformations.cs" />
+    <Compile Include="Types\game\friend\FriendOnlineInformations.cs" />
+    <Compile Include="Types\game\friend\FriendSpouseInformations.cs" />
+    <Compile Include="Types\game\friend\FriendSpouseOnlineInformations.cs" />
+    <Compile Include="Types\game\friend\IgnoredInformations.cs" />
+    <Compile Include="Types\game\friend\IgnoredOnlineInformations.cs" />
+    <Compile Include="Types\game\guild\GuildEmblem.cs" />
+    <Compile Include="Types\game\guild\GuildMember.cs" />
+    <Compile Include="Types\game\guild\HavenBagFurnitureInformation.cs" />
+    <Compile Include="Types\game\guild\tax\AdditionalTaxCollectorInformations.cs" />
+    <Compile Include="Types\game\guild\tax\TaxCollectorBasicInformations.cs" />
+    <Compile Include="Types\game\guild\tax\TaxCollectorComplementaryInformations.cs" />
+    <Compile Include="Types\game\guild\tax\TaxCollectorFightersInformation.cs" />
+    <Compile Include="Types\game\guild\tax\TaxCollectorGuildInformations.cs" />
+    <Compile Include="Types\game\guild\tax\TaxCollectorInformations.cs" />
+    <Compile Include="Types\game\guild\tax\TaxCollectorLootInformations.cs" />
+    <Compile Include="Types\game\guild\tax\TaxCollectorMovement.cs" />
+    <Compile Include="Types\game\guild\tax\TaxCollectorWaitingForHelpInformations.cs" />
+    <Compile Include="Types\game\house\AccountHouseInformations.cs" />
+    <Compile Include="Types\game\house\HouseInformations.cs" />
+    <Compile Include="Types\game\house\HouseInformationsExtended.cs" />
+    <Compile Include="Types\game\house\HouseInformationsForGuild.cs" />
+    <Compile Include="Types\game\house\HouseInformationsForSell.cs" />
+    <Compile Include="Types\game\house\HouseInformationsInside.cs" />
+    <Compile Include="Types\game\idol\Idol.cs" />
+    <Compile Include="Types\game\idol\PartyIdol.cs" />
+    <Compile Include="Types\game\interactive\InteractiveElement.cs" />
+    <Compile Include="Types\game\interactive\InteractiveElementNamedSkill.cs" />
+    <Compile Include="Types\game\interactive\InteractiveElementSkill.cs" />
+    <Compile Include="Types\game\interactive\InteractiveElementWithAgeBonus.cs" />
+    <Compile Include="Types\game\interactive\MapObstacle.cs" />
+    <Compile Include="Types\game\interactive\skill\SkillActionDescription.cs" />
+    <Compile Include="Types\game\interactive\skill\SkillActionDescriptionCollect.cs" />
+    <Compile Include="Types\game\interactive\skill\SkillActionDescriptionCraft.cs" />
+    <Compile Include="Types\game\interactive\skill\SkillActionDescriptionTimed.cs" />
+    <Compile Include="Types\game\interactive\StatedElement.cs" />
+    <Compile Include="Types\game\inventory\preset\IdolsPreset.cs" />
+    <Compile Include="Types\game\inventory\preset\Preset.cs" />
+    <Compile Include="Types\game\inventory\preset\PresetItem.cs" />
+    <Compile Include="Types\game\look\EntityLook.cs" />
+    <Compile Include="Types\game\look\IndexedEntityLook.cs" />
+    <Compile Include="Types\game\look\SubEntity.cs" />
+    <Compile Include="Types\game\mount\ItemDurability.cs" />
+    <Compile Include="Types\game\mount\MountClientData.cs" />
+    <Compile Include="Types\game\mount\UpdateMountBoost.cs" />
+    <Compile Include="Types\game\mount\UpdateMountIntBoost.cs" />
+    <Compile Include="Types\game\paddock\MountInformationsForPaddock.cs" />
+    <Compile Include="Types\game\paddock\PaddockAbandonnedInformations.cs" />
+    <Compile Include="Types\game\paddock\PaddockBuyableInformations.cs" />
+    <Compile Include="Types\game\paddock\PaddockContentInformations.cs" />
+    <Compile Include="Types\game\paddock\PaddockInformations.cs" />
+    <Compile Include="Types\game\paddock\PaddockInformationsForSell.cs" />
+    <Compile Include="Types\game\paddock\PaddockItem.cs" />
+    <Compile Include="Types\game\paddock\PaddockPrivateInformations.cs" />
+    <Compile Include="Types\game\prism\AllianceInsiderPrismInformation.cs" />
+    <Compile Include="Types\game\prism\AlliancePrismInformation.cs" />
+    <Compile Include="Types\game\prism\PrismFightersInformation.cs" />
+    <Compile Include="Types\game\prism\PrismGeolocalizedInformation.cs" />
+    <Compile Include="Types\game\prism\PrismInformation.cs" />
+    <Compile Include="Types\game\prism\PrismSubareaEmptyInfo.cs" />
+    <Compile Include="Types\game\shortcut\Shortcut.cs" />
+    <Compile Include="Types\game\shortcut\ShortcutEmote.cs" />
+    <Compile Include="Types\game\shortcut\ShortcutObject.cs" />
+    <Compile Include="Types\game\shortcut\ShortcutObjectIdolsPreset.cs" />
+    <Compile Include="Types\game\shortcut\ShortcutObjectItem.cs" />
+    <Compile Include="Types\game\shortcut\ShortcutObjectPreset.cs" />
+    <Compile Include="Types\game\shortcut\ShortcutSmiley.cs" />
+    <Compile Include="Types\game\shortcut\ShortcutSpell.cs" />
+    <Compile Include="Types\game\social\AbstractSocialGroupInfos.cs" />
+    <Compile Include="Types\game\social\AlliancedGuildFactSheetInformations.cs" />
+    <Compile Include="Types\game\social\AllianceFactSheetInformations.cs" />
+    <Compile Include="Types\game\social\AllianceVersatileInformations.cs" />
+    <Compile Include="Types\game\social\GuildFactSheetInformations.cs" />
+    <Compile Include="Types\game\social\GuildInAllianceVersatileInformations.cs" />
+    <Compile Include="Types\game\social\GuildInsiderFactSheetInformations.cs" />
+    <Compile Include="Types\game\social\GuildVersatileInformations.cs" />
+    <Compile Include="Types\game\startup\StartupActionAddObject.cs" />
+    <Compile Include="Types\ProtocolTypeManager.cs" />
+    <Compile Include="Types\secure\TrustCertificate.cs" />
+    <Compile Include="Types\updater\ContentPart.cs" />
+    <Compile Include="Types\version\Version.cs" />
+    <Compile Include="Types\version\VersionExtended.cs" />
+    <Compile Include="Types\web\krosmaster\KrosmasterFigure.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SSync\SSync.csproj">
+      <Project>{0b63944e-85cb-4cee-8276-17c9379adabe}</Project>
+      <Name>SSync</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

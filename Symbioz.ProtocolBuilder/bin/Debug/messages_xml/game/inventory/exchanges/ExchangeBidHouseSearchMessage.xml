@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExchangeBidHouseSearchMessage</Name>
+	<Id>5806</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>type</Name>
+			<Type>varuhint</Type>
+			<Condition>type &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>genId</Name>
+			<Type>varuhshort</Type>
+			<Condition>genId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

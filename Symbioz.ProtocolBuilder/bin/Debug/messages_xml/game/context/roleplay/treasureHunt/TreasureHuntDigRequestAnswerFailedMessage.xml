@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TreasureHuntDigRequestAnswerFailedMessage</Name>
+	<Id>6509</Id>
+	<Heritage>TreasureHuntDigRequestAnswerMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>wrongFlagCount</Name>
+			<Type>sbyte</Type>
+			<Condition>wrongFlagCount &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

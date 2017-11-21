@@ -1,0 +1,22 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PrismFightAttackerRemoveMessage</Name>
+	<Id>5897</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>subAreaId</Name>
+			<Type>varuhshort</Type>
+			<Condition>subAreaId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>fightId</Name>
+			<Type>varuhshort</Type>
+			<Condition>fightId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>fighterToRemoveId</Name>
+			<Type>varuhlong</Type>
+			<Condition>fighterToRemoveId &lt; 0 || fighterToRemoveId &gt; 9007199254740990</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameMapNoMovementMessage</Name>
+	<Id>954</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>cellX</Name>
+			<Type>short</Type>
+		</XmlField>
+		<XmlField>
+			<Name>cellY</Name>
+			<Type>short</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

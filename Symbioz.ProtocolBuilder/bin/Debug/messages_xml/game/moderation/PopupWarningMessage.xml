@@ -1,0 +1,20 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PopupWarningMessage</Name>
+	<Id>6134</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>lockDuration</Name>
+			<Type>byte</Type>
+			<Condition>lockDuration &lt; 0 || lockDuration &gt; 255</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>author</Name>
+			<Type>utf</Type>
+		</XmlField>
+		<XmlField>
+			<Name>content</Name>
+			<Type>utf</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>

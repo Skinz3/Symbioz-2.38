@@ -1,0 +1,16 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>LockableShowCodeDialogMessage</Name>
+	<Id>5740</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>changeOrUse</Name>
+			<Type>boolean</Type>
+		</XmlField>
+		<XmlField>
+			<Name>codeSize</Name>
+			<Type>sbyte</Type>
+			<Condition>codeSize &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

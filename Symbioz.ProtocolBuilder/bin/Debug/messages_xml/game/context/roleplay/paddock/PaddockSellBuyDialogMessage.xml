@@ -1,0 +1,21 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PaddockSellBuyDialogMessage</Name>
+	<Id>6018</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>bsell</Name>
+			<Type>boolean</Type>
+		</XmlField>
+		<XmlField>
+			<Name>ownerId</Name>
+			<Type>varuhint</Type>
+			<Condition>ownerId &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>price</Name>
+			<Type>varuhint</Type>
+			<Condition>price &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

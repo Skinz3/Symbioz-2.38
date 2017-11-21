@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GuildCreationResultMessage</Name>
+	<Id>5554</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>result</Name>
+			<Type>sbyte</Type>
+			<Condition>result &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

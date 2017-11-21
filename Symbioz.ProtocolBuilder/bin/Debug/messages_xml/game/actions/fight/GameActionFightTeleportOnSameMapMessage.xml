@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>GameActionFightTeleportOnSameMapMessage</Name>
+	<Id>5528</Id>
+	<Heritage>AbstractGameActionMessage</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>targetId</Name>
+			<Type>double</Type>
+			<Condition>targetId &lt; -9007199254740990 || targetId &gt; 9007199254740990</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>cellId</Name>
+			<Type>short</Type>
+			<Condition>cellId &lt; -1 || cellId &gt; 559</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

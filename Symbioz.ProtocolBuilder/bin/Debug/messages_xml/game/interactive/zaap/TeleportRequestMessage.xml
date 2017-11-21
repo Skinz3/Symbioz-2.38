@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TeleportRequestMessage</Name>
+	<Id>5961</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>teleporterType</Name>
+			<Type>sbyte</Type>
+			<Condition>teleporterType &lt; 0</Condition>
+		</XmlField>
+		<XmlField>
+			<Name>mapId</Name>
+			<Type>int</Type>
+			<Condition>mapId &lt; 0</Condition>
+		</XmlField>
+	</Fields>
+</XmlMessage>

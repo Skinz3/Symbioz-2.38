@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>PrismsInfoValidMessage</Name>
+	<Id>6451</Id>
+	<Heritage>Message</Heritage>
+	<Fields>
+		<XmlField>
+			<Name>fights</Name>
+			<Type>Types.PrismFightersInformation[]</Type>
+		</XmlField>
+	</Fields>
+</XmlMessage>
