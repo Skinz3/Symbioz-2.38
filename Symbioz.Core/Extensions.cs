@@ -188,8 +188,8 @@ namespace Symbioz.Core
                 dynamic _defaut = @default;
                 return (TConvert)_defaut;
             }
-            var collection = obj.ConvertAll<TConvert>(converter);
-            collection.Sort();
+            var collection = Array.ConvertAll(obj.ToArray(), converter);
+            Array.Sort(collection); 
             dynamic lastValue = collection.Last();
             return (TConvert)(lastValue + 1);
         }
@@ -197,7 +197,6 @@ namespace Symbioz.Core
                                                                 IEnumerable<int> probabilities)
         {
             var rand = new Random();
-
             var elements = enumerable.ToList();
             var result = new T[elements.Count];
             var indices = probabilities.ToList();

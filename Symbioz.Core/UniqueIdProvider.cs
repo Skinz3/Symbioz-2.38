@@ -11,6 +11,7 @@ namespace Symbioz.Core
     public class UniqueIdProvider
     {
         protected readonly ConcurrentQueue<int> m_freeIds = new ConcurrentQueue<int>();
+
         protected int m_highestId;
 
         public UniqueIdProvider()

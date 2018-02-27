@@ -164,3 +164,4 @@ C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Microsoft.Owin.Host.
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Microsoft.Owin.Hosting.xml
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\System.Web.Http.xml
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\obj\Debug\Symbioz.World.csproj.CoreCompileInputs.cache
+C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.World\bin\Debug\Newtonsoft.Json.dll
