@@ -28,7 +28,6 @@ Skinz (https://github.com/Skinz3)
 
 LuaxY - https://github.com/LuaxY  <br />
 Taykyue - Profiad  <br />
-joaoggs - https://github.com/joaoggs (for portuguese questions)<br />
 
 
 
