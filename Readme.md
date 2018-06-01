@@ -12,10 +12,10 @@ Navicat : https://www2.navicat.com/fr/download or MySQL/Workbench : https://dev.
 
 <b>Dofus Client Language</b>
 
-For change language of DofusClient follow the steps: <br />
-Download data i18n archives: https://goo.gl/iGa6EF <br />
+To change the language of the DofusClient follow these steps: <br />
+Download the data i18n archives: https://goo.gl/iGa6EF <br />
 Extract archives to dofusfolder/data/i18n <br />
-Change language on dofusfolder/config.xml on line: <br />
+Change the language in dofusfolder/config.xml on line: <br />
 ![alt tag](http://image.noelshack.com/fichiers/2018/18/5/1525387612-capture.png) <br />
 
 <b>#Auteurs</b><br/>
