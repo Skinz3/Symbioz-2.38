@@ -58,6 +58,7 @@ namespace SSync
             m_Listen_Socket.Listen(100); 
             StartAccept(null);
             OnListenSucces();
+            var a = "".Split(", ".ToCharArray());
         }
         void OnListenFailed(Exception ex)
         {

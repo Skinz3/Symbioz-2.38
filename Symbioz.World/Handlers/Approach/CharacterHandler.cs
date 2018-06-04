@@ -153,7 +153,7 @@ namespace Symbioz.World.Handlers.Approach
             ContextActorLook look = BreedRecord.GetBreedLook(message.breed, message.sex, message.cosmeticId, message.colors);
             CharacterRecord record = CharacterRecord.New(id, message.name, client.Account.Id, look, message.breed, message.cosmeticId, message.sex);
 
-            record.AddInstantElement<CharacterRecord>(true);
+            record.AddInstantElement();
             client.Character = new Character(client, record, true);
             logger.White("Character " + record.Name + " created");
             ProcessSelection(client);
@@ -197,8 +197,6 @@ namespace Symbioz.World.Handlers.Approach
             if (!client.InGame)
             {
                 CharacterRecord record = client.GetAccountCharacter((long)message.id);
-
-
 
                 if (record.RemodelingMaskEnum.HasFlag(CharacterRemodelingEnum.CHARACTER_REMODELING_NAME))
                 {

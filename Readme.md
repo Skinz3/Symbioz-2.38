@@ -20,7 +20,4 @@ Skinz (https://github.com/Skinz3)
 LuaxY - https://github.com/LuaxY  <br />
 Taykyue - Profiad  <br />
 
-Project under license creative commons.
-
-![alt tag](https://creativecommons.org.nz/wp-content/uploads/2012/05/by.png)
 
